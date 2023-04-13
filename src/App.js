@@ -1,10 +1,9 @@
+import ProjectsSection from "./components/ProjectsSection"
 
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <ProjectsSection/>
   );
 }
 
