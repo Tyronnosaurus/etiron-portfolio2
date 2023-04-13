@@ -4,12 +4,9 @@ import { useState } from "react"
 import ButtonFilters from "./ButtonFilters"
 import ProjectsGrid from "./ProjectsGrid"
 
+// Import projects' data
 import { data } from "../data/data.jsx"
-
-// Add ids to our data (framer motion won't animate correctly without this)
-data.forEach(function (value, i) { 
-  data[i].id = i
-});
+data.forEach( (value, i) => {data[i].id = i} ); // framer-motion won't animate correctly without numeric ids
 
 
 export default function ProjectsSection() {
@@ -18,15 +15,20 @@ export default function ProjectsSection() {
 
     return (
   
-        <div className="app">
-  
+      <>
+        <section id="portfolio">
+
+          <h5>My Recent Work</h5>
+          <h2>Portfolio</h2>
+          
           <ButtonFilters projects={data} setFilteredProjects={setFilteredProjects} />
   
           <div className="image-container">
             <ProjectsGrid filteredProjects={filteredProjects} />
           </div>
   
-        </div>
+        </section>
+      </>
   
     )
 }
