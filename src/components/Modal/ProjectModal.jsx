@@ -1,8 +1,7 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
 // import ControlledCarousel from './ControlledCarousel'
 import { Modal } from 'react-bootstrap';
-
+import './ProjectModal.css'
 
 const ProjectModal = ({modalData, show, handleClose}) => {
 
@@ -16,21 +15,15 @@ const ProjectModal = ({modalData, show, handleClose}) => {
             <Modal.Body>
                 {/* <ControlledCarousel images={modalData.images}/> */}
                 
-                {/* <div dangerouslySetInnerHTML={{__html: modalData.description}} />
+                <div className="description" dangerouslySetInnerHTML={{__html: modalData.description}} />
 
-                <div className="portfolio__item-cta">
-                    {modalData.github_link && <a href={modalData.github_link} className="btn portfolio__item-btn" target="_blank" rel="noreferrer"> Github </a>}
-                    {modalData.live_link   && <a href={modalData.live_link}   className="btn portfolio__item-btn" target="_blank" rel="noreferrer"> Live </a>}
-                </div> */}
+                <div className="modal-contents">
+                    {modalData.github_link && <a href={modalData.github_link} className="btn btn-primary" target="_blank" rel="noreferrer"> Github </a>}
+                    {modalData.live_link   && <a href={modalData.live_link}   className="btn btn-primary" target="_blank" rel="noreferrer"> Live </a>}
+                </div>
 
                 <div className="tags">{"Tags: " + modalData.tags.join(', ')}</div>
             </Modal.Body>
-
-            <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose}>
-                    Close
-                </Button>
-            </Modal.Footer>
 
         </Modal>
     )
