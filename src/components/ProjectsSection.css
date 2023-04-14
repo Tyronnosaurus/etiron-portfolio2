@@ -1,4 +1,17 @@
 
+/* Prevent the modal from hiding the scrollbar and adding right-padding instead.
+   The padding is not exactly the same width as the scrollbar, and the extra pixels mess up the page
+   (e.g. the projects grid might change from 6 to 5 columns). */
+html {
+  overflow-y: scroll;
+}
+
+body.modal-open{
+  padding-right: 0 !important;
+}
+
+
+
 /* Button Filters */
 .button-wrapper {
   display: flex;
@@ -22,7 +35,7 @@
 
 
 
-/* Image */
+/* Project cards */
 .image-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
