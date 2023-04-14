@@ -1,5 +1,5 @@
 import React from 'react'
-// import ControlledCarousel from './ControlledCarousel'
+import ControlledCarousel from '../Carousel/ControlledCarousel';
 import { Modal } from 'react-bootstrap';
 import './ProjectModal.css'
 
@@ -13,7 +13,7 @@ const ProjectModal = ({modalData, show, handleClose}) => {
             </Modal.Header>
 
             <Modal.Body>
-                {/* <ControlledCarousel images={modalData.images}/> */}
+                <ControlledCarousel images={modalData.images}/>
                 
                 <div className="description" dangerouslySetInnerHTML={{__html: modalData.description}} />
 

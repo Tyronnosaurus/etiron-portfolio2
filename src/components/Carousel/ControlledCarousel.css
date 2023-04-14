@@ -1,0 +1,45 @@
+.carousel{
+    background-color: black;
+}
+
+
+/* Slides */
+.carousel-item img{
+    width: 500px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #49505783;
+    border-radius: 10px;
+}
+
+
+
+/* Thumbnails */
+.carousel-thumbs {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.carousel-thumbs img {
+    width: 75px !important;
+    height: 75px !important;
+    border: 1px solid grey !important;
+    margin: 0px !important;
+    object-fit: cover;
+
+    margin:auto;
+}
+
+.carousel-thumbs img.active {
+    border: 5px solid grey !important;
+}
+
+/* White margin on thumbnails if user hovers over them */
+.carousel-thumbs img:hover {
+    border: 5px solid black !important;
+}
