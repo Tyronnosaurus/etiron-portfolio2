@@ -18,19 +18,26 @@ body.modal-open{
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 
-.button-wrapper > button {
+.button-wrapper button {
   height: 2rem;
   padding: 0 1rem;
   cursor: pointer;
   border: none;
 }
 
-.button-wrapper > button.active {
+.button-wrapper button.active {
   background: black;
   color: white;
+}
+
+
+.button-wrapper > .separator{
+  height: 30px;
+  border: 1px solid #777;
+  /* margin: 8px; */
 }
 
 
@@ -50,6 +57,10 @@ body.modal-open{
   height: 15rem;
   border: black solid 1px;
   cursor: pointer;
+}
+
+.image-card img:hover {
+  opacity: 0.6;
 }
 
 .image-card img {
