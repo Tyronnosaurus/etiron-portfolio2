@@ -5,7 +5,7 @@ import ButtonFilters from "./ButtonFilters"
 import ProjectsGrid from "./ProjectsGrid"
 
 // Import projects' data
-import { data } from "../data/data.jsx"
+import { data } from "./data.jsx"
 data.forEach( (value, i) => {data[i].id = i} ); // framer-motion won't animate correctly without numeric ids
 
 
