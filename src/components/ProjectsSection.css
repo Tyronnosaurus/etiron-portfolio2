@@ -11,6 +11,9 @@ body.modal-open{
 }
 
 
+#portfolio {
+  padding: 50px 0px;
+}
 
 /* Button Filters */
 .button-wrapper {
@@ -26,6 +29,7 @@ body.modal-open{
   padding: 0 1rem;
   cursor: pointer;
   border: none;
+  border-radius: 5px;
 }
 
 .button-wrapper button.active {
@@ -57,6 +61,7 @@ body.modal-open{
   height: 15rem;
   border: black solid 1px;
   cursor: pointer;
+  background-color:aliceblue;
 }
 
 .image-card img:hover {
