@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 
 const ButtonFilter = ({name, activeFilter, handleClickFilter}) => {
@@ -26,9 +26,6 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
   }
 
 
-  useEffect(() => {
-    console.log("HEEEY");
-  }, []);
 
 
   return (
@@ -43,7 +40,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
         <ButtonFilter name="Academic"        activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
         <ButtonFilter name="Hobby"           activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
       </div>
-      {/* <div class="separator"></div> */}
+ 
       <div className="button-wrapper">
         <ButtonFilter name="C++"             activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
         <ButtonFilter name="C#"              activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
