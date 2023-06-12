@@ -25,11 +25,17 @@ body.modal-open{
 }
 
 .button-wrapper button {
-  height: 2rem;
+  height: 2.5rem;
   padding: 0 1rem;
   cursor: pointer;
   border: none;
   border-radius: 5px;
+  vertical-align: middle;
+}
+
+.button-wrapper button img {
+  object-fit: contain;
+  padding-right: 5px;
 }
 
 .button-wrapper button.active {
@@ -39,7 +45,7 @@ body.modal-open{
 
 
 .button-wrapper > .separator{
-  height: 30px;
+  height: 2.5rem;
   border: 1px solid #777;
   /* margin: 8px; */
 }
