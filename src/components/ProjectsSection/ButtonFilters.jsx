@@ -58,7 +58,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
       <div className="button-wrapper">
         <ButtonFilter name="All"             activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
 
-        <div class="separator"></div>
+        <div className="separator"></div>
 
         <ButtonFilter name="Professional"    activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
         <ButtonFilter name="Academic"        activeFilter={activeFilter} handleClickFilter={handleClickFilter} />

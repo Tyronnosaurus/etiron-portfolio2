@@ -11,11 +11,14 @@ body.modal-open{
 }
 
 
+/* Portfolio section */
 #portfolio {
   padding: 50px 0px;
   max-width: 95%;
   margin: auto;
 }
+
+
 
 /* Button Filters */
 .button-wrapper {
@@ -32,7 +35,7 @@ body.modal-open{
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  vertical-align: middle;
+  align-items: center;
 }
 
 .button-wrapper button img {
@@ -49,7 +52,6 @@ body.modal-open{
 .button-wrapper > .separator{
   height: 2.5rem;
   border: 1px solid #777;
-  /* margin: 8px; */
 }
 
 
