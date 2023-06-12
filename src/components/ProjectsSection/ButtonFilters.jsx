@@ -1,27 +1,27 @@
 import { useState } from "react"
 
-import pythonIcon from '../assets/icons/pythonIcon.png';
-import cppIcon from '../assets/icons/cppIcon.png';
-import csharpIcon from '../assets/icons/csharpIcon.png';
-import javascriptIcon from '../assets/icons/javascriptIcon.png';
-import reactIcon from '../assets/icons/reactIcon.svg';
-import wordpressIcon from '../assets/icons/wordpressIcon.png';
-import htmlIcon from '../assets/icons/htmlIcon.png';
-import cssIcon from '../assets/icons/cssIcon.png';
-import webdevIcon from '../assets/icons/webdevIcon.png';
-import ladderIcon from '../assets/icons/ladderIcon.png';
-import stIcon from '../assets/icons/structuredtextIcon.png';
-import bootstrapIcon from '../assets/icons/bootstrapIcon.png';
-import brIcon from '../assets/icons/brIcon.png';
-import plcIcon from '../assets/icons/plcIcon.png';
-import linuxIcon from '../assets/icons/linuxIcon.png';
-import gamedevIcon from '../assets/icons/gamedevIcon.png';
-import codesysIcon from '../assets/icons/codesysIcon.png';
-import arduinoIcon from '../assets/icons/arduinoIcon.png';
-import altiumIcon from '../assets/icons/altiumIcon.png';
-import solidworksIcon from '../assets/icons/solidworksIcon.png';
-import printingIcon from '../assets/icons/printingIcon.png';
-import electronicsIcon from '../assets/icons/electronicsIcon.png';
+import pythonIcon from '../../assets/icons/pythonIcon.png';
+import cppIcon from '../../assets/icons/cppIcon.png';
+import csharpIcon from '../../assets/icons/csharpIcon.png';
+import javascriptIcon from '../../assets/icons/javascriptIcon.png';
+import reactIcon from '../../assets/icons/reactIcon.svg';
+import wordpressIcon from '../../assets/icons/wordpressIcon.png';
+import htmlIcon from '../../assets/icons/htmlIcon.png';
+import cssIcon from '../../assets/icons/cssIcon.png';
+import webdevIcon from '../../assets/icons/webdevIcon.png';
+import ladderIcon from '../../assets/icons/ladderIcon.png';
+import stIcon from '../../assets/icons/structuredtextIcon.png';
+import bootstrapIcon from '../../assets/icons/bootstrapIcon.png';
+import brIcon from '../../assets/icons/brIcon.png';
+import plcIcon from '../../assets/icons/plcIcon.png';
+import linuxIcon from '../../assets/icons/linuxIcon.png';
+import gamedevIcon from '../../assets/icons/gamedevIcon.png';
+import codesysIcon from '../../assets/icons/codesysIcon.png';
+import arduinoIcon from '../../assets/icons/arduinoIcon.png';
+import altiumIcon from '../../assets/icons/altiumIcon.png';
+import solidworksIcon from '../../assets/icons/solidworksIcon.png';
+import printingIcon from '../../assets/icons/printingIcon.png';
+import electronicsIcon from '../../assets/icons/electronicsIcon.png';
 
 
 const ButtonFilter = ({name, icon, activeFilter, handleClickFilter}) => {
