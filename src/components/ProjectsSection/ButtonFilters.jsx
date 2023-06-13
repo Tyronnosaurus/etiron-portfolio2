@@ -1,5 +1,8 @@
 import { useState } from "react"
 
+import workIcon from '../../assets/icons/workIcon.png';
+import universityIcon from '../../assets/icons/universityIcon.png';
+import homeIcon from '../../assets/icons/homeIcon.png';
 import pythonIcon from '../../assets/icons/pythonIcon.png';
 import cppIcon from '../../assets/icons/cppIcon.png';
 import csharpIcon from '../../assets/icons/csharpIcon.png';
@@ -63,9 +66,9 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
 
         <div className="separator"></div>
 
-        <ButtonFilter name="Professional"    activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="Academic"        activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="Hobby"           activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+        <ButtonFilter name="Professional"    icon={workIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+        <ButtonFilter name="Academic"        icon={universityIcon} activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+        <ButtonFilter name="Hobby"           icon={homeIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
       </div>
  
       <div className="skills-wrappers">
