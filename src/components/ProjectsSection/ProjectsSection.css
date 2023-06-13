@@ -20,8 +20,10 @@ body.modal-open{
 
 
 
+
+
 /* Button Filters */
-.button-wrapper {
+.filters-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -29,30 +31,75 @@ body.modal-open{
   margin-top: 1rem;
 }
 
-.button-wrapper button {
+
+.meta-filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width:100%;
+}
+
+.meta-filters .separator{
+  height: 2.5rem;
+  border: 1px solid #777;
+  margin: 0 1rem;
+}
+
+
+
+.skills-wrappers{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skills-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  border: black solid 2px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+.filters-section button {
   height: 2.5rem;
   padding: 0 1rem;
   cursor: pointer;
   border: none;
   border-radius: 5px;
+
+  width: 150px;
+  display:flex;
+  flex: row;
   align-items: center;
 }
 
-.button-wrapper button img {
+.meta-filters button {
+  width: 120px;
+  margin: 0 0.5rem;
+}
+
+.filters-section button .skillName{
+  width: 100%;
+  margin:auto;
+}
+
+.filters-section button img {
   object-fit: contain;
   padding-right: 5px;
 }
 
-.button-wrapper button.active {
-  background: black;
-  color: white;
+.filters-section button.active {
+  background: rgb(173, 173, 173);
+  border: black solid 2px;
 }
 
 
-.button-wrapper > .separator{
-  height: 2.5rem;
-  border: 1px solid #777;
-}
+
 
 
 

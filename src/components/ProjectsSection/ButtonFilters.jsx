@@ -28,8 +28,11 @@ const ButtonFilter = ({name, icon, activeFilter, handleClickFilter}) => {
   return(
       <button className={(activeFilter===name) ? "active" : undefined}
               onClick={() => handleClickFilter(name)}>
+          
           {icon && <img src={icon} alt={name+" logo"} height="30px" width="30px"/>}
-          {name}
+          
+          <div className="skillName">{name}</div>
+          
       </button>
   )
 }
@@ -53,9 +56,9 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
 
 
   return (
-    <div className="button-wrapper">
+    <div className="filters-section">
 
-      <div className="button-wrapper">
+      <div className="meta-filters">
         <ButtonFilter name="All"             activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
 
         <div className="separator"></div>
@@ -65,29 +68,48 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
         <ButtonFilter name="Hobby"           activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
       </div>
  
-      <div className="button-wrapper">
-        <ButtonFilter name="C++"             icon={cppIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="C#"              icon={csharpIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="Python"          icon={pythonIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="Javascript"      icon={javascriptIcon}  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="Structured Text" icon={stIcon}          activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="Ladder"          icon={ladderIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="WebDev"          icon={webdevIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="React"           icon={reactIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="Wordpress"       icon={wordpressIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="HTML"            icon={htmlIcon}        activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="CSS"             icon={cssIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="Bootstrap"       icon={bootstrapIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="Linux"           icon={linuxIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="GameDev"         icon={gamedevIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="SolidWorks"      icon={solidworksIcon}  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="3D printing"     icon={printingIcon}    activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="PLC"             icon={plcIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="B&R"             icon={brIcon}          activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="Codesys"         icon={codesysIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="Arduino"         icon={arduinoIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="Electronics"     icon={electronicsIcon} activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="Altium"          icon={altiumIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+      <div className="skills-wrappers">
+        <div className="skills-wrapper">
+          <h4>WebDev</h4>
+          <ButtonFilter name="WebDev"          icon={webdevIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="React"           icon={reactIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Javascript"      icon={javascriptIcon}  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="HTML"            icon={htmlIcon}        activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="CSS"             icon={cssIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Bootstrap"       icon={bootstrapIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Wordpress"       icon={wordpressIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+        </div>
+
+        <div className="skills-wrapper">
+          <h4>Development</h4>
+          <ButtonFilter name="C++"             icon={cppIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="C#"              icon={csharpIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Python"          icon={pythonIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+        </div>
+
+        <div className="skills-wrapper">
+          <h4>Industrial</h4>
+          <ButtonFilter name="PLC"             icon={plcIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="B&R"             icon={brIcon}          activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Codesys"         icon={codesysIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="ST"              icon={stIcon}          activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Ladder"          icon={ladderIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+         </div>
+
+         <div className="skills-wrapper">
+          <h4>Electronics</h4>
+          <ButtonFilter name="Electronics"     icon={electronicsIcon} activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Arduino"         icon={arduinoIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Altium"          icon={altiumIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+         </div>
+
+         <div className="skills-wrapper">
+          <h4>Others</h4>
+          <ButtonFilter name="Linux"           icon={linuxIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="GameDev"         icon={gamedevIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="SolidWorks"      icon={solidworksIcon}  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="3D printing"     icon={printingIcon}    activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+         </div>
       </div>
 
 
