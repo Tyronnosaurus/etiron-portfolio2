@@ -48,7 +48,10 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
 
 
   const handleClickFilter = (name) => {
+    // Update the current filter
     setActiveFilter(name);
+
+    // Update the shown projects according to the new filter
     const filteredProjects = projects.filter(project => project.tags.includes(name));
 
     if (name==="All") setFilteredProjects(projects);

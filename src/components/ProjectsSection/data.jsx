@@ -3,7 +3,7 @@ export const data = [
     {
         title: "S1G Ultrasonic molding machine",
         images: ["/pf/S1G/sonoruss1g-1.jpg", "/pf/S1G/processstatemachine.png", "/pf/S1G/injections.jpg"],
-        tags: ['Professional', 'PLC', 'B&R', 'Structured Text', 'C++'],
+        tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++'],
         description:`<p>Ultrasound molding: The technology by which a plastic injection machine melts plastic pellets using ultrasounds instead of a heated barrel.</p>
             <p>My main task as lead PLC programmer in Ultrasion was to organize 7 years worth of code by many different programmers. Most it was patched as needed as the ultrasonic molding research progressed. This led to a very high technological debt: no documentation, many dependencies between supposedly encapsulated programs, unused and redundant code, obsolete functionality and a confusing user interface.</p>
             <p>At the time of my incorporation, there were no programmers left to tutor me. I proceeded to read and understand all the software and hardware, and carefully rewrote it over the span of a year. Some of the tasks I did were:</p>
@@ -23,7 +23,7 @@ export const data = [
     {
         title: 'S2G Ultrasonic molding machine',
         images: ['/pf/S2G/S2G.png', '/pf/S2G/S2GCAD.png'],
-        tags: ['Professional', 'PLC', 'B&R', 'Structured Text', 'C++', 'Solidworks'],
+        tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++', 'Solidworks'],
         description:`<p>The S2G machine is a redesign of the S1G for plastic pieces that require higher pressures.</p>
             <p>Just like the S1G, the S2G had unoptimized code. Rather than rewriting it, I adapted the code I had already rewritten from the S1G. There were a few problems that I had to solve, though:</p> 
 
@@ -39,7 +39,7 @@ export const data = [
     {
         title: 'Closed loop force control injection system',
         images: ["/pf/Force Control/forceloop.png", "/pf/Force Control/forcesensor.png"],
-        tags: ['Professional', 'PLC', 'B&R', 'Structured Text'],
+        tags: ['Professional', 'PLC', 'B&R', 'ST'],
         description:`<p>During the development of an injection molding method with very low residence time, I encountered the following problem: a piston was supposed to push plastic at a precise force as it melted, but the servo that moved the piston could only control its own torque, not the actual force after considering losses in the transmission.</p>
         <p>After installing a pressure sensor at the piston, I developed the PI controller shown.</p>
         <p>The implementation was particularly tricky as the plastic being pushed was continuously melting and flowing into the mold cavities. This led to the piston having to stop and start multiple times per second, meaning that static and dynamic frictions had to be considered, as well as backlash and other problems.</p>`
@@ -56,7 +56,7 @@ export const data = [
     {
         title: "IIOT Telemetrics Software",
         images: ["/pf/IIOT telemetrics/0.png", "/pf/IIOT telemetrics/1.jpg"],
-        tags: ['Professional', 'PLC', 'Codesys', 'Python', 'Ladder', 'Structured Text'],
+        tags: ['Professional', 'PLC', 'Codesys', 'Python', 'Ladder', 'ST'],
         description:`<p>Project in which a client requested a global telemetry system for all the machines they sold. The purpose was to transmit productivity data and alarms for predictive maintenance.</p>
         <p>Due to the variety in hardware on their machines, I had to learn about the following technologies/applications/brands:</p>
         <ul>
@@ -110,7 +110,7 @@ export const data = [
     {
         title: "Geolocation-based fertilizer",
         images: ["/pf/Fertilizer/0.jpg", "/pf/Fertilizer/1.jpg"],
-        tags: ['Professional', 'PLC', 'B&R', 'Structured Text', 'C++', 'Arduino', 'Electronics'],
+        tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++', 'Arduino', 'Electronics'],
         description:`<p>Research project in which we developed a tractor implement capable of fertilizing a field according to a variable feedrate map.</p>
         <p>I coded all the software and designed most of the electronics.</p>`
     },
