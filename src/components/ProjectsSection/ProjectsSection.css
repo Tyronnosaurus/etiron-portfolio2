@@ -62,6 +62,12 @@ body.modal-open{
   border: black solid 2px;
   border-radius: 15px;
   padding: 1rem;
+
+  background-color:var(--color-bg-variant);
+}
+
+.skills-wrapper h4 {
+  color:var(--color-primary-variant);
 }
 
 .skills-wrapper .content-wide {
