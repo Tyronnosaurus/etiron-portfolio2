@@ -75,15 +75,17 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
       </div>
  
       <div className="skills-wrappers">
-        <div className="skills-wrapper">
+        <div className="skills-wrapper wide">
           <h4>WebDev</h4>
-          <ButtonFilter name="WebDev"          icon={webdevIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-          <ButtonFilter name="React"           icon={reactIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-          <ButtonFilter name="Javascript"      icon={javascriptIcon}  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-          <ButtonFilter name="HTML"            icon={htmlIcon}        activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-          <ButtonFilter name="CSS"             icon={cssIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-          <ButtonFilter name="Bootstrap"       icon={bootstrapIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-          <ButtonFilter name="Wordpress"       icon={wordpressIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <div className="content-wide">
+            <ButtonFilter name="WebDev"          icon={webdevIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="React"           icon={reactIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="Javascript"      icon={javascriptIcon}  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="HTML"            icon={htmlIcon}        activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="CSS"             icon={cssIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="Bootstrap"       icon={bootstrapIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="Wordpress"       icon={wordpressIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          </div>
         </div>
 
         <div className="skills-wrapper">
