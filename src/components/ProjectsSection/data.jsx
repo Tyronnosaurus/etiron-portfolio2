@@ -56,7 +56,7 @@ export const data = [
     {
         title: "IIOT Telemetrics Software",
         images: ["/pf/IIOT telemetrics/0.png", "/pf/IIOT telemetrics/1.jpg"],
-        tags: ['Professional', 'PLC', 'Codesys', 'Python', 'Ladder', 'ST'],
+        tags: ['Professional', 'PLC', 'Codesys', 'Python', 'Ladder', 'ST', 'Turck', 'Panasonic', 'FPWIN', 'HMWIN'],
         description:`<p>Project in which a client requested a global telemetry system for all the machines they sold. The purpose was to transmit productivity data and alarms for predictive maintenance.</p>
         <p>Due to the variety in hardware on their machines, I had to learn about the following technologies/applications/brands:</p>
         <ul>

@@ -18,8 +18,8 @@ export default function ProjectsSection() {
       <>
         <section id="portfolio">
 
-          <h2>Portfolio</h2>
-          <h5>My Recent Work</h5>
+          <h2 className="text-3xl">Portfolio</h2>
+          <h5 className="text-xl">My Recent Work</h5>
 
           
           <ButtonFilters projects={data} setFilteredProjects={setFilteredProjects} />
