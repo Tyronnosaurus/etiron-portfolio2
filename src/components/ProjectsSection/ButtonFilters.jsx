@@ -25,6 +25,10 @@ import altiumIcon from '../../assets/icons/altiumIcon.png';
 import solidworksIcon from '../../assets/icons/solidworksIcon.png';
 import printingIcon from '../../assets/icons/printingIcon.png';
 import electronicsIcon from '../../assets/icons/electronicsIcon.png';
+import turckIcon from '../../assets/icons/turckIcon.ico';
+import panasonicIcon from '../../assets/icons/panasonicIcon.png';
+import fpwinIcon from '../../assets/icons/fpwinIcon.png';
+import hmwinIcon from '../../assets/icons/hmwinIcon.png';
 
 
 const ButtonFilter = ({name, icon, activeFilter, handleClickFilter}) => {
