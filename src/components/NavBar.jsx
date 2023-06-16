@@ -7,7 +7,7 @@ import Logo from './Logo'
 const NavBar = () => {
 
     return (
-        <header className='w-[90%] py-4 font-medium relative z-10 m-auto
+        <header className='w-[90%] py-4 font-medium relative m-auto
                            flex flex-row items-baseline justify-between
                            px-8 xs:px-16
                            dark:text-light'>
