@@ -1,8 +1,8 @@
 import React from 'react'
-import ControlledCarousel from '../Carousel/ControlledCarousel';
+import ControlledCarousel from './ControlledCarousel';
 import Modal from 'react-modal';
-import { CloseX } from '../../Icons';
-import { GithubIcon } from '../../Icons';
+import { CloseX } from '../Icons';
+import { GithubIcon } from '../Icons';
 
 
 const LinkButton = ({href, text}) => {
@@ -38,8 +38,7 @@ const ProjectModal = ({modalData, show, handleClose}) => {
 
             <h2 className="text-2xl">{modalData.title}</h2>
             
-            {/* <ControlledCarousel images={modalData.images} /> */}
-            <img src={modalData.images[0]} alt={"Project"} className="m-auto h-[350px] object-contain py-4"/>
+            <ControlledCarousel images={modalData.images} />
                 
             <div className="text-left" dangerouslySetInnerHTML={{__html: modalData.description}} />
 

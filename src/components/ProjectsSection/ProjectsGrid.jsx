@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import ProjectModal from "./Modal/ProjectModal";
+import ProjectModal from "./ProjectModal";
 
 
 const ProjectsGrid = ({filteredProjects}) => {
