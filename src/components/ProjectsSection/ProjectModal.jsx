@@ -1,8 +1,13 @@
 import React from 'react'
-import ControlledCarousel from './ControlledCarousel';
+
 import Modal from 'react-modal';
+import './ProjectModal.css';
+
+import ControlledCarousel from './ControlledCarousel';
+
 import { CloseX } from '../Icons';
 import { GithubIcon } from '../Icons';
+
 
 
 const LinkButton = ({href, text}) => {
@@ -43,11 +48,11 @@ const ProjectModal = ({modalData, show, handleClose}) => {
                 <CloseX />
             </button>
 
-            <h2 className="text-2xl">{modalData.title}</h2>
+            <h2 className="text-3xl pb-4">{modalData.title}</h2>
             
             <ControlledCarousel images={modalData.images} />
                 
-            <div className="text-left" dangerouslySetInnerHTML={{__html: modalData.description}} />
+            <div className="description text-left" dangerouslySetInnerHTML={{__html: modalData.description}} />
 
             <div className="flex flex-row gap-10 justify-center py-2">
                 {modalData.github_link && <a href={modalData.github_link} target="_blank" rel="noreferrer"> <GithubIcon className="w-12"/> </a>}

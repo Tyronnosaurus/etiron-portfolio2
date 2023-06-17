@@ -1,0 +1,10 @@
+/* Make paragraphs more legible */
+.description p {
+    padding-bottom: 1rem;
+    text-align: justify;
+}
+
+/* Show the bullet in lists */
+.description li {
+    list-style: square inside;
+}
