@@ -1,0 +1,11 @@
+.carousel.carousel-slider .control-arrow {
+    padding: 30px;
+}
+
+.thumb {
+    height: 70px;
+}
+
+.thumb img{
+    object-fit: cover;
+}
