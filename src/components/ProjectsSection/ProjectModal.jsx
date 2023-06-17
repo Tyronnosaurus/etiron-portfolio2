@@ -18,6 +18,12 @@ const LinkButton = ({href, text}) => {
 }
 
 
+// The modal's CSS is quite tricky (regardless of using either inline css, css file or Tailwind)
+// Read this for useful info:
+// https://reactcommunity.org/react-modal/styles/
+// https://reactcommunity.org/react-modal/styles/classes/
+// https://reactcommunity.org/react-modal/
+
 const ProjectModal = ({modalData, show, handleClose}) => {
 
     return (
@@ -27,9 +33,10 @@ const ProjectModal = ({modalData, show, handleClose}) => {
                onClick={handleClose}
                className="absolute left-0 right-0 mx-auto top-16 w-[80%] max-w-[700px] max-h-[90%]
                           border border-dark rounded-xl outline-none
-                          p-5 overflow-y-auto
+                          p-5 overflow-y-auto 
                           bg-light"
-               overlayClassName="fixed inset-0 bg-dark bg-opacity-60">
+               overlayClassName="fixed inset-0 bg-dark bg-opacity-60 " >
+
             
 
             <button className="absolute top-0 right-0" onClick={handleClose}>
