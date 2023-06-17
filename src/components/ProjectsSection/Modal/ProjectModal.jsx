@@ -1,6 +1,7 @@
 import React from 'react'
 import ControlledCarousel from '../Carousel/ControlledCarousel';
 import Modal from 'react-modal';
+import { CloseX } from '../../Icons';
 
 import CloseIcon from '../../../assets/icons/Close.png'
 
@@ -46,7 +47,7 @@ const ProjectModal = ({modalData, show, handleClose}) => {
             
 
             <button className="absolute top-4 right-4" onClick={handleClose}>
-                <img src={CloseIcon} className="h-8 w-8" />
+                <CloseX />
             </button>
 
             <h2>{modalData.title}</h2>
