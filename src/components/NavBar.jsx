@@ -1,5 +1,5 @@
 import React from 'react'
-import { TwitterIcon, GithubIcon, LinkedInIcon} from './Icons'
+import { GithubIcon, LinkedInIcon} from './Icons'
 import { motion } from 'framer-motion'
 import Logo from './Logo'
 
