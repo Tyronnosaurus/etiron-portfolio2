@@ -2,7 +2,20 @@ import React from 'react'
 import ControlledCarousel from '../Carousel/ControlledCarousel';
 import Modal from 'react-modal';
 import { CloseX } from '../../Icons';
+import { GithubIcon } from '../../Icons';
 
+
+const LinkButton = ({href, text}) => {
+    return(
+        <a href={href} target="_blank" rel="noreferrer"
+           className="border rounded-md
+                      p-2 px-4 md:p-2.5 md:px-6
+                      text-sm md:text-base
+                      bg-dark text-light hover:bg-light hover:text-dark" >
+            {text}
+        </a>
+    )
+}
 
 
 const ProjectModal = ({modalData, show, handleClose}) => {
@@ -12,9 +25,9 @@ const ProjectModal = ({modalData, show, handleClose}) => {
         <Modal isOpen={show}
                onRequestClose={handleClose}
                onClick={handleClose}
-               className="absolute left-0 right-0 mx-auto top-16 w-[80%] max-w-[700px]
-                          border border-darkx rounded-xl outline-none
-                          p-5 overflow-auto
+               className="absolute left-0 right-0 mx-auto top-16 w-[80%] max-w-[700px] max-h-[90%]
+                          border border-dark rounded-xl outline-none
+                          p-5 overflow-y-auto
                           bg-light"
                overlayClassName="fixed inset-0 bg-dark bg-opacity-60">
             
@@ -23,16 +36,17 @@ const ProjectModal = ({modalData, show, handleClose}) => {
                 <CloseX />
             </button>
 
-            <h2>{modalData.title}</h2>
+            <h2 className="text-2xl">{modalData.title}</h2>
             
             {/* <ControlledCarousel images={modalData.images} /> */}
-            <img src={modalData.images[0]} alt={"Project"} className="m-auto h-[350px] object-contain"/>
+            <img src={modalData.images[0]} alt={"Project"} className="m-auto h-[350px] object-contain py-4"/>
                 
-            <div className="description" dangerouslySetInnerHTML={{__html: modalData.description}} />
+            <div className="text-left" dangerouslySetInnerHTML={{__html: modalData.description}} />
 
-            <div className="modal-contents">
-                {modalData.github_link && <a href={modalData.github_link} className="btn btn-primary" target="_blank" rel="noreferrer"> Github </a>}
-                {modalData.live_link   && <a href={modalData.live_link}   className="btn btn-primary" target="_blank" rel="noreferrer"> Live </a>}
+            <div className="flex flex-row gap-10 justify-center py-2">
+                {modalData.github_link && <a href={modalData.github_link} target="_blank" rel="noreferrer"> <GithubIcon className="w-12"/> </a>}
+
+                {modalData.live_link   && <LinkButton href={modalData.live_link} text="See live" />}
             </div>
 
             <div className="tags">{"Tags: " + modalData.tags.join(', ')}</div>
