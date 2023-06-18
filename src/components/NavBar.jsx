@@ -9,7 +9,7 @@ const NavBar = () => {
     return (
         <header className='w-[90%] py-4 font-medium relative m-auto
                            flex flex-row items-baseline justify-between
-                           px-8 xs:px-16
+                           px-8 lg:px-16
                            dark:text-light'>
             
             
@@ -18,7 +18,7 @@ const NavBar = () => {
                     <Logo/>
                 </div>
 
-                <h1 className="text-3xl">
+                <h1 className="text-3xl hidden sm:block">
                     Eduard Tiron - Full-stack Developer
                 </h1>
             </div>
