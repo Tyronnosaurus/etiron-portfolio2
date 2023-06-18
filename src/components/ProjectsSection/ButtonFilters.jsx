@@ -36,7 +36,7 @@ const ButtonFilter = ({name, icon, activeFilter, handleClickFilter}) => {
   let isActive = (activeFilter===name)
 
   return(
-      <button className={`md:w-[140px] md:h-10 md:px-2 md:text-base
+      <button className={`lg:w-[140px] lg:h-10 lg:px-2 lg:text-base
                           w-[110px] h-8 px-1 text-xs
                           overflow-hidden 
                           flex flex-row align-center
@@ -55,9 +55,14 @@ const ButtonFilter = ({name, icon, activeFilter, handleClickFilter}) => {
 }
 
 
+// Just a black line
 const Separator = () => {
   return (
-    <div className="h-10 border border-solid border-dark mx-4"></div>
+    <div className="h-8 lg:h-10
+                    border border-solid border-dark
+                    mx-0 lg:mx-4
+                    hidden sm:block">
+    </div>
   )
 }
 
@@ -94,12 +99,16 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
   return (
     <div className="flex flex-col justify-center gap-4 mt-4">
 
-      <div className="flex flex-row justify-center w-full gap-2">
-        <ButtonFilter name="All"             activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+      <div className="flex flex-col sm:flex-row justify-center w-full gap-2 min-w-fit">
+        <div className="flex flex-row justify-center">
+          <ButtonFilter name="All"             activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+        </div>
         <Separator />
-        <ButtonFilter name="Professional"    icon={workIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="Academic"        icon={universityIcon} activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-        <ButtonFilter name="Hobby"           icon={homeIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+        <div className="flex flex-row justify-center gap-2">
+          <ButtonFilter name="Professional"    icon={workIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Academic"        icon={universityIcon} activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Hobby"           icon={homeIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+        </div>
       </div>
  
       <div className="flex flex-row justify-center gap-4">
