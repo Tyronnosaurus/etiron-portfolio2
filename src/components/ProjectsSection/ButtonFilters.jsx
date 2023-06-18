@@ -36,7 +36,9 @@ const ButtonFilter = ({name, icon, activeFilter, handleClickFilter}) => {
   let isActive = (activeFilter===name)
 
   return(
-      <button className={`w-[135px] h-10 px-2
+      <button className={`md:w-[140px] md:h-10 md:px-2 md:text-base
+                          w-[110px] h-8 px-1 text-xs
+                          overflow-hidden 
                           flex flex-row align-center
                           border-solid border-dark rounded-xl
                           ${isActive ? " border-2 bg-btnActive" : "border bg-light"}`}

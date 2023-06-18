@@ -12,12 +12,12 @@ export const HeroSection = () => {
 
       <div className='items-center flex flex-col lg:flex-row'>
           
-        <div className='w-[70%] lg:w-1/2'>
+        <div className='w-[70%] lg:w-1/3'>
           <img src={ProfilePic} alt="portrait"
                 className='h-auto inline-block lg:w-full' />
         </div>
 
-        <div className='flex flex-col items-center self-center w-full lg:w-1/2'>
+        <div className='flex flex-col items-center self-center w-full lg:w-2/3'>
           <AnimatedText text="Turning Vision Into Reality With Code And Design."
                         className='!text-center lg:!text-left
                                   !text-3xl md:!text-5xl lg:!text-6xl xl:!text-5xl' />
