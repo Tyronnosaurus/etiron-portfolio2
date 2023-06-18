@@ -2,22 +2,19 @@
 export const data = [
     {
         title: "S1G Ultrasonic molding machine",
-        images: ["/pf/S1G/sonoruss1g-1.jpg", "/pf/S1G/processstatemachine.png", "/pf/S1G/injections.jpg"],
+        images: ["/pf/S1G/sonoruss1g-1.jpg", "/pf/S1G/injections.jpg"],
         tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++'],
-        description:`<p>Ultrasound molding: The technology by which a plastic injection machine melts plastic pellets using ultrasounds instead of a heated barrel.</p>
-            <p>My main task as lead PLC programmer in Ultrasion was to organize 7 years worth of code by many different programmers. Most it was patched as needed as the ultrasonic molding research progressed. This led to a very high technological debt: no documentation, many dependencies between supposedly encapsulated programs, unused and redundant code, obsolete functionality and a confusing user interface.</p>
-            <p>At the time of my incorporation, there were no programmers left to tutor me. I proceeded to read and understand all the software and hardware, and carefully rewrote it over the span of a year. Some of the tasks I did were:</p>
+        description:`<p>Ultrasion is the leading in ultrasound molding, i.e. the technology by which a plastic injection machine melts plastic pellets using ultrasounds, instead of a heated barrel, for improved efficiency in terms of energy and material.</p>
+            <p>As lead programmer in Ultrasion I single-handedly rewrote 7 years worth of code with high technical debt (written incrementally by different programmers as the research progressed, with little documentation, obsolete functionality and confusing UX). Some of the tasks I did were:</p>
             <ul>
-                <li>Created documentation.</li>
-                <li>Simplified many sequences (with the biggest having about 150 states).</li>
-                <li>Improved encapsulation.</li>
-                <li>Improved data sampling and exporting.</li>
-                <li>Simplified HMI for better user experience.</li>
-                <li>Designed hardware changes to improve safety and compatibility with an external robot arm.</li>
-                <li>Added many new functions as they were requested.</li>
+                <li>Simplified overall process by understanding and refactoring each part of the process.</li>
+                <li>Improved encapsulation; simplified implementation of different machine configurations.</li>
+                <li>Improved process monitoring and data exporting.</li>
+                <li>Improved overall user experience.</li>
+                <li>Implemented an external robot arm and the extra safety features.</li>
+                <li>And many more features</li>
             </ul>
-            <p>
-            <p>Overall, I became proficient in PLC programming using B&R's Automation Studio development environment.</p>`
+            <p>`
     },
 
     {
@@ -33,7 +30,9 @@ export const data = [
                 <li>New external sensors meant I had to write a new data adquisition program. It plotted internal pressure and temperature for the last injection cycles (among other data) and proved very useful to increase repetibility.</li>
                 <li>Had to redo dozens of parts and hundreds of linkages in the SolidWorks 3D model.</li>
                 <li>Many other small changes.</li>
-            </ul>`
+            </ul>
+            <p>The following video (in Catalan) features the machine at 1:26:</p>
+            <iframe style="margin:auto;" title="video 6223690" src="https://www.ccma.cat/video/embed/6223690/" allowfullscreen scrolling="no" frameborder="0" width="500px" height="281px"></iframe>`
     },
 
     {
