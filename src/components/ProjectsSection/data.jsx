@@ -55,7 +55,7 @@ export const data = [
     {
         title: "IIOT Telemetrics Software",
         images: ["/pf/IIOT telemetrics/0.png", "/pf/IIOT telemetrics/1.jpg"],
-        tags: ['Professional', 'PLC', 'Codesys', 'Python', 'Ladder', 'ST', 'Turck', 'Panasonic', 'FPWIN', 'HMWIN'],
+        tags: ['Professional', 'PLC', 'Codesys', 'Python', 'Ladder', 'ST', 'Turck', 'Panasonic', 'FPWIN', 'HMWIN', 'MQTT', 'Node-RED', 'TX Visu Pro'],
         description:`<p>Project in which a client requested a global telemetry system for all the machines they sold. The purpose was to transmit productivity data and alarms for predictive maintenance.</p>
         <p>Due to the variety in hardware on their machines, I had to learn about the following technologies/applications/brands:</p>
         <ul>
@@ -109,7 +109,7 @@ export const data = [
     {
         title: "Geolocation-based fertilizer",
         images: ["/pf/Fertilizer/0.jpg", "/pf/Fertilizer/1.jpg"],
-        tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++', 'Arduino', 'Electronics'],
+        tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++', 'Isobus', 'Electronics'],
         description:`<p>Research project in which we developed a tractor implement capable of fertilizing a field according to a variable feedrate map.</p>
         <p>I coded all the software and designed most of the electronics.</p>`
     },

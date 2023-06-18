@@ -140,8 +140,11 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
         <div className="flex flex-col gap-2 p-2 border rounded-2xl min-w-fit">
           <CategoryHeader title="Data Science" />
           <ButtonFilter name="Pandas"          icon={pandasIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-          <ButtonFilter name="Matplotlib"      icon={matplotlibIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-          <ButtonFilter name="Tensorflow"      icon={tensorflowIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Matplotlib"      icon={matplotlibIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Tensorflow"      icon={tensorflowIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Node-RED"                                  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="MQTT"                                      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+
         </div>
 
         <div className="flex flex-col gap-2 p-2 border rounded-2xl min-w-fit">
@@ -152,10 +155,16 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
             <ButtonFilter name="Codesys"         icon={codesysIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="ST"              icon={stIcon}          activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="Ladder"          icon={ladderIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="Turck"           icon={turckIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="Panasonic"       icon={panasonicIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="FPWIN"           icon={fpwinIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="HMWIN"           icon={hmwinIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="Turck"           icon={turckIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="Panasonic"       icon={panasonicIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="FPWIN"           icon={fpwinIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="HMWIN"           icon={hmwinIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="TX Visu Pro"                            activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="J1939"                                  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="ISOBUS"                                 activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+
+
+
          </div>
         </div>
 
