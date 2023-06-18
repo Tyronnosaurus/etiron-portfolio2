@@ -83,7 +83,7 @@ const CategoryHeader = ({title}) => {
 
 const ButtonFilters = ({projects, setFilteredProjects}) => {
 
-  const [activeFilter, setActiveFilter] = useState(0);
+  const [activeFilter, setActiveFilter] = useState('All');
 
 
   const handleClickFilter = (name) => {
@@ -184,6 +184,8 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
          </div>
       </div>
 
+      {(activeFilter !== 'All') &&
+      <p>Showing all projects with the '{activeFilter}' tag:</p>}
 
     </div>
   )
