@@ -109,7 +109,7 @@ export const data = [
     {
         title: "Geolocation-based fertilizer",
         images: ["/pf/Fertilizer/0.jpg", "/pf/Fertilizer/1.jpg"],
-        tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++', 'Isobus', 'Electronics'],
+        tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++', 'ISOBUS', 'Electronics'],
         description:`<p>Research project in which we developed a tractor implement capable of fertilizing a field according to a variable feedrate map.</p>
         <p>I coded all the software and designed most of the electronics.</p>`
     },

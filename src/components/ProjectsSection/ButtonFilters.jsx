@@ -32,6 +32,8 @@ import hmwinIcon from '../../assets/icons/hmwinIcon.png';
 import pandasIcon from '../../assets/icons/pandasIcon.png';
 import matplotlibIcon from '../../assets/icons/matplotlibIcon.png';
 import tensorflowIcon from '../../assets/icons/tensorflowIcon.png';
+import noderedIcon from '../../assets/icons/noderedIcon.png';
+import mqttIcon from '../../assets/icons/mqttIcon.png';
 
 
 
@@ -142,8 +144,8 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
           <ButtonFilter name="Pandas"          icon={pandasIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="Matplotlib"      icon={matplotlibIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="Tensorflow"      icon={tensorflowIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-          <ButtonFilter name="Node-RED"                                  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-          <ButtonFilter name="MQTT"                                      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Node-RED"        icon={noderedIcon}        activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="MQTT"            icon={mqttIcon}           activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
 
         </div>
 
