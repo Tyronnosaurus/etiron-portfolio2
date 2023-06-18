@@ -113,7 +113,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
  
       <div className="flex flex-row justify-center gap-4">
         
-        <div className="flex flex-col gap-2 p-2 border rounded-2xl">
+        <div className="flex flex-col gap-2 p-2 border rounded-2xl min-w-fit">
           <CategoryHeader title="WebDev" />
           <div className="grid grid-cols-2 gap-2">
             <ButtonFilter name="WebDev"          icon={webdevIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
@@ -126,7 +126,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-2 p-2 border rounded-2xl">
+        <div className="flex flex-col gap-2 p-2 border rounded-2xl min-w-fit">
           <CategoryHeader title="Development" />
           <ButtonFilter name="C++"             icon={cppIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="C#"              icon={csharpIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
@@ -148,14 +148,14 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
          </div>
         </div>
 
-         <div className="flex flex-col gap-2 p-2 border rounded-2xl">
+         <div className="flex flex-col gap-2 p-2 border rounded-2xl min-w-fit">
           <CategoryHeader title="Electronics" />
           <ButtonFilter name="Electronics"     icon={electronicsIcon} activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="Arduino"         icon={arduinoIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="Altium"          icon={altiumIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
          </div>
 
-         <div className="flex flex-col gap-2 p-2 border rounded-2xl">
+         <div className="flex flex-col gap-2 p-2 border rounded-2xl min-w-fit">
           <CategoryHeader title="Others" />
           <ButtonFilter name="Linux"           icon={linuxIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="GameDev"         icon={gamedevIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
