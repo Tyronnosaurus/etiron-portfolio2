@@ -29,6 +29,10 @@ import turckIcon from '../../assets/icons/turckIcon.ico';
 import panasonicIcon from '../../assets/icons/panasonicIcon.png';
 import fpwinIcon from '../../assets/icons/fpwinIcon.png';
 import hmwinIcon from '../../assets/icons/hmwinIcon.png';
+import pandasIcon from '../../assets/icons/pandasIcon.png';
+import matplotlibIcon from '../../assets/icons/matplotlibIcon.png';
+import tensorflowIcon from '../../assets/icons/tensorflowIcon.png';
+
 
 
 const ButtonFilter = ({name, icon, activeFilter, handleClickFilter}) => {
@@ -133,7 +137,14 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
           <ButtonFilter name="Python"          icon={pythonIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
         </div>
 
-        <div className="flex flex-col gap-2 p-2 border rounded-2xl">
+        <div className="flex flex-col gap-2 p-2 border rounded-2xl min-w-fit">
+          <CategoryHeader title="Data Science" />
+          <ButtonFilter name="Pandas"          icon={pandasIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Matplotlib"      icon={matplotlibIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Tensorflow"      icon={tensorflowIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+        </div>
+
+        <div className="flex flex-col gap-2 p-2 border rounded-2xl min-w-fit">
           <CategoryHeader title="Industrial" />
           <div className="grid grid-cols-2 gap-2">
             <ButtonFilter name="PLC"             icon={plcIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
