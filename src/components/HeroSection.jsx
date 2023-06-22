@@ -17,17 +17,50 @@ export const HeroSection = () => {
                 className='h-auto inline-block lg:w-full' />
         </div>
 
+
+
+
         <div className='flex flex-col items-center self-center w-full lg:w-2/3'>
-          <AnimatedText text="Turning Vision Into Reality With Code And Design."
+          
+          <p className='my-4 font-medium w-full
+                        text-xs md:text-sm lg:text-base
+                        text-center lg:text-left'>
+            Hello, I'm
+          </p>
+
+          <AnimatedText text="Eduard Tiron"
                         className='!text-center lg:!text-left
                                   !text-3xl md:!text-5xl lg:!text-6xl xl:!text-5xl' />
-          <p className='my-4 font-medium
+          
+          <p className='my-4 font-medium w-full
+                        text-xs md:text-sm lg:text-base
+                        text-center lg:text-left'>
+            Full-stack Developer
+          </p>
+
+          <p className='my-4 font-medium  w-full
                         text-xs md:text-sm lg:text-base
                         text-center lg:text-left'>
             As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
             Explore my latest projects and articles, showcasing my expertise in React.js and web development.
           </p>
 
+          {/* <p className='my-4 font-medium
+                        text-xs md:text-sm lg:text-base
+                        text-center lg:text-left'>
+            As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
+            Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+          </p> */}
+
+          {/* <p className='my-4 font-medium
+                        text-xs md:text-sm lg:text-base
+                        text-center lg:text-left'>
+            I'm an engineer with an MSc in Automation and an MSc in Mechatronics. I also hold a title in Project Management (CAPM). I have done 200+ hours of voluntary classes in mechanics, machining, welding, pneumatics and CNC, plus 1000s of hours self-learning electronics, programming, web development and data science.
+
+            Over the span of my career I have done four internships at different positions related to the industry sector. I have also worked as a Systems & Process Auditor at PwC (mostly analysing IT security and business processes). I am currently the main programmer for a plastic injection machine that uses ultrasound fusion technology. I am also participating in a few projects for the research centre Eurecat.
+
+            A great percentage of my free time is spent developing projects in many different areas: electronics, programming, web development, 3D printing...
+          </p> */}
 
           {/* Buttons */}
           <div className='flex items-center mt-2 self-center lg:self-start'>
