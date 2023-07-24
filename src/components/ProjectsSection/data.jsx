@@ -204,7 +204,7 @@ export const data = [
     {
         title: "Self-hosted server",
         images: ["/pf/Server/0.png"],
-        tags: ['Hobby', 'Linux'],
+        tags: ['Hobby', 'Linux', 'Docker'],
         description:` <p>Self-hosted server which I use or have used for the following services:</p>
         <ul>
             <li>VPN: To access my home network and to encrypt my traffic while on public networks.</li>

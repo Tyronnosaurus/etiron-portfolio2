@@ -34,6 +34,7 @@ import matplotlibIcon from '../../assets/icons/matplotlibIcon.png';
 import tensorflowIcon from '../../assets/icons/tensorflowIcon.png';
 import noderedIcon from '../../assets/icons/noderedIcon.png';
 import mqttIcon from '../../assets/icons/mqttIcon.png';
+import dockerIcon from '../../assets/icons/dockerIcon.png';
 
 
 
@@ -180,6 +181,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
          <div className="flex flex-col gap-2 p-2 border rounded-2xl min-w-fit">
           <CategoryHeader title="Others" />
           <ButtonFilter name="Linux"           icon={linuxIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Docker"          icon={dockerIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="GameDev"         icon={gamedevIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="SolidWorks"      icon={solidworksIcon}  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="3D printing"     icon={printingIcon}    activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
