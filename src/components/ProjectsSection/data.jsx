@@ -55,22 +55,9 @@ export const data = [
     {
         title: "IIOT Telemetrics Software",
         images: ["/pf/IIOT telemetrics/0.png", "/pf/IIOT telemetrics/1.jpg"],
-        tags: ['Professional', 'PLC', 'Codesys', 'Python', 'Ladder', 'ST', 'Turck', 'Panasonic', 'FPWIN', 'HMWIN', 'MQTT', 'Node-RED', 'TX Visu Pro'],
-        description:`<p>Project in which a client requested a global telemetry system for all the machines they sold. The purpose was to transmit productivity data and alarms for predictive maintenance.</p>
-        <p>Due to the variety in hardware on their machines, I had to learn about the following technologies/applications/brands:</p>
-        <ul>
-            <li>MQTT</li>
-            <li>Node-Red</li>
-            <li>Python</li>
-            <li>Turck PLCs</li>
-            <li>Codesys</li>
-            <li>TX Visu Pro</li>
-            <li>HMWIN</li>
-            <li>FPWIN</li>
-            <li>Drive Composer</li>
-            <li>Modbus, RS-485</li>
-            <li>Ethernet/IP</li>
-        </ul>`
+        tags: ['Professional', 'PLC', 'Codesys', 'Python', 'Docker', 'Ladder', 'ST', 'Turck', 'Panasonic', 'FPWIN', 'HMWIN', 'MQTT', 'Node-RED', 'TX Visu Pro'],
+        description:`<p>Project in which a client requested a global telemetry system for all the textile machines they sold. The purpose was to transmit productivity data and alarms for predictive maintenance.</p>
+        <p>I prepared a mockup of the machines and implemented the necessary code to compile, preprocess and send the data to a server containing Docker images for the MQTT Broker, a database, a dashboard...</p>`
     },
 
     {
