@@ -1,6 +1,6 @@
 import React from 'react'
 import AnimatedText from './AnimatedText'
-import ProfilePic from '../assets/developer-pic-1.png'
+import ProfilePic from '../assets/me.jpg'
 
 
 
@@ -12,15 +12,15 @@ export const HeroSection = () => {
 
       <div className='items-center flex flex-col lg:flex-row'>
           
-        <div className='w-[70%] lg:w-1/3'>
+        <div className='w-[70%] lg:w-1/2 mx-10'>
           <img src={ProfilePic} alt="portrait"
-                className='h-auto inline-block lg:w-full' />
+                className='h-auto inline-block lg:w-full border-2' />
         </div>
 
 
 
 
-        <div className='flex flex-col items-center self-center w-full lg:w-2/3'>
+        <div className='flex flex-col items-center self-center w-full lg:w-1/2'>
           
           <p className='my-4 font-medium w-full
                         text-xs md:text-sm lg:text-base
