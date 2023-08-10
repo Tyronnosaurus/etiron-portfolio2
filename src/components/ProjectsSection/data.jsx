@@ -227,6 +227,20 @@ export const data = [
     },
 
     {
+        title: "Mechatronics Eye for the Hocus Pocus' Book of Spells",
+        images: ["/pf/MechatronicsEye/vid1.gif", "/pf/MechatronicsEye/1.jpg", "/pf/MechatronicsEye/2.jpg", "/pf/MechatronicsEye/3.jpg", "/pf/MechatronicsEye/4.jpg", "/pf/MechatronicsEye/5.jpg"],
+        tags: ['Hobby', 'SolidWorks', '3D printing', 'C++', 'Electronics', 'Arduino'],
+        description:`<p>This is a "living" book with an eye, much like the Book of Spells that the Sanderson Sisters posses in the movie Hocus Pocus.</p>
+                     <p>It wakes up when the book is shaken thanks to a vibration sensor. The eyes can rotate horizontally and vertically, and the two eyelids
+                     move independently. Unlike other mechatronic eyes designs, this one places the servos on a single plane in order to be as flat as
+                     possible and fit inside the hollow book.</p>
+
+                     <p>It was a birthday present for a crafty friend who will add the actual cover decorations. To present the gift, I hid it and made my friend
+                     recite a spell from the movie (<a href="https://www.youtube.com/watch?v=o7p0BNt7NHs">"Booook, come home or make thyself known"</a>). At that point,
+                     I turned off the lights in the room and activated the LEDs inside the book with a hidden remote control, so that she could find it in the darkness.</p>`,
+    },
+
+    {
         title: "Website for Airsoft DIY projects",
         images: ["/pf/AirsoftDIY/airsoftdiy_scrnsht.png"],
         tags: ['Hobby', 'WebDev', 'Wordpress'],
