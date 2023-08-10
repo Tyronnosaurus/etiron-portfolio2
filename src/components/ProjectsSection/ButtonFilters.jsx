@@ -35,7 +35,7 @@ import tensorflowIcon from '../../assets/icons/tensorflowIcon.png';
 import noderedIcon from '../../assets/icons/noderedIcon.png';
 import mqttIcon from '../../assets/icons/mqttIcon.png';
 import dockerIcon from '../../assets/icons/dockerIcon.png';
-
+import j1939Icon from '../../assets/icons/Excavator.png';
 
 
 const ButtonFilter = ({name, icon, activeFilter, handleClickFilter}) => {
@@ -163,7 +163,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
             <ButtonFilter name="FPWIN"           icon={fpwinIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="HMWIN"           icon={hmwinIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="TX Visu Pro"                            activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="J1939"                                  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="J1939"           icon={j1939Icon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="ISOBUS"                                 activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
 
 
