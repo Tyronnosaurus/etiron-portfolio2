@@ -48,7 +48,7 @@ const ButtonFilter = ({name, icon, activeFilter, handleClickFilter}) => {
                           overflow-hidden 
                           flex flex-row align-center
                           border-solid border-dark rounded-xl
-                          ${isActive ? " border-2 bg-btnActive font-semibold" : "border bg-light"}`}
+                          ${isActive ? " border-2 bg-btnActive" : "border bg-light"}`}
               onClick={() => handleClickFilter(name)}>
           
           {icon &&
