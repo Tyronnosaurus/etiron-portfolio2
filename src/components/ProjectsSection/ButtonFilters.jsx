@@ -44,12 +44,12 @@ const ButtonFilter = ({name, icon, activeFilter, handleClickFilter}) => {
   let isActive = (activeFilter===name)
 
   return(
-      <button className={`lg:w-[140px] lg:h-10 lg:px-2 lg:text-base
-                          w-[110px] h-8 px-1 text-xs
-                          overflow-hidden 
-                          flex flex-row align-center
-                          border-solid border-dark rounded-xl
-                          ${isActive ? " border-2 bg-btnActive" : "border bg-light"}`}
+      <button className={`lg:text-base
+                          h-8 px-1 text-xs
+                          overflow-hidden
+                          flex flex-row
+                          border border-solid border-dark rounded-xl
+                          ${isActive ? "bg-btnActive" : "bg-light"}`}
               onClick={() => handleClickFilter(name)}>
           
           {icon &&
@@ -119,29 +119,27 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
         </div>
       </div>
  
-      <div className="flex flex-row justify-center gap-4">
+      <div className="flex flex-col justify-center gap-4">
         
-        <div className="flex flex-col gap-2 p-2 border rounded-2xl min-w-fit">
+        <div className="flex flex-row flex-wrap items-center gap-2 p-2 border rounded-2xl min-w-fitxxx">
           <CategoryHeader title="WebDev" />
-          <div className="grid grid-cols-2 gap-2">
-            <ButtonFilter name="WebDev"          icon={webdevIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="React"           icon={reactIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="Javascript"      icon={javascriptIcon}  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="HTML"            icon={htmlIcon}        activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="CSS"             icon={cssIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="Bootstrap"       icon={bootstrapIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="Wordpress"       icon={wordpressIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-          </div>
+          <ButtonFilter name="WebDev"          icon={webdevIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="React"           icon={reactIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Javascript"      icon={javascriptIcon}  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="HTML"            icon={htmlIcon}        activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="CSS"             icon={cssIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Bootstrap"       icon={bootstrapIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Wordpress"       icon={wordpressIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
         </div>
 
-        <div className="flex flex-col gap-2 p-2 border rounded-2xl min-w-fit">
+        <div className="flex flex-row flex-wrap items-center gap-2 p-2 border rounded-2xl min-w-fit">
           <CategoryHeader title="Development" />
           <ButtonFilter name="C++"             icon={cppIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="C#"              icon={csharpIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="Python"          icon={pythonIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
         </div>
 
-        <div className="flex flex-col gap-2 p-2 border rounded-2xl min-w-fit">
+        <div className="flex flex-row flex-wrap items-center gap-2 p-2 border rounded-2xl min-w-fit">
           <CategoryHeader title="Data Science" />
           <ButtonFilter name="Pandas"          icon={pandasIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="Matplotlib"      icon={matplotlibIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
@@ -151,28 +149,23 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
 
         </div>
 
-        <div className="flex flex-col gap-2 p-2 border rounded-2xl min-w-fit">
+        <div className="flex flex-row flex-wrap items-center gap-2 p-2 border rounded-2xl min-w-fit">
           <CategoryHeader title="Industrial" />
-          <div className="grid grid-cols-2 gap-2">
-            <ButtonFilter name="PLC"             icon={plcIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="B&R"             icon={brIcon}          activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="Codesys"         icon={codesysIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="ST"              icon={stIcon}          activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="Ladder"          icon={ladderIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="Turck"           icon={turckIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="Panasonic"       icon={panasonicIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="FPWIN"           icon={fpwinIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="HMWIN"           icon={hmwinIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="TX Visu Pro"                            activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="J1939"           icon={j1939Icon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="ISOBUS"                                 activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-
-
-
-         </div>
+          <ButtonFilter name="PLC"             icon={plcIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="B&R"             icon={brIcon}          activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Codesys"         icon={codesysIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="ST"              icon={stIcon}          activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Ladder"          icon={ladderIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Turck"           icon={turckIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Panasonic"       icon={panasonicIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="FPWIN"           icon={fpwinIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="HMWIN"           icon={hmwinIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="TX Visu Pro"                            activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="J1939"           icon={j1939Icon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="ISOBUS"                                 activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
         </div>
 
-         <div className="flex flex-col gap-2 p-2 border rounded-2xl min-w-fit">
+         <div className="flex flex-row flex-wrap items-center gap-2 p-2 border rounded-2xl min-w-fit">
           <CategoryHeader title="Electronics" />
           <ButtonFilter name="Electronics"     icon={electronicsIcon} activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="Arduino"         icon={arduinoIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
@@ -180,7 +173,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
           <ButtonFilter name="KiCAD"           icon={kicadIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
          </div>
 
-         <div className="flex flex-col gap-2 p-2 border rounded-2xl min-w-fit">
+         <div className="flex flex-row flex-wrap items-center gap-2 p-2 border rounded-2xl min-w-fit">
           <CategoryHeader title="Others" />
           <ButtonFilter name="Linux"           icon={linuxIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="Docker"          icon={dockerIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
