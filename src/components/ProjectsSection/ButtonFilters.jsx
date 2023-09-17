@@ -36,6 +36,7 @@ import noderedIcon from '../../assets/icons/noderedIcon.png';
 import mqttIcon from '../../assets/icons/mqttIcon.png';
 import dockerIcon from '../../assets/icons/dockerIcon.png';
 import j1939Icon from '../../assets/icons/Excavator.png';
+import kicadIcon from '../../assets/icons/kicadIcon.png';
 
 
 const ButtonFilter = ({name, icon, activeFilter, handleClickFilter}) => {
@@ -176,6 +177,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
           <ButtonFilter name="Electronics"     icon={electronicsIcon} activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="Arduino"         icon={arduinoIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="Altium"          icon={altiumIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="KiCAD"           icon={kicadIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
          </div>
 
          <div className="flex flex-col gap-2 p-2 border rounded-2xl min-w-fit">
