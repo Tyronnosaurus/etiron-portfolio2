@@ -315,7 +315,7 @@ export const data = [
     {
         title: "ISP breakout board",
         images: ["/pf/ISP breakout board/20151020_192511.jpg", "/pf/ISP breakout board/20151020_192435.jpg", "/pf/ISP breakout board/gerber.png"],
-        tags: ['Hobby', 'Electronics'],
+        tags: ['Hobby', 'Electronics', 'KiCAD'],
         description:`<p>PCB that makes it easy to program standalone ATtiny44, 45, 84 and 85 chips with an ISP programmer.</p>
         <p>It was designed from scratch and ordered from a fabhouse in order to practice designing PCBs and to help in future projects.</p>`
     },
@@ -323,7 +323,7 @@ export const data = [
     {
         title: "Motion detection alarm",
         images: ["/pf/Motion detection alarm/1.jpg", "/pf/Motion detection alarm/2.jpg", "/pf/Motion detection alarm/pcb.png"],
-        tags: ['Hobby', 'Electronics', 'C++', 'Arduino'],
+        tags: ['Hobby', 'Electronics', 'C++', 'Arduino', 'KiCAD'],
         description:`<p>Small battery powered PIR sensor for my front door. It can run for more than one year on three AA batteries. Upon detection, it triggers a loud buzzer and can send an RF signal to other modules.<p>
         <p>This project was made to practice these skills:</p>
         <ul>
