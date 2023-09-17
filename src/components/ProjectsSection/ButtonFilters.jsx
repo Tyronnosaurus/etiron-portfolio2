@@ -107,7 +107,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
   return (
     <div className="flex flex-col justify-center gap-4 mt-4">
 
-      <div className="flex flex-col sm:flex-row justify-center w-full gap-2 min-w-fit">
+      <div className="flex flex-col sm:flex-row justify-center w-full gap-2">
         <div className="flex flex-row justify-center">
           <ButtonFilter name="All"             activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
         </div>
@@ -121,7 +121,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
  
       <div className="flex flex-col justify-center gap-4">
         
-        <div className="flex flex-row flex-wrap items-center gap-2 p-2 border rounded-2xl min-w-fitxxx">
+        <div className="flex flex-row flex-wrap items-center gap-2 p-2 border rounded-2xl">
           <CategoryHeader title="WebDev" />
           <ButtonFilter name="WebDev"          icon={webdevIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="React"           icon={reactIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
@@ -132,14 +132,14 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
           <ButtonFilter name="Wordpress"       icon={wordpressIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
         </div>
 
-        <div className="flex flex-row flex-wrap items-center gap-2 p-2 border rounded-2xl min-w-fit">
+        <div className="flex flex-row flex-wrap items-center gap-2 p-2 border rounded-2xl">
           <CategoryHeader title="Development" />
           <ButtonFilter name="C++"             icon={cppIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="C#"              icon={csharpIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="Python"          icon={pythonIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
         </div>
 
-        <div className="flex flex-row flex-wrap items-center gap-2 p-2 border rounded-2xl min-w-fit">
+        <div className="flex flex-row flex-wrap items-center gap-2 p-2 border rounded-2xl">
           <CategoryHeader title="Data Science" />
           <ButtonFilter name="Pandas"          icon={pandasIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="Matplotlib"      icon={matplotlibIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
@@ -149,7 +149,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
 
         </div>
 
-        <div className="flex flex-row flex-wrap items-center gap-2 p-2 border rounded-2xl min-w-fit">
+        <div className="flex flex-row flex-wrap items-center gap-2 p-2 border rounded-2xl">
           <CategoryHeader title="Industrial" />
           <ButtonFilter name="PLC"             icon={plcIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="B&R"             icon={brIcon}          activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
@@ -165,7 +165,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
           <ButtonFilter name="ISOBUS"                                 activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
         </div>
 
-         <div className="flex flex-row flex-wrap items-center gap-2 p-2 border rounded-2xl min-w-fit">
+         <div className="flex flex-row flex-wrap items-center gap-2 p-2 border rounded-2xl">
           <CategoryHeader title="Electronics" />
           <ButtonFilter name="Electronics"     icon={electronicsIcon} activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="Arduino"         icon={arduinoIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
@@ -173,7 +173,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
           <ButtonFilter name="KiCAD"           icon={kicadIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
          </div>
 
-         <div className="flex flex-row flex-wrap items-center gap-2 p-2 border rounded-2xl min-w-fit">
+         <div className="flex flex-row flex-wrap items-center gap-2 p-2 border rounded-2xl">
           <CategoryHeader title="Others" />
           <ButtonFilter name="Linux"           icon={linuxIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           <ButtonFilter name="Docker"          icon={dockerIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
