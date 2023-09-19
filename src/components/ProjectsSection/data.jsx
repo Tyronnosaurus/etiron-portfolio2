@@ -63,7 +63,7 @@ export const data = [
     {
         title: "FEA results visualizer",
         images: ["/pf/FEA visualizer/0.png", "/pf/FEA visualizer/1.png"],
-        tags: ['Professional', 'Python'],
+        tags: ['Professional', 'Python', 'Matplotlib'],
         description:`<p>Python program to visualize Finite Element Analysis results presented as a mesh in HDF5 format. It has the following functionalities:</p>
         <ul>
             <li>Deformation, with an exageration factor since deformations are usually small.</li>
@@ -88,7 +88,7 @@ export const data = [
     {
         title: "Pseudo-slicer algorithm",
         images: ["/pf/Slicer/0.jpg", "/pf/Slicer/1.jpg", "/pf/Slicer/2.jpg"],
-        tags: ['Professional', 'Python', '3D printing'],
+        tags: ['Professional', 'Python', '3D printing', 'Matplotlib'],
         description:`<p>As a subproject of a Cura plugin I did, I had to write a Python program which would take a boundary condition (anchor or load) and convert it to gcode.</p>
         <p>The gcode lines would represent the surface's geometry, while also including metadata (load magnitude and direction).</p>`
     },
