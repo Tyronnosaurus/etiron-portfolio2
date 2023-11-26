@@ -194,7 +194,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
         </div>
       </div>
 
-      {(activeFilter == 'All') ? 
+      {(activeFilter === 'All') ? 
       <p>Click on any skill to show only related projects.</p> :
       <p>Showing all projects with the '{activeFilter}' tag:</p>}
 
