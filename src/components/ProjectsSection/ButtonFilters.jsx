@@ -121,7 +121,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
  
       <div className="flex flex-col justify-center gap-4">
         
-        <div className="flex flex-row items-center gap-2 px-2 border rounded-2xl">
+        <div className="flex flex-row items-center gap-2 px-2 bg-light rounded-2xl">
           <CategoryHeader title="WebDev" />
           <div className="flex flex-row flex-wrap items-center gap-2 p-2">
             <ButtonFilter name="WebDev"          icon={webdevIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
@@ -134,7 +134,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center gap-2 px-2 border rounded-2xl">
+        <div className="flex flex-row items-center gap-2 px-2 bg-light rounded-2xl">
           <CategoryHeader title="Development" />
           <div className="flex flex-row flex-wrap items-center gap-2 p-2">
             <ButtonFilter name="C++"             icon={cppIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
@@ -143,7 +143,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center gap-2 px-2 border rounded-2xl">
+        <div className="flex flex-row items-center gap-2 px-2 bg-light rounded-2xl">
           <CategoryHeader title="Data Science" />
           <div className="flex flex-row flex-wrap items-center gap-2 p-2">
             <ButtonFilter name="Pandas"          icon={pandasIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
@@ -154,7 +154,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center gap-2 px-2 border rounded-2xl justify-between">
+        <div className="flex flex-row items-center gap-2 px-2 bg-light rounded-2xl justify-between">
           <CategoryHeader title="Mechatronics" />
           <div className="flex flex-row flex-wrap items-center gap-2 p-2">
             <ButtonFilter name="PLC"             icon={plcIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
@@ -172,7 +172,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center gap-2 px-2 border rounded-2xl">
+        <div className="flex flex-row items-center gap-2 px-2 bg-light rounded-2xl">
           <CategoryHeader title="Electronics" />
           <div className="flex flex-row flex-wrap items-center gap-2 p-2">
             <ButtonFilter name="Electronics"     icon={electronicsIcon} activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
@@ -182,7 +182,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center gap-2 px-2 border rounded-2xl">
+        <div className="flex flex-row items-center gap-2 px-2 bg-light rounded-2xl">
           <CategoryHeader title="Others" />
           <div className="flex flex-row flex-wrap items-center gap-2 p-2">
             <ButtonFilter name="Linux"           icon={linuxIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
