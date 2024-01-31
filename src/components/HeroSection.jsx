@@ -63,7 +63,7 @@ export const HeroSection = () => {
         {/* Description */}
         <div className='flex flex-col items-center self-center w-full lg:w-1/2'>
           
-          <p className='my-4 font-medium w-full
+          <p className='mt-2 mb-0 font-medium w-full
                         text-xs md:text-sm lg:text-base
                         text-center lg:text-left'>
             Hello, I'm
@@ -111,10 +111,14 @@ export const HeroSection = () => {
               Resume
             </button>
 
+
+            {/* Security question */}
             {showQuestion && (
               <div className='flex flex-col items-center p-2'>
-                <label>What is 2+2?</label>
-                <input className='w-5' type="text" value={userAnswer} onChange={handleAnswerChange} />
+                <div>
+                  What is 2+2?
+                  <input className='w-10 ml-1 border text-center' type="text" value={userAnswer} onChange={handleAnswerChange} />
+                </div>
                 <button className='font-bold' onClick={handleCheckAnswer}>Download</button>
               </div>
             )}

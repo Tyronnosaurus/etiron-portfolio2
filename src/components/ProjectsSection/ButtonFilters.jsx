@@ -37,6 +37,7 @@ import mqttIcon from '../../assets/icons/mqttIcon.png';
 import dockerIcon from '../../assets/icons/dockerIcon.png';
 import j1939Icon from '../../assets/icons/Excavator.png';
 import kicadIcon from '../../assets/icons/kicadIcon.png';
+import tractorIcon from '../../assets/icons/tractorIcon.png';
 
 
 const ButtonFilter = ({name, icon, activeFilter, handleClickFilter}) => {
@@ -166,9 +167,9 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
             <ButtonFilter name="Panasonic"       icon={panasonicIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="FPWIN"           icon={fpwinIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="HMWIN"           icon={hmwinIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="TX Visu Pro"                            activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="TX Visu Pro"      icon={turckIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="J1939"           icon={j1939Icon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="ISOBUS"                                 activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="ISOBUS"          icon={tractorIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           </div>
         </div>
 
