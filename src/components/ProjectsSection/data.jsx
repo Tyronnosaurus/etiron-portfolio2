@@ -47,7 +47,7 @@ export const data = [
 
     {
         title: "Ultrasion's website",
-        images: ["/pf/Ultrasion website/0.png", "/pf/Ultrasion website/1.png", "/pf/Ultrasion website/2.png"],
+        images: ["/pf/Ultrasion website/1.png", "/pf/Ultrasion website/2.png"],
         tags: ['Professional', 'WebDev', 'Wordpress'],
         description:`<p>The company I was working on, Ultrasion, had a relatively old website. I remade it from scratch using Wordpress.</p>`,
         live_link: "https://ultrasion.eu"
@@ -262,8 +262,7 @@ export const data = [
         tags: ['Hobby', 'WebDev', 'Wordpress'],
         description:`<p>Blog featuring many DIY projects for airsoft enthusiasts. While I no longer practice it, I still have many projects and knowledge to write a good amount of posts.</p>
         <p>Some of these projects are personal, and they are shown as a full tutorial. Others are random internet finds, and they are shown as articles with proper attribution.</p>
-        <p>The website has been developed in WordPress, with slight modifications in the visual theme and many professional practices (SEO, analytics, proper backup, media organization…).</p>`,
-        live_link: "https://airsoftdiy.com"
+        <p>The website has been developed in WordPress, with slight modifications in the visual theme and many professional practices (SEO, analytics, proper backup, media organization…). It is no longer online.</p>`,
     },
 
     {
