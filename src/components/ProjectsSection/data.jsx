@@ -4,7 +4,7 @@ export const data = [
         title: "S1G Ultrasonic molding machine",
         images: ["/pf/S1G/sonoruss1g-1.jpg", "/pf/S1G/injections.jpg"],
         tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++'],
-        description:`<p>Ultrasion is the leading in ultrasound molding, i.e. the technology by which a plastic injection machine melts plastic pellets using ultrasounds, instead of a heated barrel, for improved efficiency in terms of energy and material.</p>
+        description:`<p><a href="https://ultrasion.eu" style="font-weight:bold;">Ultrasion</a> is the leading company in ultrasound molding, i.e. the technology by which a plastic injection machine melts plastic pellets using ultrasounds, instead of a heated barrel, for improved efficiency in terms of energy and material.</p>
             <p>As lead programmer in Ultrasion I single-handedly rewrote 7 years worth of code with high technical debt (written incrementally by different programmers as the research progressed, with little documentation, obsolete functionality and confusing UX). Some of the tasks I did were:</p>
             <ul>
                 <li>Simplified overall process by understanding and refactoring each part of the process.</li>
@@ -14,7 +14,8 @@ export const data = [
                 <li>Implemented an external robot arm and the extra safety features.</li>
                 <li>And many more features</li>
             </ul>
-            <p>`
+            <p><p>
+            <iframe style="margin:auto;" width="560" height="315" src="https://www.youtube.com/embed/o-1tc5cUHmg?si=DpP2HKgVWWg2cISc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
     },
 
     {
@@ -179,6 +180,14 @@ export const data = [
         description:`<p>Small webapp to extract the main keywords from a text. Made to learn about React and the OpenAI API. Based on a tutorial by Traversy Media.</p>`,
         github_link: "https://github.com/Tyronnosaurus/react-openai-keyword-extractor",
         live_link: "https://react-openai-keyword-extractor-202303.netlify.app/"
+    },
+
+    {
+        title: "React respository for hikes and climbing routes",
+        images: ["/pf/Tironades/1.png"],
+        tags: ['Hobby', 'WebDev', 'React', 'Javascript', 'Tailwind', 'Next.js'],
+        description:`<p>Small webapp I made for my father. He's been a prolific hiker and climber for decades and needed a repository to share many hikes and climbing routes.</p>`,
+        live_link: "https://tironades.netlify.com/"
     },
 
     {
