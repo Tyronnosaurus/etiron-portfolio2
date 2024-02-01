@@ -18,7 +18,7 @@ export default function ProjectsSection() {
       <>
         <section id="portfolio">
 
-          <h2 className="text-3xl">Portfolio</h2>
+          <h2 className="text-3xl">Skills & Projects</h2>
           <h5 className="text-xl">My Recent Work</h5>
 
           
