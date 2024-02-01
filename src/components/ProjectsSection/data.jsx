@@ -198,6 +198,13 @@ export const data = [
     },
 
     {
+        title: "Random file opener/shuffler",
+        images: ["/pf/RandomFileOpener/1.png", "/pf/RandomFileOpener/2.png"],
+        tags: ['Hobby', 'C#'],
+        description:`<p>Application that opens a random file within a folder/category. Useful when I'm in the mood for shuffling comics, music, etc. It also has many tools such as keyword search, deleting, file history, internet search, opening archives, sending to a "TO DO" folder, etc.</p>`
+    },
+
+    {
         title: "Self-hosted server",
         images: ["/pf/Server/0.png"],
         tags: ['Hobby', 'Linux', 'Docker'],
