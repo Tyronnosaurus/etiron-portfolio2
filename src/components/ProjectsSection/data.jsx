@@ -104,10 +104,20 @@ export const data = [
 
     {
         title: "Textile defect detection with convolutional neural networks & autoencoders",
-        images: ["/pf/TextileDefectDetection/0.png", "/pf/TextileDefectDetection/1.png", "/pf/TextileDefectDetection/2.png", "/pf/TextileDefectDetection/3.png", "/pf/TextileDefectDetection/4.png", "/pf/TextileDefectDetection/5.png",],
+        images: ["/pf/TextileDefectDetection/0.png", "/pf/TextileDefectDetection/1.png", "/pf/TextileDefectDetection/2.png", "/pf/TextileDefectDetection/3.png", "/pf/TextileDefectDetection/4.png", "/pf/TextileDefectDetection/5.png"],
         tags: ['Professional', 'Python', 'Pandas', 'Matplotlib', 'Tensorflow'],
         description:`<p>Python project to detect defects in a textile knitting machine with deep learning.</p>
         <p>I first trained a convolutional autoencoder with pictures without defects, and used it to reconstruct pictures with defects. This resulted in the defects being "healed", while maintaining the rest of the picture mostly undisturbed. From here, I could compare the differences between the original and the reconstructed picture to locate the defects.</p>`
+    },
+
+    {
+        title: "Exploratory data analysis of imprecise plastronics process",
+        images: ["/pf/PlastronicsEDA/1.jpg", "/pf/PlastronicsEDA/2.png", "/pf/PlastronicsEDA/3.png"],
+        tags: ['Professional', 'Python', 'Pandas', 'Matplotlib'],
+        description:`<p>A departament in my company had poor precision with a machine that applied small drops of solderpaste on a plastronics circuit (an electronic circuit printed on a flexible sheet of plastic).</p>
+        <p>I loaded data from many experiments, cleaned it, handled missing values, and performed feature engineering to facilitate analysis.
+        Then I did an EDA and found that one of the features (the interchangeable nozzle) was correlated with a bias in the Y coordinate of the deposition.</p>
+        <p>This project is a simple example of Data Science applied in a real setting.</p>`
     },
 
     {
