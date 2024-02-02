@@ -62,6 +62,20 @@ export const data = [
     },
 
     {
+        title: "Custom controller for heavily modified EV mining loader",
+        images: ["/pf/EVLoader/1.webp", "/pf/EVLoader/2.png", "/pf/EVLoader/3.jpeg", "/pf/EVLoader/4.jpeg", "/pf/EVLoader/5.png", "/pf/EVLoader/6.jpeg", "/pf/EVLoader/7.png", "/pf/EVLoader/8.png"],
+        tags: ['Professional', 'PLC', 'Codesys', 'Beijer', 'iX Developer', 'Ladder', 'ST', 'Python', 'J1939'],
+        description:`<p>A client requested a new controller for a heavily modified mining loader. I designed the architecture, chose the hardware, and implemented the following functions from scratch:</p>
+        <ul>
+            <li>Control of many new components: electric motors for traction and hidraulics, batteries, voltage converters, a compressor, pumps, fans, various sensors, an I/O module, etc.</li>
+            <li>Interaction with closed source propietary components, and emulation of components that were removed. This required extensive analysis of the protocols with Python and other tools.</li>
+            <li>Parametrizable traction system on either torque or speed mode.</li>
+            <li>Many useful functionalities: internationalization, user system with permissions, alarms, audit, plotting of important magnitudes over time, database visualization/backup/exporting, etc.</li>
+            <li>Over 40 screens for the operator to configure and monitor the different systems.</li>
+        </ul>`
+    },
+
+    {
         title: "FEA results visualizer",
         images: ["/pf/FEA visualizer/0.png", "/pf/FEA visualizer/1.png"],
         tags: ['Professional', 'Python', 'Matplotlib'],
@@ -103,10 +117,10 @@ export const data = [
     },
 
     {
-        title: "Textile defect detection with convolutional neural networks & autoencoders",
+        title: "Textile defect detection with CNN & autoencoders",
         images: ["/pf/TextileDefectDetection/0.png", "/pf/TextileDefectDetection/1.png", "/pf/TextileDefectDetection/2.png", "/pf/TextileDefectDetection/3.png", "/pf/TextileDefectDetection/4.png", "/pf/TextileDefectDetection/5.png"],
         tags: ['Professional', 'Python', 'Pandas', 'Matplotlib', 'Tensorflow'],
-        description:`<p>Python project to detect defects in a textile knitting machine with deep learning.</p>
+        description:`<p>Python project to detect defects in a textile knitting machine with deep learning (convolutional neural networks applied to the training of autoencoders).</p>
         <p>I first trained a convolutional autoencoder with pictures without defects, and used it to reconstruct pictures with defects. This resulted in the defects being "healed", while maintaining the rest of the picture mostly undisturbed. From here, I could compare the differences between the original and the reconstructed picture to locate the defects.</p>`
     },
 
@@ -114,7 +128,7 @@ export const data = [
         title: "Exploratory data analysis of imprecise plastronics process",
         images: ["/pf/PlastronicsEDA/1.jpg", "/pf/PlastronicsEDA/2.png", "/pf/PlastronicsEDA/3.png"],
         tags: ['Professional', 'Python', 'Pandas', 'Matplotlib'],
-        description:`<p>A departament in my company had poor precision with a machine that applied small drops of solderpaste on a plastronics circuit (an electronic circuit printed on a flexible sheet of plastic).</p>
+        description:`<p>A departament in my company was experiencing poor precision with a machine that applied small drops of solderpaste on a plastronics circuit (an electronic circuit printed on a flexible sheet of plastic).</p>
         <p>I loaded data from many experiments, cleaned it, handled missing values, and performed feature engineering to facilitate analysis.
         Then I did an EDA and found that one of the features (the interchangeable nozzle) was correlated with a bias in the Y coordinate of the deposition.</p>
         <p>This project is a simple example of Data Science applied in a real setting.</p>`
