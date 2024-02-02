@@ -103,6 +103,14 @@ export const data = [
     },
 
     {
+        title: "Textile defect detection with convolutional neural networks & autoencoders",
+        images: ["/pf/TextileDefectDetection/0.png", "/pf/TextileDefectDetection/1.png", "/pf/TextileDefectDetection/2.png", "/pf/TextileDefectDetection/3.png", "/pf/TextileDefectDetection/4.png", "/pf/TextileDefectDetection/5.png",],
+        tags: ['Professional', 'Python', 'Pandas', 'Matplotlib', 'Tensorflow'],
+        description:`<p>Python project to detect defects in a textile knitting machine with deep learning.</p>
+        <p>I first trained a convolutional autoencoder with pictures without defects, and used it to reconstruct pictures with defects. This resulted in the defects being "healed", while maintaining the rest of the picture mostly undisturbed. From here, I could compare the differences between the original and the reconstructed picture to locate the defects.</p>`
+    },
+
+    {
         title: "Python simulator for trading strategies",
         images: ["/pf/Backtrader/0.jpg", "/pf/Backtrader/1.png"],
         tags: ['Hobby', 'Python', 'Pandas', 'Matplotlib'],
