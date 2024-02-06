@@ -339,7 +339,7 @@ export const data = [
     {
         title: "Semi-automated assembly line",
         images: ["/pf/Claymore production line/production line.png"],
-        tags: ['Academic', 'SolidWorks', 'PLC'],
+        tags: ['Academic', 'SolidWorks', 'PLC', 'Ladder'],
         description:`<p>This project was developed as the final project for an MSc in Mechatronics. It includes:</p>
         <ul>
             <li>Redesign of an existing product to conform to manufacturing standards.</li>
@@ -492,9 +492,14 @@ export const data = [
     {
         title: "Portfolio",
         images: ["/pf/Portfolio/0.jpg", "/pf/Portfolio/1.jpg"],
-        tags: ['Hobby', 'WebDev', 'HTML', 'CSS', 'Javascript', 'Bootstrap'],
+        tags: ['Hobby', 'WebDev', 'HTML', 'CSS', 'Javascript', 'Bootstrap', 'React', 'Tailwind'],
         description:`<p>A website where I showcase my projects. It allows filtering by tags, and shows a popup with more info whenever an entry is clicked.</p>
-        <p>Done with HTML, CSS, a bit of Javascript, and some Bootstrap features such as Modal and Carousel.</p>`,
+        <p>It has had many revisions over the years. I've redone it from scratch in three different technologies:
+        <ul>
+            <li>Wordpress</li>
+            <li>Pure HTML, CSS and Javascript, with some Bootstrap features such as Modal and Carousel.</li>
+            <li>React, Tailwind</li>
+        </ul>`,
         github_link: "https://github.com/Tyronnosaurus/portfolio"
     },
     

@@ -19,7 +19,7 @@ const NavBar = () => {
                 </div>
 
                 <h1 className="text-3xl hidden sm:block">
-                    Eduard Tiron - Full-stack Developer
+                    Eduard Tiron - Portfolio
                 </h1>
             </div>
 

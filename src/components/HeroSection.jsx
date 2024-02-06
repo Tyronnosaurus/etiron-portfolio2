@@ -76,14 +76,13 @@ export const HeroSection = () => {
           <p className='my-4 font-medium w-full
                         text-xs md:text-sm lg:text-base
                         text-center lg:text-left'>
-            Full-stack Developer | Mechatronics engineer
+            Software engineer | Mechatronics engineer
           </p>
 
           <p className='my-4 font-medium  w-full
                         text-xs md:text-sm lg:text-base
                         text-center lg:text-left'>
-            As a skilled, self-driven full-stack developer and mechatronics engineer, I am dedicated to turning ideas into innovative web applications. 
-            Explore my latest projects, showcasing my expertise in React.js and web development.
+            As a skilled, self-driven software and mechatronics engineer, I am dedicated to turning problems into ideas, and ideas into practical solutions.
           </p>
 
 
