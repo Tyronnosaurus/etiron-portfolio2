@@ -143,6 +143,13 @@ export const data = [
     },
 
     {
+        title: "gCode separator to walls, infill and helpers",
+        images: ["/pf/GcodeSeparator/1.png"],
+        tags: ['Professional', 'Python', '3D printing'],
+        description:`<p>Script that separates a gCode file into 3 gCode files for walls, infill and helpers. It was a request from a client who needed it for a research project.</p>`
+    },
+
+    {
         title: "React Dashboard",
         images: ["/pf/ReactDashboard/1.png", "/pf/ReactDashboard/2.png", "/pf/ReactDashboard/3.png", "/pf/ReactDashboard/4.png", "/pf/ReactDashboard/5.png", "/pf/ReactDashboard/6.png"],
         tags: ['Hobby', 'WebDev', 'React', 'HTML', 'CSS', 'Javascript'],
