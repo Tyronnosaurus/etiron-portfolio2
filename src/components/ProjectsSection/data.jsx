@@ -152,7 +152,7 @@ export const data = [
     {
         title: "React Dashboard",
         images: ["/pf/ReactDashboard/1.png", "/pf/ReactDashboard/2.png", "/pf/ReactDashboard/3.png", "/pf/ReactDashboard/4.png", "/pf/ReactDashboard/5.png", "/pf/ReactDashboard/6.png"],
-        tags: ['Hobby', 'WebDev', 'React', 'HTML', 'CSS', 'Javascript'],
+        tags: ['Academic', 'WebDev', 'React', 'HTML', 'CSS', 'Javascript'],
         description:`<p>A simple static dashboard with day/night mode, pages with many different menus and graphics, and a main page with a summary of the pages.</p>
                      <p>Based on <a href="https://www.youtube.com/watch?v=wYpCWwD1oz0">this tutorial</a>.</p>`,
         github_link: "https://github.com/Tyronnosaurus/react-dashboard"
@@ -161,7 +161,7 @@ export const data = [
     {
         title: "React Tinder clone",
         images: ["/pf/TinderClone/1.png", "/pf/TinderClone/2.png", "/pf/TinderClone/3.png", "/pf/TinderClone/4.png"],
-        tags: ['Hobby', 'WebDev', 'React', 'HTML', 'CSS', 'Javascript'],
+        tags: ['Academic', 'WebDev', 'React', 'HTML', 'CSS', 'Javascript'],
         description:`<p>A simple Tinder clone where users can register, create a profile, and match and chat with each other. Data is stored on a MongoDB database through an API.</p>
                      <p>Based on <a href="https://www.youtube.com/watch?v=Q70IMS-Qnjk">this tutorial</a>.</p>`,
         github_link: "https://github.com/Tyronnosaurus/tinder-clone"
@@ -197,7 +197,7 @@ export const data = [
     {
         title: "Task tracker made in React",
         images: ["/pf/ReactTaskTracker/1.jpg", "/pf/ReactTaskTracker/2.jpg"],
-        tags: ['Hobby', 'WebDev', 'React', 'Javascript'],
+        tags: ['Academic', 'WebDev', 'React', 'Javascript'],
         description:`<p>Small webapp to schedule tasks. Made to learn about React, various React hooks, and React Router. Based on a tutorial by Traversy Media.</p>`,
         github_link: "https://github.com/Tyronnosaurus/react-task-tracker",
         live_link: "https://react-task-tracker-202303.netlify.app/"
@@ -206,7 +206,7 @@ export const data = [
     {
         title: "Budget tracker made in React",
         images: ["/pf/BudgetTracker/1.jpg"],
-        tags: ['Hobby', 'WebDev', 'React', 'Javascript'],
+        tags: ['Academic', 'WebDev', 'React', 'Javascript'],
         description:`<p>Small webapp to create budgets and expenses. Made to learn about React, various React hooks, and React Router. Based on a tutorial by Traversy Media.</p>`,
         github_link: "https://github.com/Tyronnosaurus/budget-tracker",
         live_link: "https://budget-tracker-202303.netlify.app/"
@@ -215,7 +215,7 @@ export const data = [
     {
         title: "React OpenAI Keyword Extractor",
         images: ["/pf/KeywordExtractor/1.jpg", "/pf/KeywordExtractor/2.jpg"],
-        tags: ['Hobby', 'WebDev', 'React', 'Javascript'],
+        tags: ['Academic', 'WebDev', 'React', 'Javascript'],
         description:`<p>Small webapp to extract the main keywords from a text. Made to learn about React and the OpenAI API. Based on a tutorial by Traversy Media.</p>`,
         github_link: "https://github.com/Tyronnosaurus/react-openai-keyword-extractor",
         live_link: "https://react-openai-keyword-extractor-202303.netlify.app/"
@@ -226,7 +226,8 @@ export const data = [
         images: ["/pf/Tironades/1.png"],
         tags: ['Hobby', 'WebDev', 'React', 'Javascript', 'Tailwind', 'Next.js'],
         description:`<p>Small webapp I made for my father. He's been a prolific hiker and climber for decades and needed a repository to share many hikes and climbing routes.</p>`,
-        live_link: "https://tironades.netlify.com/"
+        live_link: "https://tironades.netlify.com/",
+        github_link: "https://github.com/Tyronnosaurus/tironades"
     },
 
     {
