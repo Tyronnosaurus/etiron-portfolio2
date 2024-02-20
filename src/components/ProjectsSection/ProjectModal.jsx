@@ -55,9 +55,15 @@ const ProjectModal = ({modalData, show, handleClose}) => {
             <div className="description text-left" dangerouslySetInnerHTML={{__html: modalData.description}} />
 
             <div className="flex flex-row gap-10 justify-center py-2">
-                {modalData.github_link && <a href={modalData.github_link} target="_blank" rel="noreferrer"> <GithubIcon className="w-12"/> </a>}
+                {modalData.github_link &&
+                    <a href={modalData.github_link} target="_blank" rel="noreferrer">
+                        <GithubIcon />
+                    </a>
+                }
 
-                {modalData.live_link   && <LinkButton href={modalData.live_link} text="See live" />}
+                {modalData.live_link   &&
+                    <LinkButton href={modalData.live_link} text="See live" />
+                }
             </div>
 
             <div className="tags">{"Tags: " + modalData.tags.join(', ')}</div>
