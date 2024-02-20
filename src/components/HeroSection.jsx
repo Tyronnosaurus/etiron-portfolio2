@@ -40,7 +40,7 @@ export const HeroSection = () => {
   const handleResumeDownload = () => {
     const link = document.createElement('a');
     link.setAttribute('target', '_blank');  // To open in new tab
-    link.href = '/resume/Resume Eduard Tiron.pdf';
+    link.href = '/resume/Eduard Tiron - Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
