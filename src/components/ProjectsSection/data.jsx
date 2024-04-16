@@ -222,7 +222,7 @@ export const data = [
     },
 
     {
-        title: "React respository for hikes and climbing routes",
+        title: "React repository for hikes and climbing routes",
         images: ["/pf/Tironades/1.png"],
         tags: ['Hobby', 'WebDev', 'React', 'Javascript', 'Tailwind', 'Next.js'],
         description:`<p>Small webapp I made for my father. He's been a prolific hiker and climber for decades and needed a repository to share many hikes and climbing routes.</p>`,
