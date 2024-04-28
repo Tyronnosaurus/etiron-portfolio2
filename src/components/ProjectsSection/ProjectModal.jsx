@@ -48,7 +48,7 @@ const ProjectModal = ({modalData, show, handleClose}) => {
                 <CloseX />
             </button>
 
-            <h2 className="text-3xl pb-4">{modalData.title}</h2>
+            <h2 className="text-3xl pb-4 px-6">{modalData.title}</h2>
             
             <ControlledCarousel images={modalData.images} />
                 
