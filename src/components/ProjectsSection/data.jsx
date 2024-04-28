@@ -62,16 +62,16 @@ export const data = [
     },
 
     {
-        title: "Custom controller for heavily modified EV mining loader",
-        images: ["/pf/EVLoader/1.webp", "/pf/EVLoader/2.png", "/pf/EVLoader/3.jpeg", "/pf/EVLoader/4.jpeg", "/pf/EVLoader/5.png", "/pf/EVLoader/6.jpeg", "/pf/EVLoader/7.png", "/pf/EVLoader/8.png"],
+        title: "Custom controller for heavily modified mining EV",
+        images: ["/pf/EVLoader/1.webp", "/pf/EVLoader/3.jpeg", "/pf/EVLoader/5.png", "/pf/EVLoader/7.png", "/pf/EVLoader/8.png"],
         tags: ['Professional', 'PLC', 'Codesys', 'Beijer', 'iX Developer', 'Ladder', 'ST', 'Python', 'J1939'],
-        description:`<p>A client requested a new controller for a heavily modified mining loader. I designed the architecture, chose the hardware, and implemented the following functions from scratch:</p>
+        description:`<p>A client requested a new controller for their industrial mining EV. I selected the optimal controller, designed the architecture, and implemented the following from scratch:</p>
         <ul>
-            <li>Control of many new components: electric motors for traction and hidraulics, batteries, voltage converters, a compressor, pumps, fans, various sensors, an I/O module, etc.</li>
-            <li>Interaction with closed source propietary components, and emulation of components that were removed. This required extensive analysis of the protocols with Python and other tools.</li>
+            <li>Control of many new and old components: electric motors, hydraulics, batteries, voltage converters, a compressor, pumps, fans, various sensors, I/O modules, etc.</li>
+            <li>Interaction with closed source propietary components, and emulation of removed components. This required extensive analysis of the communication protocols with Python.</li>
             <li>Parametrizable traction system on either torque or speed mode.</li>
-            <li>Many useful functionalities: internationalization, user system with permissions, alarms, audit, plotting of important magnitudes over time, database visualization/backup/exporting, etc.</li>
-            <li>Over 40 screens for the operator to configure and monitor the different systems.</li>
+            <li>Multiple languages, user system with permissions, alarms, audit, plotting of important magnitudes over time, database backup...</li>
+            <li>Over 40 screens to configure and monitor the onboard systems.</li>
         </ul>`
     },
 
@@ -159,6 +159,15 @@ export const data = [
     },
 
     {
+        title: "React repository for hikes and climbing routes",
+        images: ["/pf/Tironades/1.png"],
+        tags: ['Hobby', 'WebDev', 'React', 'Javascript', 'Tailwind', 'Next.js'],
+        description:`<p>Small webapp I made for my father. He's been a prolific hiker and climber for decades and needed a repository to share many hikes and climbing routes.</p>`,
+        live_link: "https://tironades.netlify.com/",
+        github_link: "https://github.com/Tyronnosaurus/tironades"
+    },
+
+    {
         title: "React Tinder clone",
         images: ["/pf/TinderClone/1.png", "/pf/TinderClone/2.png", "/pf/TinderClone/3.png", "/pf/TinderClone/4.png"],
         tags: ['Academic', 'WebDev', 'React', 'HTML', 'CSS', 'Javascript'],
@@ -219,15 +228,6 @@ export const data = [
         description:`<p>Small webapp to extract the main keywords from a text. Made to learn about React and the OpenAI API. Based on a tutorial by Traversy Media.</p>`,
         github_link: "https://github.com/Tyronnosaurus/react-openai-keyword-extractor",
         live_link: "https://react-openai-keyword-extractor-202303.netlify.app/"
-    },
-
-    {
-        title: "React repository for hikes and climbing routes",
-        images: ["/pf/Tironades/1.png"],
-        tags: ['Hobby', 'WebDev', 'React', 'Javascript', 'Tailwind', 'Next.js'],
-        description:`<p>Small webapp I made for my father. He's been a prolific hiker and climber for decades and needed a repository to share many hikes and climbing routes.</p>`,
-        live_link: "https://tironades.netlify.com/",
-        github_link: "https://github.com/Tyronnosaurus/tironades"
     },
 
     {
