@@ -56,7 +56,7 @@ export const data = [
     {
         title: "React webapp to chat with PDFs",
         images: ["/pf/PdfChat/1.png", "/pf/PdfChat/2.png"],
-        tags: ['Academic', 'WebDev', 'React', 'HTML', 'CSS', 'Javascript', 'TypeScript', 'Tailwind', 'Next.js'],
+        tags: ['Academic', 'WebDev', 'React.js', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Tailwind', 'Next.js'],
         description:`<p>A complete webapp where you can upload a PDF and ask questions about it in plain English. Includes everything a SaaS would need: user registration, database, different plans, payment processor, etc.</p>
                      <p>Based on <a href="https://www.youtube.com/watch?v=ucX2zXAZ1I0">this tutorial</a>.</p>`,
         github_link: "https://github.com/Tyronnosaurus/quill"
@@ -161,7 +161,7 @@ export const data = [
     {
         title: "React Dashboard",
         images: ["/pf/ReactDashboard/1.png", "/pf/ReactDashboard/2.png", "/pf/ReactDashboard/3.png", "/pf/ReactDashboard/4.png", "/pf/ReactDashboard/5.png", "/pf/ReactDashboard/6.png"],
-        tags: ['Academic', 'WebDev', 'React', 'HTML', 'CSS', 'Javascript'],
+        tags: ['Academic', 'WebDev', 'React.js', 'HTML', 'CSS', 'JavaScript'],
         description:`<p>A simple static dashboard with day/night mode, pages with many different menus and graphics, and a main page with a summary of the pages.</p>
                      <p>Based on <a href="https://www.youtube.com/watch?v=wYpCWwD1oz0">this tutorial</a>.</p>`,
         github_link: "https://github.com/Tyronnosaurus/react-dashboard"
@@ -170,7 +170,7 @@ export const data = [
     {
         title: "React repository for hikes and climbing routes",
         images: ["/pf/Tironades/1.png"],
-        tags: ['Hobby', 'WebDev', 'React', 'Javascript', 'Tailwind', 'Next.js'],
+        tags: ['Hobby', 'WebDev', 'React.js', 'JavaScript', 'Tailwind', 'Next.js'],
         description:`<p>Small webapp I made for my father. He's been a prolific hiker and climber for decades and needed a repository to share many hikes and climbing routes.</p>`,
         live_link: "https://tironades.netlify.com/",
         github_link: "https://github.com/Tyronnosaurus/tironades"
@@ -179,7 +179,7 @@ export const data = [
     {
         title: "React Tinder clone",
         images: ["/pf/TinderClone/1.png", "/pf/TinderClone/2.png", "/pf/TinderClone/3.png", "/pf/TinderClone/4.png"],
-        tags: ['Academic', 'WebDev', 'React', 'HTML', 'CSS', 'Javascript'],
+        tags: ['Academic', 'WebDev', 'React.js', 'HTML', 'CSS', 'JavaScript'],
         description:`<p>A simple Tinder clone where users can register, create a profile, and match and chat with each other. Data is stored on a MongoDB database through an API.</p>
                      <p>Based on <a href="https://www.youtube.com/watch?v=Q70IMS-Qnjk">this tutorial</a>.</p>`,
         github_link: "https://github.com/Tyronnosaurus/tinder-clone"
@@ -197,7 +197,7 @@ export const data = [
     {
         title: "Firefox extension: URL tagger",
         images: ["/None.png"],
-        tags: ['Hobby', 'WebDev', 'Javascript'],
+        tags: ['Hobby', 'WebDev', 'JavaScript'],
         description:`<p>Firefox add-on, based on WebExtensions. It lets the user manually tag a website as 'Seen', 'Want', 'Reached', 'ToDo'... Links to that website will then be accompanied by the correpsonding icon.</p>
         <p>I made this mostly for self use, since I often find myself reading things I had already read years ago. The browsing history is useful but it eventually cleans old items (or else it would be gigantic). This extension serves me as a more permanent alternative.`,
         github_link: "https://github.com/Tyronnosaurus/site-tags"
@@ -206,7 +206,7 @@ export const data = [
     {
         title: "Firefox extension: Zoom single item",
         images: ["/pf/ZoomSingleItem/2.png", "/pf/ZoomSingleItem/3.jpg", "/pf/ZoomSingleItem/4.png"],
-        tags: ['Hobby', 'WebDev', 'Javascript'],
+        tags: ['Hobby', 'WebDev', 'JavaScript'],
         description:`<p>Firefox add-on, based on WebExtensions. It lets the user permanently resize a single element in a website (including all pages in the same domain).</p>        
         <p>This could be useful for accessibility, or simply for when a very repetitive task is cumbersome due to constantly having to click very small items on a website.</p>`,
         github_link: "https://github.com/Tyronnosaurus/zoom-single-item"
@@ -215,7 +215,7 @@ export const data = [
     {
         title: "Task tracker made in React",
         images: ["/pf/ReactTaskTracker/1.jpg", "/pf/ReactTaskTracker/2.jpg"],
-        tags: ['Academic', 'WebDev', 'React', 'Javascript'],
+        tags: ['Academic', 'WebDev', 'React.js', 'JavaScript'],
         description:`<p>Small webapp to schedule tasks. Made to learn about React, various React hooks, and React Router. Based on a tutorial by Traversy Media.</p>`,
         github_link: "https://github.com/Tyronnosaurus/react-task-tracker",
         live_link: "https://react-task-tracker-202303.netlify.app/"
@@ -224,7 +224,7 @@ export const data = [
     {
         title: "Budget tracker made in React",
         images: ["/pf/BudgetTracker/1.jpg"],
-        tags: ['Academic', 'WebDev', 'React', 'Javascript'],
+        tags: ['Academic', 'WebDev', 'React.js', 'JavaScript'],
         description:`<p>Small webapp to create budgets and expenses. Made to learn about React, various React hooks, and React Router. Based on a tutorial by Traversy Media.</p>`,
         github_link: "https://github.com/Tyronnosaurus/budget-tracker",
         live_link: "https://budget-tracker-202303.netlify.app/"
@@ -233,7 +233,7 @@ export const data = [
     {
         title: "React OpenAI Keyword Extractor",
         images: ["/pf/KeywordExtractor/1.jpg", "/pf/KeywordExtractor/2.jpg"],
-        tags: ['Academic', 'WebDev', 'React', 'Javascript'],
+        tags: ['Academic', 'WebDev', 'React.js', 'JavaScript'],
         description:`<p>Small webapp to extract the main keywords from a text. Made to learn about React and the OpenAI API. Based on a tutorial by Traversy Media.</p>`,
         github_link: "https://github.com/Tyronnosaurus/react-openai-keyword-extractor",
         live_link: "https://react-openai-keyword-extractor-202303.netlify.app/"
@@ -502,7 +502,7 @@ export const data = [
     {
         title: "Portfolio",
         images: ["/pf/Portfolio/0.jpg", "/pf/Portfolio/1.jpg"],
-        tags: ['Hobby', 'WebDev', 'HTML', 'CSS', 'Javascript', 'Bootstrap', 'React', 'Tailwind'],
+        tags: ['Hobby', 'WebDev', 'HTML', 'CSS', 'JavaScript', 'Bootstrap', 'React.js', 'Tailwind'],
         description:`<p>A website where I showcase my projects. It allows filtering by tags, and shows a popup with more info whenever an entry is clicked.</p>
         <p>It has had many revisions over the years. I've redone it from scratch in three different technologies:
         <ul>

@@ -129,13 +129,13 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
           <CategoryHeader title="WebDev" />
           <div className="flex flex-row flex-wrap items-center gap-2 p-2">
             <ButtonFilter name="WebDev"          icon={webdevIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="React"           icon={reactIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="React.js"           icon={reactIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="Next.js"         icon={nextjsIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="Tailwind"        icon={tailwindIcon}    activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="Javascript"      icon={javascriptIcon}  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="JavaScript"      icon={javascriptIcon}  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="TypeScript"      icon={typescriptIcon}  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="HTML"            icon={htmlIcon}        activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="CSS"             icon={cssIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="Tailwind"        icon={tailwindIcon}    activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="Bootstrap"       icon={bootstrapIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="Wordpress"       icon={wordpressIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           </div>
