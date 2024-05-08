@@ -54,6 +54,15 @@ export const data = [
     },
 
     {
+        title: "React webapp to chat with PDFs",
+        images: ["/pf/PdfChat/1.png", "/pf/PdfChat/2.png"],
+        tags: ['Academic', 'WebDev', 'React', 'HTML', 'CSS', 'Javascript', 'TypeScript', 'Tailwind', 'Next.js'],
+        description:`<p>A complete webapp where you can upload a PDF and ask questions about it in plain English. Includes everything a SaaS would need: user registration, database, different plans, payment processor, etc.</p>
+                     <p>Based on <a href="https://www.youtube.com/watch?v=ucX2zXAZ1I0">this tutorial</a>.</p>`,
+        github_link: "https://github.com/Tyronnosaurus/quill"
+    },
+
+    {
         title: "IIOT Telemetrics Software",
         images: ["/pf/IIOT telemetrics/0.png", "/pf/IIOT telemetrics/1.jpg"],
         tags: ['Professional', 'PLC', 'Codesys', 'Python', 'Docker', 'Ladder', 'ST', 'Turck', 'Panasonic', 'FPWIN', 'HMWIN', 'MQTT', 'Node-RED', 'TX Visu Pro'],
