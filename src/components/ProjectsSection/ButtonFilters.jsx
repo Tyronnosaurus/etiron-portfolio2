@@ -7,6 +7,7 @@ import pythonIcon from '../../assets/icons/pythonIcon.png';
 import cppIcon from '../../assets/icons/cppIcon.png';
 import csharpIcon from '../../assets/icons/csharpIcon.png';
 import javascriptIcon from '../../assets/icons/javascriptIcon.png';
+import typescriptIcon from '../../assets/icons/typescriptIcon.png';
 import reactIcon from '../../assets/icons/reactIcon.svg';
 import wordpressIcon from '../../assets/icons/wordpressIcon.png';
 import htmlIcon from '../../assets/icons/htmlIcon.png';
@@ -132,6 +133,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
             <ButtonFilter name="Next.js"         icon={nextjsIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="Tailwind"        icon={tailwindIcon}    activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="Javascript"      icon={javascriptIcon}  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="TypeScript"      icon={typescriptIcon}  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="HTML"            icon={htmlIcon}        activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="CSS"             icon={cssIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="Bootstrap"       icon={bootstrapIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
