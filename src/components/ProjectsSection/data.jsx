@@ -57,7 +57,8 @@ export const data = [
         title: "React webapp to chat with PDFs",
         images: ["/pf/PdfChat/1.png", "/pf/PdfChat/2.png"],
         tags: ['Academic', 'WebDev', 'React.js', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Tailwind', 'Next.js'],
-        description:`<p>A complete webapp where you can upload a PDF and ask questions about it in plain English. Includes everything a SaaS would need: user registration, database, different plans, payment processor, etc.</p>
+        description:`<p>A complete webapp where you can upload a PDF and ask questions about it in plain English. Includes everything a SaaS would need: responsiveness, user registration, database, different plans, payment processor, chat with infinite scrolling, etc.</p>
+                     <p>Whenever a PDF is uploaded, it is analysed and each page has its text converted to vector embeddings. When a user asks a question, the question is also converted to a vector embedding. A comparison is done to find out which pages are semantically closer to the question. Finally, a prompt is sent to an AI service with both the question and the relevant text from the PDF. The answer is streamed into a chat message, and the user can then ask further questions.
                      <p>Based on <a href="https://www.youtube.com/watch?v=ucX2zXAZ1I0">this tutorial</a>.</p>`,
         github_link: "https://github.com/Tyronnosaurus/quill"
     },
