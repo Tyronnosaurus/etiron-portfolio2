@@ -173,7 +173,7 @@ export const data = [
         images: ["/pf/Tironades/1.png"],
         tags: ['Hobby', 'WebDev', 'React.js', 'JavaScript', 'Tailwind', 'Next.js'],
         description:`<p>Small webapp I made for my father. He's been a prolific hiker and climber for decades and needed a repository to share many hikes and climbing routes.</p>`,
-        live_link: "https://tironades.netlify.com/",
+        live_link: "https://tironades.netlify.app/",
         github_link: "https://github.com/Tyronnosaurus/tironades"
     },
 
