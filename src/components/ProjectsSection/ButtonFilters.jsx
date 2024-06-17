@@ -41,6 +41,8 @@ import kicadIcon from '../../assets/icons/kicadIcon.png';
 import tractorIcon from '../../assets/icons/tractorIcon.png';
 import nextjsIcon from '../../assets/icons/nextjsIcon.png';
 import tailwindIcon from '../../assets/icons/tailwindIcon.png';
+import scikitLearnIcon from '../../assets/icons/scikitLearnIcon.png';
+import qtIcon from '../../assets/icons/qtIcon.png';
 
 
 const ButtonFilter = ({name, icon, activeFilter, handleClickFilter}) => {
@@ -129,7 +131,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
           <CategoryHeader title="WebDev" />
           <div className="flex flex-row flex-wrap items-center gap-2 p-2">
             <ButtonFilter name="WebDev"          icon={webdevIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="React.js"           icon={reactIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="React.js"        icon={reactIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="Next.js"         icon={nextjsIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="JavaScript"      icon={javascriptIcon}  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="TypeScript"      icon={typescriptIcon}  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
@@ -147,6 +149,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
             <ButtonFilter name="C++"             icon={cppIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="C#"              icon={csharpIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="Python"          icon={pythonIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="Qt"              icon={qtIcon}          activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           </div>
         </div>
 
@@ -155,6 +158,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
           <div className="flex flex-row flex-wrap items-center gap-2 p-2">
             <ButtonFilter name="Pandas"          icon={pandasIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="Matplotlib"      icon={matplotlibIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="scikit-learn"    icon={scikitLearnIcon}    activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="Tensorflow"      icon={tensorflowIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="Node-RED"        icon={noderedIcon}        activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="MQTT"            icon={mqttIcon}           activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
