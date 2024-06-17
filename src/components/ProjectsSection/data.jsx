@@ -189,10 +189,19 @@ export const data = [
     {
         title: "Comic resizer with size anomaly detection",
         images: ["/pf/ComicResizer/0.png"],
-        tags: ['Hobby', 'Python'],
+        tags: ['Hobby', 'Python', 'Qt'],
         description:`<p>Utility to batch resize all pages of a comic, with automatic detection of double pages and other size related anomalies.</p>
         <p>If smart resizing is enabled, pages which are considerably larger or smaller than the majority will not be resized to the user specified size, but rather to a proportional size based on its original ratio to the other pages.</p>`,
         github_link: "https://github.com/Tyronnosaurus/ComicResizer"
+    },
+
+    {
+        title: "Automatic file organizer with Machine Learning",
+        images: ["/pf/FileOrganizer/1.png"],
+        tags: ['Hobby', 'Python', 'Pandas', 'scikit-learn', 'Qt'],
+        description:`<p>Utility to automatically organize files on a hierarchical folder structure.</p>
+        <p>It allows the user to train a model on a collection of previously organized files. Each new file to organize has its filename analyzed and is given 4 possible destinations in decreasing order of confidence.</p>
+        <p>I use it regularly and will probably continue to do so for the rest of my life.</p>`,
     },
 
     {
