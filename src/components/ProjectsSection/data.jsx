@@ -266,7 +266,7 @@ export const data = [
     {
         title: "Self-hosted server",
         images: ["/pf/Server/0.png"],
-        tags: ['Hobby', 'Linux', 'Docker'],
+        tags: ['Hobby', 'Linux', 'Docker', 'WebDev', 'Wordpress'],
         description:` <p>Self-hosted server which I use or have used for the following services:</p>
         <ul>
             <li>VPN: To access my home network and to encrypt my traffic while on public networks.</li>
@@ -455,7 +455,7 @@ export const data = [
     {
         title: "Remotely operated surgical robot",
         images: ["/pf/Surgical robot/0.jpg"],
-        tags: ['Hobby'],
+        tags: ['Hobby', 'Electronics'],
         description:`<p>Robot capable of moving a tool according to instructions sent over the internet.</p>
         <p>It was a 4 member team's entry into a robotics competition to design an upscaled prototype of a robot capable of performing eye surgery. It won first place.</p>`
     },
@@ -533,8 +533,14 @@ export const data = [
             <li>Handheld version: can be carried in a pocket and must be pressed on the forehead when needed.</li>
             <li>Mounted version: can be attached to the goggles permanently.</li>
         </ul>`
+    },
+
+    {
+        title: "Terminator sunglasses",
+        images: ["/pf/TerminatorGlasses/0.jpg"],
+        tags: ['Hobby', 'Electronics'],
+        description:`<p>Sunglasses with an LED, a coin cell, and a switch in a quickly soldered board. Probably (definitely) the simplest project in this portfolio.</p>`
     }
     
-
 ]
 
