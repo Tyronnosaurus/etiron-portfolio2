@@ -74,7 +74,7 @@ export const data = [
     {
         title: "Custom controller for heavily modified mining EV",
         images: ["/pf/EVLoader/1.webp", "/pf/EVLoader/3.jpeg", "/pf/EVLoader/5.png", "/pf/EVLoader/7.png", "/pf/EVLoader/8.png"],
-        tags: ['Professional', 'PLC', 'Codesys', 'Beijer', 'iX Developer', 'Ladder', 'ST', 'Python', 'J1939'],
+        tags: ['Professional', 'PLC', 'Codesys', 'Beijer', 'iX Developer', 'C#', 'Ladder', 'ST', 'Python', 'J1939'],
         description:`<p>A client requested a new controller for their industrial mining EV. I selected the optimal controller, designed the architecture, and implemented the following from scratch:</p>
         <ul>
             <li>Control of many new and old components: electric motors, hydraulics, batteries, voltage converters, a compressor, pumps, fans, various sensors, I/O modules, etc.</li>
