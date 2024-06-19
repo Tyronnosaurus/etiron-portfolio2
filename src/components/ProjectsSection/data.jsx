@@ -375,7 +375,8 @@ export const data = [
         tags: ['Academic', 'Arduino', 'C++', '3D printing', 'Electronics'],
         description:`<p>Set of five functional devices to protect homes and business against robberies. The system is scalable and makes use of various technologies: wireless RF communications, PIR movement detection, RFID identification, etc. It contains approximately 3000 lines of C++ code written by me, plus many public libraries.<p>
         <p>While all modules are in their breadboard phase, one of them has been redesigned as a soldered circuit inside a 3D printed enclosure, making it adequate for real use.</p>
-        <p>It was presented as my final engineering project and earned a 10/10 grade.</p>`
+        <p>It was presented as my final engineering project and earned a 10/10 grade.</p>`,
+        github_link:"https://github.com/Tyronnosaurus/arduino-alarm-system"
     },
 
     {
