@@ -504,7 +504,7 @@ export const data = [
     {
         title: "Terraforming game",
         images: ["/pf/TerraformGame/0.png", "/pf/TerraformGame/1.png", "/pf/TerraformGame/2.png", "/pf/TerraformGame/3.png"],
-        tags: ['Hobby', 'GameDev'],
+        tags: ['Hobby', 'GameDev', 'C#'],
         description:`<p>Ongoing Unity project in which I studied and refactored <a href="https://www.youtube.com/watch?v=vTMEdHcKgM4">Sebastian Lague's Terraforming project</a> to be able to use it as a mechanism on a game I've planned.</p>`,
     },
 
