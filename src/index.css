@@ -35,3 +35,9 @@ code {
 .ReactModal__Overlay--before-close{
   opacity: 0;
 }
+
+
+/* Links in modal */
+.ReactModal__Content a{
+  font-weight: bold;
+}

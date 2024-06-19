@@ -477,6 +477,13 @@ export const data = [
     },
 
     {
+        title: "Suitcase wheel replacement",
+        images: ["/pf/SuitcaseWheel/0.jpg", "/pf/SuitcaseWheel/1.jpg"],
+        tags: ['Hobby', '3D printing', 'SolidWorks'],
+        description:`<p>A simple repair for a travel suitcase whose wheel had broken. It worked well for a few short trips but I never dared take it on a long travel. It was mostly for practicing 3D design.</p>`
+    },
+
+    {
         title: "Access control system based on facial recognition",
         images: ["/pf/Access facial recognition/0.jpg"],
         tags: ['Hobby', 'Arduino', 'Electronics', '3D printing'],
@@ -492,6 +499,13 @@ export const data = [
         <p>It was made for fun by making a few modifications to <a href="http://www.instructables.com/id/Attiny-45-EMF-Sensor/">this tutorial</a>.</p>`
     },
     
+    {
+        title: "Terraforming game",
+        images: ["/pf/TerraformGame/0.png", "/pf/TerraformGame/1.png", "/pf/TerraformGame/2.png", "/pf/TerraformGame/3.png"],
+        tags: ['Hobby', 'GameDev'],
+        description:`<p>Ongoing Unity project in which I studied and refactored <a href="https://www.youtube.com/watch?v=vTMEdHcKgM4">Sebastian Lague's Terraforming project</a> to be able to use it as a mechanism on a game I've planned.</p>`,
+    },
+
     {
         title: "'Here Be Dragons' minigame",
         images: ["/pf/Here be dragons/0.png", "/pf/Here be dragons/1.jpg"],
