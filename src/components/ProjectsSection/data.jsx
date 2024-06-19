@@ -505,7 +505,9 @@ export const data = [
         title: "Terraforming game",
         images: ["/pf/TerraformGame/0.png", "/pf/TerraformGame/1.png", "/pf/TerraformGame/2.png", "/pf/TerraformGame/3.png"],
         tags: ['Hobby', 'GameDev', 'C#'],
-        description:`<p>Ongoing Unity project in which I studied and refactored <a href="https://www.youtube.com/watch?v=vTMEdHcKgM4">Sebastian Lague's Terraforming project</a> to be able to use it as a mechanism on a game I've planned.</p>`,
+        description:`<p>Ongoing Unity project in which I studied, refactored, and encapsulated <a href="https://www.youtube.com/watch?v=vTMEdHcKgM4">Sebastian Lague's Terraforming project</a> to be able to use it as a gameplay mechanism on a game I've planned.</p>
+        <p>It uses the Marching Cubes algorithm to create a scenario with a deformable mesh. The player can dig tunnels and create mountains by modifying the underlying grid of numbers that make up the world with their Terraforming tool.</p>
+        <p>It uses compute shaders, which means that the most CPU intensive parts of the world generation are delegated to the GPU and written in HLSL.</p>`,
     },
 
     {
