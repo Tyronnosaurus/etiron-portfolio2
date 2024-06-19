@@ -149,7 +149,8 @@ export const data = [
         images: ["/pf/Backtrader/0.jpg", "/pf/Backtrader/1.png"],
         tags: ['Hobby', 'Python', 'Pandas', 'Matplotlib'],
         description:`<p>Backtrader program written in Python, used to test trading strategies on a large set of historical stock prices.</p>
-        <p>My goal was to test and optimize a strategy which had been giving me good results using dummy trades, before I actually used real money.</p>`
+        <p>My goal was to test and optimize a strategy which had been giving me good results using dummy trades with fake money, before I actually used real money.</p>
+        <p>Unsurprisingly, I found out I'm not a genius stock trader and my strategy would have made me lose a lot of money.</p>`
     },
 
     {
