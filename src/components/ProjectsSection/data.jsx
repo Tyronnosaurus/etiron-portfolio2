@@ -100,7 +100,7 @@ export const data = [
     {
         title: "Cura plugin for FEA Stress analysis",
         images: ["/pf/Cura plugin/0.jpg", "/pf/Cura plugin/1.jpg"],
-        tags: ['Professional', 'Python', '3D Printing'],
+        tags: ['Professional', 'Python', '3D printing'],
         description:`<p>Research project with the goal of creating a plugin to preview if a 3D printed part would be able to withstand a set of loads, and to print it in the best orientation possible.</p>
         <ul>
             <li>Offers a new screen to input anchors and loads on selected faces.</li>
