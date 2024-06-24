@@ -542,15 +542,21 @@ export const data = [
     },
     
     {
-        title: "Safety goggles defogger",
-        images: ["/pf/Defogger/0.jpg", "/pf/Defogger/1.jpg"],
+        title: "Safety goggles defogger (handheld)",
+        images: ["/pf/Defogger/0.jpg"],
         tags: ['Hobby', 'SolidWorks', '3D printing', 'Electronics'],
         description:`<p>Airsoft players must always wear safety goggles. This, combined with the constant sweating, means that fogged goggles is a constant problem.</p>
-        <p>I developed two defoggers which, at the press of a button, force air circulation inside the goggles to quickly defog them in about 5 seconds.</p>
-        <ul>
-            <li>Handheld version: can be carried in a pocket and must be pressed on the forehead when needed.</li>
-            <li>Mounted version: can be attached to the goggles permanently.</li>
-        </ul>`
+        <p>I developed a handheld defogger which, at the press of a button, forces air circulation inside the goggles to quickly defog them in about 5 seconds.
+        The player can carry it in a pocket and press it on their forehead when needed.</p>`
+    },
+
+    {
+        title: "Safety goggles defogger (mounted)",
+        images: ["/pf/Defogger v2/1.jpg", "/pf/Defogger v2/2.png"],
+        tags: ['Hobby', 'SolidWorks', '3D printing', 'Electronics'],
+        description:`<p>Airsoft players must always wear safety goggles. This, combined with the constant sweating, means that fogged goggles is a constant problem.</p>
+        <p>I improved my previously designed handheld defogger to mount it directly on the most popular goggles used by airsoft players. At the press of a button, it forces
+        air circulation inside the goggles to quickly defog them in about 5 seconds.</p>`
     },
 
     {
