@@ -307,7 +307,7 @@ export const data = [
         images: ["/pf/MechatronicsEye/vid1.gif", "/pf/MechatronicsEye/1.jpg", "/pf/MechatronicsEye/2.jpg", "/pf/MechatronicsEye/3.jpg", "/pf/MechatronicsEye/4.jpg", "/pf/MechatronicsEye/5.jpg"],
         tags: ['Hobby', 'SolidWorks', '3D printing', 'C++', 'Electronics', 'Arduino'],
         description:`<p>This is a "living" book with an eye, much like the Book of Spells that the Sanderson Sisters posses in the movie Hocus Pocus.</p>
-                     <p>It wakes up when the book is shaken thanks to a vibration sensor. The eyes can rotate horizontally and vertically, and the two eyelids
+                     <p>It wakes up when the book is shaken thanks to a vibration sensor. The eye can rotate horizontally and vertically, and the two eyelids
                      move independently. Unlike other mechatronic eyes designs, this one places the servos on a single plane in order to be as flat as
                      possible and fit inside the hollow book.</p>
 
@@ -563,7 +563,7 @@ export const data = [
         title: "Terminator sunglasses",
         images: ["/pf/TerminatorGlasses/0.jpg"],
         tags: ['Hobby', 'Electronics'],
-        description:`<p>Sunglasses with an LED, a coin cell, and a switch in a quickly soldered board. Probably (definitely) the simplest project in this portfolio.</p>`
+        description:`<p>Sunglasses with an LED, a resistor, a coin cell, and a switch in a quickly soldered board. Probably (definitely) the simplest project in this portfolio.</p>`
     }
     
 ]
