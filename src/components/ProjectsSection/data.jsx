@@ -17,6 +17,14 @@ export const data = [
     },
 
     {
+        title: "Textile defect detection with CNN & autoencoders",
+        images: ["/pf/TextileDefectDetection/0.png", "/pf/TextileDefectDetection/1.png", "/pf/TextileDefectDetection/2.png", "/pf/TextileDefectDetection/3.png", "/pf/TextileDefectDetection/4.png", "/pf/TextileDefectDetection/5.png"],
+        tags: ['Professional', 'Python', 'Pandas', 'Matplotlib', 'Tensorflow'],
+        description:`<p>Python project to detect defects in a textile knitting machine with deep learning (convolutional neural networks applied to the training of autoencoders).</p>
+        <p>I first trained a convolutional autoencoder with pictures without defects, and used it to reconstruct pictures with defects. This resulted in the defects being "healed", while maintaining the rest of the picture mostly undisturbed. From here, I could compare the differences between the original and the reconstructed picture to locate the defects.</p>`
+    },
+
+    {
         title: "S1G Ultrasonic molding machine",
         images: ["/pf/S1G/sonoruss1g-1.jpg", "/pf/S1G/injections.jpg"],
         tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++'],
@@ -140,14 +148,6 @@ export const data = [
         tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++', 'ISOBUS', 'Electronics'],
         description:`<p>Research project in which we developed a tractor implement capable of fertilizing a field according to a variable feedrate map.</p>
         <p>I coded all the software and designed most of the electronics.</p>`
-    },
-
-    {
-        title: "Textile defect detection with CNN & autoencoders",
-        images: ["/pf/TextileDefectDetection/0.png", "/pf/TextileDefectDetection/1.png", "/pf/TextileDefectDetection/2.png", "/pf/TextileDefectDetection/3.png", "/pf/TextileDefectDetection/4.png", "/pf/TextileDefectDetection/5.png"],
-        tags: ['Professional', 'Python', 'Pandas', 'Matplotlib', 'Tensorflow'],
-        description:`<p>Python project to detect defects in a textile knitting machine with deep learning (convolutional neural networks applied to the training of autoencoders).</p>
-        <p>I first trained a convolutional autoencoder with pictures without defects, and used it to reconstruct pictures with defects. This resulted in the defects being "healed", while maintaining the rest of the picture mostly undisturbed. From here, I could compare the differences between the original and the reconstructed picture to locate the defects.</p>`
     },
 
     {
