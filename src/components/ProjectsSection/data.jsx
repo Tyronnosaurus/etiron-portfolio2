@@ -8,10 +8,10 @@ export const data = [
                      <br>
                      <iframe style="margin:auto;" width="560" height="315" src="https://www.youtube.com/embed/Px1rdv2ye8E?si=Z4FdX6XoaZyuMhXj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                      <br>
-                     <p>SaaS where you can upload annual reports of companies and extract summaries of the differences between two of them for any subject
-                     (e.g. how preformance in Europe changed between changed for different years of a particular company, or between two companies).
-                     It also includes a calculator to calculate custom KPIs even if they don't explicitely appear in the reports.</p>
-                     <p>The backend uses RAG (Retrieval Augmented Generation) to locate the pages with the most relevant information and prompt OpenIA with the necessary context to solve the query. To calculate custom KPIs, the app first queries OpenAI for the adequate formula and then attempts to find its operands within the document.</p>
+                     <p>SaaS where you can upload annual reports of companies and extract summaries of the differences between two reports, for any subject
+                     (e.g. how performance in Europe changed for different years of a particular company, or between two companies).
+                     It also includes a tool to calculate custom KPIs even if they don't explicitely appear in the reports.</p>
+                     <p>The backend uses RAG (Retrieval Augmented Generation) to locate the pages with the most relevant information and prompt OpenAI with the necessary context to solve the query. To calculate custom KPIs, the app first queries OpenAI for the adequate formula and then attempts to find its operands within the document.</p>
                      <p>Moreover, the website has responsiveness, user registration, file upload, a paid tier, payment processor, a chat with response streaming in real time and infinite scrolling, etc.</p>
                      <p>The project and its success wouldn't have been possible without <a href="https://www.linkedin.com/in/olivieropinotti/">Oliviero Pinnoti</a>, Ana Pedra, Olivier Lüthy and Clemens Beeken.</p>`
     },
