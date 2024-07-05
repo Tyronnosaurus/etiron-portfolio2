@@ -2,13 +2,14 @@
 export const data = [
     {
         title: "Webapp to compare annual reports and create custom KPIs",
-        images: ["/pf/AnnualReportChat/0.png", "/pf/AnnualReportChat/1.png"],
+        images: ["/pf/AnnualReportChat/0.png", "/pf/AnnualReportChat/1.png", "/pf/AnnualReportChat/2.jpg"],
         tags: ['Hobby', 'WebDev', 'React.js', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Tailwind', 'Next.js'],
         description:`<p style="color:red; text-align:center;">🏆 Winner of the SwissHacks 2024 Hackathon for financial innovation 🏆</p>
+                     <p>We participated on the Microsoft + Unique challenge, Finnancial Innovation with AI. As winners, we got invited to present our idea in Zurich's Point Zero Forum.</p>
                      <br>
                      <iframe style="margin:auto;" width="560" height="315" src="https://www.youtube.com/embed/Px1rdv2ye8E?si=Z4FdX6XoaZyuMhXj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                      <br>
-                     <p>SaaS where you can upload annual reports of companies and extract summaries of the differences between two reports, for any subject
+                     <p>The entry is a webapp where you can upload annual reports of companies and extract summaries of the differences between two reports, for any subject
                      (e.g. how performance in Europe changed for different years of a particular company, or between two companies).
                      It also includes a tool to calculate custom KPIs even if they don't explicitely appear in the reports.</p>
                      <p>The backend uses RAG (Retrieval Augmented Generation) to locate the pages with the most relevant information and prompt OpenAI with the necessary context to solve the query. To calculate custom KPIs, the app first queries OpenAI for the adequate formula and then attempts to find its operands within the document.</p>
