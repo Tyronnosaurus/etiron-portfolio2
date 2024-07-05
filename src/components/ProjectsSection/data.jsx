@@ -5,7 +5,7 @@ export const data = [
         images: ["/pf/AnnualReportChat/0.png", "/pf/AnnualReportChat/1.png", "/pf/AnnualReportChat/2.jpg"],
         tags: ['Hobby', 'WebDev', 'React.js', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Tailwind', 'Next.js'],
         description:`<p style="color:red; text-align:center;">🏆 Winner of the SwissHacks 2024 Hackathon for financial innovation 🏆</p>
-                     <p>We participated on the Microsoft + Unique challenge, Finnancial Innovation with AI. As winners, we got invited to present our idea in Zurich's Point Zero Forum.</p>
+                     <p>We participated in the Microsoft + Unique challenge, Financial Innovation with AI. As winners, we got invited to present our idea at the Point Zero Forum fintech conference.</p>
                      <br>
                      <iframe style="margin:auto;" width="560" height="315" src="https://www.youtube.com/embed/Px1rdv2ye8E?si=Z4FdX6XoaZyuMhXj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                      <br>
@@ -71,14 +71,6 @@ export const data = [
     },
 
     {
-        title: "Ultrasion's website",
-        images: ["/pf/Ultrasion website/1.png", "/pf/Ultrasion website/2.png"],
-        tags: ['Professional', 'WebDev', 'Wordpress'],
-        description:`<p>The company I was working on, Ultrasion, had a relatively old website. I remade it from scratch using Wordpress.</p>`,
-        live_link: "https://ultrasion.eu"
-    },
-
-    {
         title: "React webapp to chat with PDFs",
         images: ["/pf/PdfChat/1.png", "/pf/PdfChat/2.png"],
         tags: ['Academic', 'WebDev', 'React.js', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Tailwind', 'Next.js'],
@@ -86,6 +78,14 @@ export const data = [
                      <p>Whenever a PDF is uploaded, it is analysed and each page has its text converted to vector embeddings. When a user asks a question, the question is also converted to a vector embedding. A comparison is done to find out which pages are semantically closer to the question. Finally, a prompt is sent to an AI service with both the question and the relevant text from the PDF. The answer is streamed into a chat message, and the user can then ask further questions.
                      <p>Based on <a href="https://www.youtube.com/watch?v=ucX2zXAZ1I0">this tutorial</a>.</p>`,
         github_link: "https://github.com/Tyronnosaurus/quill"
+    },
+
+    {
+        title: "Ultrasion's website",
+        images: ["/pf/Ultrasion website/1.png", "/pf/Ultrasion website/2.png"],
+        tags: ['Professional', 'WebDev', 'Wordpress'],
+        description:`<p>The company I was working on, Ultrasion, had a relatively old website. I remade it from scratch using Wordpress.</p>`,
+        live_link: "https://ultrasion.eu"
     },
 
     {
