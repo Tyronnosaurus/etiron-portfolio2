@@ -11,7 +11,7 @@ const ControlledCarousel = ({images}) => {
       <Carousel showArrows={true}>
 
         {images.map( (image, i) =>
-          <div className='h-[400px] bg-dark'>
+          <div className='h-[500px] bg-dark'>
             <img key={i} src={image} alt={"Project image "+i} 
                  className='h-full object-contain'/>
           </div>

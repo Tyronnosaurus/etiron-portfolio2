@@ -36,7 +36,7 @@ const ProjectModal = ({modalData, show, handleClose}) => {
         <Modal isOpen={show}
                onRequestClose={handleClose}
                onClick={handleClose}
-               className="absolute left-0 right-0 mx-auto top-16 w-[80%] max-w-[1000px] max-h-[90%]
+               className="absolute left-0 right-0 mx-auto top-16 w-[80%] max-w-[1200px] max-h-[90%]
                           border border-dark rounded-xl outline-none
                           p-5 overflow-y-auto 
                           bg-light"
