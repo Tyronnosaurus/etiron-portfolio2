@@ -14,7 +14,8 @@ export const data = [
                      It also includes a tool to calculate custom KPIs even if they don't explicitely appear in the reports.</p>
                      <p>The backend uses RAG (Retrieval Augmented Generation) to locate the pages with the most relevant information and prompt OpenAI with the necessary context to solve the query. To calculate custom KPIs, the app first queries OpenAI for the adequate formula and then attempts to find its operands within the document.</p>
                      <p>Moreover, the website has responsiveness, user registration, file upload, a paid tier, payment processor, a chat with response streaming in real time and infinite scrolling, etc.</p>
-                     <p>The project and its success wouldn't have been possible without <a href="https://www.linkedin.com/in/olivieropinotti/">Oliviero Pinnoti</a>, Ana Pedra, Olivier Lüthy and Clemens Beeken.</p>`
+                     <p>The project and its success wouldn't have been possible without <a href="https://www.linkedin.com/in/olivieropinotti/">Oliviero Pinnoti</a>, Ana Pedra, Olivier Lüthy and Clemens Beeken.</p>`,
+        live_link: "https://swisshacks2024.vercel.app"
     },
 
     {
