@@ -111,6 +111,17 @@ export const data = [
     },
 
     {
+        title: 'Digital Twin for the S2G',
+        images: ['/pf/S2G/Twin.png', '/pf/S2G/S2GCAD.png'],
+        tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++', 'Solidworks'],
+        description:`<p>The S2G machine (described in another project) contains many moving parts, and it is perfectly capable of destroying itself if not programmed properly.
+                        To prevent collisions between the axes, I developed a digital twin that connects to the machine's firmware running in simulated mode.
+                        This way, I could modify code related to motion and visually inspect the movements without danger or downtime.</p>
+                        
+                        <p>Moreover, I used the digital twin to prepare educational videos for our clients</p>.`
+     },
+
+    {
         title: "FEA results visualizer",
         images: ["/pf/FEA visualizer/0.png", "/pf/FEA visualizer/1.png"],
         tags: ['Professional', 'Python', 'Matplotlib'],
@@ -334,7 +345,7 @@ export const data = [
     },
 
     {
-        title: "Website for Airsoft DIY projects",
+        title: "Blog for Airsoft DIY projects",
         images: ["/pf/AirsoftDIY/airsoftdiy_scrnsht.png"],
         tags: ['Hobby', 'WebDev', 'Wordpress'],
         description:`<p>Blog featuring many DIY projects for airsoft enthusiasts. While I no longer practice it, I still have many projects and knowledge to write a good amount of posts.</p>
