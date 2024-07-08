@@ -14,7 +14,8 @@ export const data = [
                      It also includes a tool to calculate custom KPIs even if they don't explicitely appear in the reports.</p>
                      <p>The backend uses RAG (Retrieval Augmented Generation) to locate the pages with the most relevant information and prompt OpenAI with the necessary context to solve the query. To calculate custom KPIs, the app first queries OpenAI for the adequate formula and then attempts to find its operands within the document.</p>
                      <p>Moreover, the website has responsiveness, user registration, file upload, a paid tier, payment processor, a chat with response streaming in real time and infinite scrolling, etc.</p>
-                     <p>The project and its success wouldn't have been possible without <a href="https://www.linkedin.com/in/olivieropinotti/">Oliviero Pinnoti</a>, Ana Pedra, Olivier Lüthy and Clemens Beeken.</p>`
+                     <p>The project and its success wouldn't have been possible without <a href="https://www.linkedin.com/in/olivieropinotti/">Oliviero Pinnoti</a>, Ana Pedra, Olivier Lüthy and Clemens Beeken.</p>`,
+        live_link: "https://swisshacks2024.vercel.app"
     },
 
     {
@@ -118,7 +119,7 @@ export const data = [
                         To prevent collisions between the axes, I developed a digital twin that connects to the machine's firmware running in simulated mode.
                         This way, I could modify code related to motion and visually inspect the movements without danger or downtime.</p>
                         
-                        <p>Moreover, I used the digital twin to prepare educational videos for our clients</p>.`
+                        <p>Moreover, I used the digital twin to prepare educational videos for our clients.</p>`
      },
 
     {
@@ -136,7 +137,7 @@ export const data = [
     {
         title: "Cura plugin for FEA Stress analysis",
         images: ["/pf/Cura plugin/0.jpg", "/pf/Cura plugin/1.jpg"],
-        tags: ['Professional', 'Python', '3D printing'],
+        tags: ['Professional', 'Python', '3D printing', 'Qt'],
         description:`<p>Research project with the goal of creating a plugin to preview if a 3D printed part would be able to withstand a set of loads, and to print it in the best orientation possible.</p>
         <ul>
             <li>Offers a new screen to input anchors and loads on selected faces.</li>
