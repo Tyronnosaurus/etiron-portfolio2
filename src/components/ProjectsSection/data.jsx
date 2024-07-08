@@ -545,7 +545,10 @@ export const data = [
         tags: ['Academic', 'GameDev'],
         description:`<p>Tile-based action game using Flash.</p>
         <p>It was developed in a programming class by me and another student, and earned a 9/10 qualification.</p>
-        <p><a href="https://www.youtube.com/watch?v=L3Q6C7F_F30">Link to the trailer</a></p>`,
+        <p>Check out the trailer (⚠️ Warning: it's pretty loud at the beginning! ⚠️):</p>
+        <br>
+        <iframe style="margin:auto;" width="560" height="315" src="https://www.youtube.com/embed/L3Q6C7F_F30?si=WQMCx3Tm240pXkep" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>`,
     },
 
     {
