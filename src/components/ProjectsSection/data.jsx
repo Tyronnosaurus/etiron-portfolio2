@@ -552,6 +552,14 @@ export const data = [
     },
 
     {
+        title: "Robot arm interface for injection molding machine",
+        images: ["/pf/S1G/robotarm.jpg"],
+        tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++'],
+        description:`<p>Following the Euromap 63 standard, I implemented an interface for a robot arm to unload the manufactured plastic parts of the S1G injection molding machine.
+        This would allow our clients to integrate the machine into complex automated manufacturing processes and was a main selling point for our biggest potential buyers.</p>`
+    },
+
+    {
         title: "Dummy sound grenade for airsoft",
         images: ["/pf/Sound grenade/0.jpg", "/pf/Sound grenade/1.jpg", "/pf/Sound grenade/2.jpg"],
         tags: ['Hobby', 'C++', 'Arduino', 'Electronics', 'SolidWorks', '3D printing'],
