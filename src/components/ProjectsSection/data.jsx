@@ -578,7 +578,7 @@ export const data = [
             <li>Pure HTML, CSS and Javascript, with some Bootstrap features such as Modal and Carousel.</li>
             <li>React, Tailwind</li>
         </ul>`,
-        github_link: "https://github.com/Tyronnosaurus/portfolio"
+        github_link: "https://github.com/Tyronnosaurus/etiron-portfolio2"
     },
     
     {
