@@ -72,6 +72,15 @@ export const data = [
     },
 
     {
+        title: 'API to extract data from text to custom JSON with AI',
+        images: ["/pf/JsonAPI/1.png", "/pf/JsonAPI/2.png"],
+        tags: ['Academic', 'WebDev', 'TypeScript', 'Next.js'],
+        description:`<p>This project is an API which accepts a POST request containing text and a JSON schema. It will use AI to extract data from the text and return it as a JSON in the specified schema.</p>
+        <p>It includes a form to test the API without the need to use an external application like Postman.</p>`,
+        github_link: "https://github.com/Tyronnosaurus/text-to-json-api"
+    },
+
+    {
         title: "React webapp to chat with PDFs",
         images: ["/pf/PdfChat/1.png", "/pf/PdfChat/2.png"],
         tags: ['Academic', 'WebDev', 'React.js', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Tailwind', 'Next.js'],
