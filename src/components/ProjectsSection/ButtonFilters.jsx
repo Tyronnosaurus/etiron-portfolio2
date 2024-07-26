@@ -1,7 +1,6 @@
 import { useState } from "react"
 
 import workIcon from '../../assets/icons/workIcon.png';
-import universityIcon from '../../assets/icons/universityIcon.png';
 import homeIcon from '../../assets/icons/homeIcon.png';
 import pythonIcon from '../../assets/icons/pythonIcon.png';
 import cppIcon from '../../assets/icons/cppIcon.png';
@@ -120,8 +119,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
         <Separator />
         <div className="flex flex-row justify-center gap-2">
           <ButtonFilter name="Professional"    icon={workIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-          <ButtonFilter name="Academic"        icon={universityIcon} activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-          <ButtonFilter name="Hobby"           icon={homeIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Personal"        icon={homeIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
         </div>
       </div>
  
