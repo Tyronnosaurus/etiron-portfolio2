@@ -39,5 +39,5 @@ code {
 
 /* Links in modal */
 .ReactModal__Content a{
-  font-weight: bold;
+  text-decoration: underline;
 }
