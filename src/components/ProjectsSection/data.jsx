@@ -2,9 +2,9 @@
 export const data = [
     {
         title: "Webapp to compare annual reports and create custom KPIs",
-        images: ["/pf/AnnualReportChat/0.png", "/pf/AnnualReportChat/1.png", "/pf/AnnualReportChat/2.jpg"],
+        images: ["/pf/AnnualReportChat/0bis.png", "/pf/AnnualReportChat/0.png", "/pf/AnnualReportChat/1.png", "/pf/AnnualReportChat/2.jpg"],
         tags: ['Personal', 'WebDev', 'React.js', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Tailwind', 'Next.js'],
-        description:`<p style="color:red; text-align:center;">🏆 Winner of the SwissHacks 2024 Hackathon for financial innovation 🏆</p>
+        description:`<p style="color:red; text-align:center;">🏆 Winner of the <a href="https://www.swisshacks.com" target="_blank">SwissHacks 2024 Hackathon</a> for financial innovation 🏆</p>
                      <p>We participated in the Microsoft + Unique challenge, Financial Innovation with AI. As winners, we got invited to present our idea at the Point Zero Forum fintech conference.</p>
                      <br>
                      <iframe style="margin:auto;" width="560" height="315" src="https://www.youtube.com/embed/Px1rdv2ye8E?si=Z4FdX6XoaZyuMhXj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
