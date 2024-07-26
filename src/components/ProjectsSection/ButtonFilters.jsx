@@ -120,8 +120,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
         <Separator />
         <div className="flex flex-row justify-center gap-2">
           <ButtonFilter name="Professional"    icon={workIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-          <ButtonFilter name="Academic"        icon={universityIcon} activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-          <ButtonFilter name="Hobby"           icon={homeIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          <ButtonFilter name="Personal"        icon={homeIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
         </div>
       </div>
  
