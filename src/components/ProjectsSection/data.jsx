@@ -121,6 +121,14 @@ export const data = [
     },
 
     {
+        title: "Firmware for industrial EV battery",
+        images: ["/pf/EVLoader/battery.png"],
+        tags: ['Professional', 'PLC', 'Codesys', 'J1939'],
+        description:`<p>I wrote the firmware to control a swappable battery for an industrial EV. This battery is the size of a fridge and can provide or absorb very high currents.</p>
+        <p> It has heating and cooling systems and can be charged with standard EV charging stations.</p>`
+    },
+
+    {
         title: 'Digital Twin for the S2G',
         images: ['/pf/S2G/Twin.png', '/pf/S2G/S2GCAD.png'],
         tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++', 'Solidworks'],
