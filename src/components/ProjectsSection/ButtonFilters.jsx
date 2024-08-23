@@ -163,7 +163,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center gap-2 px-2 bg-light rounded-2xl justify-between">
+        <div className="flex flex-row items-center gap-2 px-2 bg-light rounded-2xl">
           <CategoryHeader title="Mechatronics" />
           <div className="flex flex-row flex-wrap items-center gap-2 p-2">
             <ButtonFilter name="PLC"             icon={plcIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
