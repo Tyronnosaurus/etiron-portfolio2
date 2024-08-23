@@ -243,6 +243,13 @@ export const data = [
     },
 
     {
+        title: "Comic chapter separator",
+        images: ["/pf/ComicProcessor/1.png", "/pf/ComicProcessor/2.png"],
+        tags: ['Personal', 'Python', 'Qt'],
+        description:`<p>Utility to automatically separate a comic magazine or volume into individual files for each chapter. If possible, it will automatically scrap the table of contents from the internet to know the starting page of each chapter.</p>`
+    },
+
+    {
         title: "Automatic file organizer with Machine Learning",
         images: ["/pf/FileOrganizer/1.png"],
         tags: ['Personal', 'Python', 'Pandas', 'scikit-learn', 'Qt'],
