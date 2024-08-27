@@ -234,6 +234,16 @@ export const data = [
     },
 
     {
+        title: "Node graph editor",
+        images: ["/pf/NodeGraph/0.png"],
+        tags: ['Personal', 'Python', 'Qt'],
+        description:`<p>Node graph editor with Python & Qt (PySide6).</p>
+                     <p>Based on [the tutorial by Pavel Křupala](https://www.youtube.com/watch?v=xbTLhMJARrk&list=PLZSNHzwDCOggHLThIbCxUhWTgrKVemZkz&index=1).</p>
+                     <p>My goal is to use it to complement a workflow automation application that I want to develop.</p>`,
+        github_link: "https://github.com/Tyronnosaurus/qt-node-graph"
+    },
+
+    {
         title: "Comic resizer with size anomaly detection",
         images: ["/pf/ComicResizer/0.png"],
         tags: ['Personal', 'Python', 'Qt'],
