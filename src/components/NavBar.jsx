@@ -18,7 +18,7 @@ const NavBar = () => {
                     <Logo/>
                 </div>
 
-                <h1 className="text-3xl hidden sm:block">
+                <h1 className="text-3xl hidden sm:block dark:text-dark">
                     Eduard Tiron - Portfolio
                 </h1>
             </div>

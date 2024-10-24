@@ -65,7 +65,7 @@ export const HeroSection = () => {
           
           <p className='mt-2 mb-0 font-medium w-full
                         text-xs md:text-sm lg:text-base
-                        text-center lg:text-left'>
+                        text-center lg:text-left dark:text-light'>
             Hello, I'm
           </p>
 
@@ -75,13 +75,13 @@ export const HeroSection = () => {
           
           <p className='my-4 font-medium w-full
                         text-xs md:text-sm lg:text-base
-                        text-center lg:text-left'>
+                        text-center lg:text-left dark:text-light'>
             Software engineer | Mechatronics engineer
           </p>
 
           <p className='my-4 font-medium  w-full
                         text-xs md:text-sm lg:text-base
-                        text-center lg:text-left'>
+                        text-center lg:text-left dark:text-light'>
             As a skilled, self-driven software and mechatronics engineer, I am dedicated to turning problems into ideas, and ideas into practical solutions.
           </p>
 
@@ -95,7 +95,7 @@ export const HeroSection = () => {
                           text-sm md:text-base
                           first-letter: bg-dark text-light hover:bg-light hover:text-dark
                           border-2 border-solid border-dark hover:border-dark
-                          dark:bg-light dark:text-dark dark:border-light dark:hover:bg-dark dark:hover:text-light'>
+                          dark:bg-light dark:text-dark dark:border-light dark:hover:bg-dark dark:hover:text-light dark:hover:border-light'>
               Email me
             </a>
 
@@ -105,7 +105,7 @@ export const HeroSection = () => {
                          text-sm md:text-base
                          bg-dark text-light hover:bg-light hover:text-dark
                          border-2 border-solid border-dark hover:border-dark
-                         dark:bg-light dark:text-dark dark:border-light dark:hover:bg-dark dark:hover:text-light'
+                         dark:bg-light dark:text-dark dark:border-light dark:hover:bg-dark dark:hover:text-light dark:hover:border-light'
               onClick={handleOpenQuestion}>
               Resume
             </button>
@@ -113,10 +113,10 @@ export const HeroSection = () => {
 
             {/* Security question */}
             {showQuestion && (
-              <div className='flex flex-col items-center p-2'>
+              <div className='flex flex-col items-center p-2 dark:text-light'>
                 <div>
                   What is 2+2?
-                  <input className='w-10 ml-1 border text-center' type="text" value={userAnswer} onChange={handleAnswerChange} />
+                  <input className='w-10 ml-1 border text-center dark:text-dark' type="text" value={userAnswer} onChange={handleAnswerChange} />
                 </div>
                 <button className='font-bold' onClick={handleCheckAnswer}>Download</button>
               </div>
