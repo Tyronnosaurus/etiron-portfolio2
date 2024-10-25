@@ -27,7 +27,7 @@ export const HeroSection = () => {
 
   // Check if the user's answer is correct
   const handleCheckAnswer = () => {  
-    if (userAnswer === '4') {
+    if (userAnswer === '4' || userAnswer.toLowerCase() === 'four') {
       handleResumeDownload();
       setShowQuestion(false);
       setQuestionAlreadyAnswered(true);
@@ -76,13 +76,13 @@ export const HeroSection = () => {
           <p className='my-4 font-medium w-full
                         text-xs md:text-sm lg:text-base
                         text-center lg:text-left dark:text-light'>
-            Software engineer | Mechatronics engineer
+            Software engineer | DevOps engineer | Mechatronics engineer
           </p>
 
           <p className='my-4 font-medium  w-full
                         text-xs md:text-sm lg:text-base
                         text-center lg:text-left dark:text-light'>
-            As a skilled, self-driven software and mechatronics engineer, I am dedicated to turning problems into ideas, and ideas into practical solutions.
+            As a skilled, self-driven engineer, I am dedicated to turning problems into ideas, and ideas into practical solutions.
           </p>
 
 
