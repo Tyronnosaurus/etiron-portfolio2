@@ -42,6 +42,12 @@ import nextjsIcon from '../../assets/icons/nextjsIcon.png';
 import tailwindIcon from '../../assets/icons/tailwindIcon.png';
 import scikitLearnIcon from '../../assets/icons/scikitLearnIcon.png';
 import qtIcon from '../../assets/icons/qtIcon.png';
+import jenkinsIcon from '../../assets/icons/jenkinsIcon.png';
+import terraformIcon from '../../assets/icons/terraformIcon.png';
+import awsIcon from '../../assets/icons/awsIcon.png';
+import helmIcon from '../../assets/icons/helmIcon.png';
+import kubernetesIcon from '../../assets/icons/kubernetesIcon.png';
+
 
 
 const ButtonFilter = ({name, icon, activeFilter, handleClickFilter}) => {
@@ -148,6 +154,20 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
             <ButtonFilter name="C#"              icon={csharpIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="Python"          icon={pythonIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="Qt"              icon={qtIcon}          activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="GameDev"         icon={gamedevIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+          </div>
+        </div>
+
+        <div className="flex flex-row items-center gap-2 px-2 bg-light rounded-2xl">
+          <CategoryHeader title="DevOps" />
+          <div className="flex flex-row flex-wrap items-center gap-2 p-2">
+            <ButtonFilter name="AWS"             icon={awsIcon}         activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="Linux"           icon={linuxIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="Kubernetes"      icon={kubernetesIcon}  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="Docker"          icon={dockerIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="Jenkins"         icon={jenkinsIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="Terraform"       icon={terraformIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="Helm"            icon={helmIcon}        activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           </div>
         </div>
 
@@ -178,6 +198,8 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
             <ButtonFilter name="TX Visu Pro"      icon={turckIcon}      activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="J1939"           icon={j1939Icon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="ISOBUS"          icon={tractorIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="SolidWorks"      icon={solidworksIcon}  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="3D printing"     icon={printingIcon}    activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           </div>
         </div>
 
@@ -191,16 +213,6 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center gap-2 px-2 bg-light rounded-2xl">
-          <CategoryHeader title="Others" />
-          <div className="flex flex-row flex-wrap items-center gap-2 p-2">
-            <ButtonFilter name="Linux"           icon={linuxIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="Docker"          icon={dockerIcon}       activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="GameDev"         icon={gamedevIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="SolidWorks"      icon={solidworksIcon}  activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-            <ButtonFilter name="3D printing"     icon={printingIcon}    activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
-          </div>
-        </div>
       </div>
 
       {(activeFilter === 'All') ? 
