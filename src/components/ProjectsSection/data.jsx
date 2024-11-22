@@ -72,6 +72,14 @@ export const data = [
     },
 
     {
+        title: 'Kubernetes deployment of Python application with Helm Chart',
+        images: ["/pf/HelloWorldK8sHelm.png"],
+        tags: ['Personal', 'DevOps', 'Helm', 'Kubernetes', 'Python', 'Docker'],
+        description:`<p>A simple example on how to create a Python app, containerize it, and install it on K8s with Helm & helmfile.d.</p>`,
+        github_link: "https://github.com/Tyronnosaurus/helm-chart-case-study"
+    },
+
+    {
         title: 'API to extract data from text to custom JSON with AI',
         images: ["/pf/JsonAPI/1.png", "/pf/JsonAPI/2.png"],
         tags: ['Personal', 'WebDev', 'TypeScript', 'Next.js'],
