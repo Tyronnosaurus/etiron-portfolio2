@@ -80,6 +80,22 @@ export const data = [
     },
 
     {
+        title: 'Jenkins CI/CD pipeline to deploy Java Maven app to Kubernetes',
+        images: ["/pf/jenkins-eks.png"],
+        tags: ['Personal', 'DevOps', 'Jenkins', 'Kubernetes', 'Docker'],
+        description:`<p>Complete CI/CD pipeline of a Java Maven app. On every commit of the app, Jenkins triggers a pipeline to build a Docker image, store it in AWS ECR, and deploy it to Kubernetes (EKS).</p>`,
+        github_link: "https://github.com/Tyronnosaurus/jenkins-cicd-java-kubernetes-ecr"
+    },
+
+    {
+        title: 'Jenkins + Terraform CI/CD pipeline to deploy Java Maven app to EC2',
+        images: ["/pf/jenkins-ec2.png"],
+        tags: ['Personal', 'DevOps', 'Jenkins', 'AWS', 'Docker', 'Terraform'],
+        description:`<p>Complete CI/CD pipeline of a Java Maven app. On every commit of the app, Jenkins triggers a pipeline to build a Docker image, store it in AWS ECR, provision an EC2 intance on AWS, and deploy the image in it.</p>`,
+        github_link: "https://github.com/Tyronnosaurus/jenkins-cicd-java-ecr-ec2"
+    },
+
+    {
         title: 'API to extract data from text to custom JSON with AI',
         images: ["/pf/JsonAPI/1.png", "/pf/JsonAPI/2.png"],
         tags: ['Personal', 'WebDev', 'TypeScript', 'Next.js'],
