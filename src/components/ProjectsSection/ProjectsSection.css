@@ -39,7 +39,7 @@ body.modal-open{
   height: 15rem;
   border: black solid 1px;
   cursor: pointer;
-  background-color:aliceblue;
+  background-color: white;
 }
 
 .image-card img:hover {

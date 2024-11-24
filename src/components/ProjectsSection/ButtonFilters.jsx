@@ -47,7 +47,7 @@ import terraformIcon from '../../assets/icons/terraformIcon.png';
 import awsIcon from '../../assets/icons/awsIcon.png';
 import helmIcon from '../../assets/icons/helmIcon.png';
 import kubernetesIcon from '../../assets/icons/kubernetesIcon.png';
-
+import grafanaIcon from '../../assets/icons/grafanaIcon.png';
 
 
 const ButtonFilter = ({name, icon, activeFilter, handleClickFilter}) => {
@@ -168,6 +168,7 @@ const ButtonFilters = ({projects, setFilteredProjects}) => {
             <ButtonFilter name="Jenkins"         icon={jenkinsIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="Terraform"       icon={terraformIcon}   activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
             <ButtonFilter name="Helm"            icon={helmIcon}        activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
+            <ButtonFilter name="Grafana"         icon={grafanaIcon}     activeFilter={activeFilter} handleClickFilter={handleClickFilter} />
           </div>
         </div>
 

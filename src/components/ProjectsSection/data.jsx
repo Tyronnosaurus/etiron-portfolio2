@@ -2,6 +2,7 @@
 export const data = [
     {
         title: "Webapp to compare annual reports and create custom KPIs",
+        category: "WebDev",
         tags: ['Personal', 'WebDev', 'React.js', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Tailwind', 'Next.js'],
         images: ["/pf/AnnualReportChat/0bis.png", "/pf/AnnualReportChat/0.png", "/pf/AnnualReportChat/1.png", "/pf/AnnualReportChat/2.jpg"],
         description:`<p style="color:red; text-align:center;">🏆 Winner of the <a href="https://www.swisshacks.com" target="_blank">SwissHacks 2024 Hackathon</a> for financial innovation 🏆</p>
@@ -20,6 +21,7 @@ export const data = [
 
     {
         title: "Textile defect detection with CNN & autoencoders",
+        category: "Development",
         tags: ['Professional', 'Python', 'Pandas', 'Matplotlib', 'Tensorflow'],
         images: ["/pf/TextileDefectDetection/0.png", "/pf/TextileDefectDetection/1.png", "/pf/TextileDefectDetection/2.png", "/pf/TextileDefectDetection/3.png", "/pf/TextileDefectDetection/4.png", "/pf/TextileDefectDetection/5.png"],
         description:`<p>Python project to detect defects in a textile knitting machine with deep learning (convolutional neural networks applied to the training of autoencoders).</p>
@@ -28,6 +30,7 @@ export const data = [
 
     {
         title: "S1G Ultrasonic molding machine",
+        category: "Mechatronics",
         tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++'],
         images: ["/pf/S1G/sonoruss1g-1.jpg", "/pf/S1G/injections.jpg"],
         description:`<p><a href="https://ultrasion.eu" style="font-weight:bold;">Ultrasion</a> is the leading company in ultrasound molding, i.e. the technology by which a plastic injection machine melts plastic pellets using ultrasounds, instead of a heated barrel, for improved efficiency in terms of energy and material.</p>
@@ -46,6 +49,7 @@ export const data = [
 
     {
         title: 'S2G Ultrasonic molding machine',
+        category: "Mechatronics",
         tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++', 'Solidworks'],
         images: ['/pf/S2G/S2G.png', '/pf/S2G/S2GCAD.png'],
         description:`<p>The S2G machine is a redesign of the S1G for plastic pieces that require higher pressures.</p>
@@ -64,6 +68,7 @@ export const data = [
 
     {
         title: 'Closed loop force control injection system',
+        category: "Mechatronics",
         tags: ['Professional', 'PLC', 'B&R', 'ST'],
         images: ["/pf/Force Control/forceloop.png", "/pf/Force Control/forcesensor.png"],
         description:`<p>During the development of an injection molding method with very low residence time, I encountered the following problem: a piston was supposed to push plastic at a precise force as it melted, but the servo that moved the piston could only control its own torque, not the actual force after considering losses in the transmission.</p>
@@ -72,8 +77,17 @@ export const data = [
     },
 
     {
+        title: 'Telemetrics pipeline with Dashboard for fleet of vehicles',
+        category: "DevOps",
+        tags: ['Professional', 'AWS', 'Python', 'Grafana', 'J1939'],
+        images: ["/pf/Vehicle-telemetrics/1.png", "/pf/Vehicle-telemetrics/2.jpg"],
+        description:`<p>For a client in the mining industry, I prepared a dashboard with relevant metrics from their vehicles. The data is uploaded daily to S3 buckets, decoded, and then made accessible to Grafana through AWS Athena.</p>`
+    },
+
+    {
         title: 'Kubernetes deployment of Python application with Helm Chart',
-        tags: ['Personal', 'DevOps', 'Helm', 'Kubernetes', 'Python', 'Docker'],
+        category: "DevOps",
+        tags: ['Personal', 'AWS', 'Helm', 'Kubernetes', 'Python', 'Docker'],
         images: ["/pf/HelloWorldK8sHelm.png"],
         description:`<p>A simple example on how to create a Python app, containerize it, and install it on K8s with Helm & helmfile.d.</p>`,
         github_link: "https://github.com/Tyronnosaurus/helm-chart-case-study"
@@ -81,7 +95,8 @@ export const data = [
 
     {
         title: 'Jenkins CI/CD pipeline to deploy Java Maven app to Kubernetes',
-        tags: ['Personal', 'DevOps', 'Jenkins', 'Kubernetes', 'Docker'],
+        category: "DevOps",
+        tags: ['Personal', 'Jenkins', 'Kubernetes', 'Docker'],
         images: ["/pf/jenkins-eks.png"],
         description:`<p>Complete CI/CD pipeline of a Java Maven app. On every commit of the app, Jenkins triggers a pipeline to build a Docker image, store it in AWS ECR, and deploy it to Kubernetes (EKS).</p>`,
         github_link: "https://github.com/Tyronnosaurus/jenkins-cicd-java-kubernetes-ecr"
@@ -89,7 +104,8 @@ export const data = [
 
     {
         title: 'Jenkins + Terraform CI/CD pipeline to deploy Java Maven app to EC2',
-        tags: ['Personal', 'DevOps', 'Jenkins', 'AWS', 'Docker', 'Terraform'],
+        category: "DevOps",
+        tags: ['Personal', 'Jenkins', 'AWS', 'Docker', 'Terraform'],
         images: ["/pf/jenkins-ec2.png"],
         description:`<p>Complete CI/CD pipeline of a Java Maven app. On every commit of the app, Jenkins triggers a pipeline to build a Docker image, store it in AWS ECR, provision an EC2 intance on AWS, and deploy the image in it.</p>`,
         github_link: "https://github.com/Tyronnosaurus/jenkins-cicd-java-ecr-ec2"
@@ -97,6 +113,7 @@ export const data = [
 
     {
         title: 'API to extract data from text to custom JSON with AI',
+        category: "Development",
         tags: ['Personal', 'WebDev', 'TypeScript', 'Next.js'],
         images: ["/pf/JsonAPI/1.png", "/pf/JsonAPI/2.png"],
         description:`<p>This project is an API which accepts a POST request containing text and a JSON schema. It will use AI to extract data from the text and return it as a JSON in the specified schema.</p>
@@ -106,6 +123,7 @@ export const data = [
 
     {
         title: "React webapp to chat with PDFs",
+        category: "WebDev",
         tags: ['Personal', 'WebDev', 'React.js', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Tailwind', 'Next.js'],
         images: ["/pf/PdfChat/1.png", "/pf/PdfChat/2.png"],
         description:`<p>A complete webapp where you can upload a PDF and ask questions about it in plain English. Includes everything a SaaS would need: responsiveness, user registration, database, different plans, payment processor, chat with infinite scrolling, etc.</p>
@@ -116,6 +134,7 @@ export const data = [
 
     {
         title: "Ultrasion's website",
+        category: "WebDev",
         tags: ['Professional', 'WebDev', 'Wordpress'],
         images: ["/pf/Ultrasion website/1.png", "/pf/Ultrasion website/2.png"],
         description:`<p>The company I was working on, Ultrasion, had a relatively old website. I remade it from scratch using Wordpress.</p>`,
@@ -124,7 +143,8 @@ export const data = [
 
     {
         title: "IIOT Telemetrics Software",
-        tags: ['Professional', 'PLC', 'Codesys', 'Python', 'Docker', 'Ladder', 'ST', 'Turck', 'Panasonic', 'FPWIN', 'HMWIN', 'MQTT', 'Node-RED', 'TX Visu Pro'],
+        category: "DevOps",
+        tags: ['Professional', 'PLC', 'Codesys', 'Python', 'Docker', 'Grafana', 'Ladder', 'ST', 'Turck', 'Panasonic', 'FPWIN', 'HMWIN', 'MQTT', 'Node-RED', 'TX Visu Pro'],
         images: ["/pf/IIOT telemetrics/0.png", "/pf/IIOT telemetrics/1.jpg"],
         description:`<p>Project in which a client requested a global telemetry system for all the textile machines they sold. The purpose was to transmit productivity data and alarms for predictive maintenance.</p>
         <p>I prepared a mockup of the machines and implemented the necessary code to compile, preprocess and send the data to a server containing Docker images for the MQTT Broker, a database, a dashboard...</p>`
@@ -132,6 +152,7 @@ export const data = [
 
     {
         title: "Custom controller for heavily modified mining EV",
+        category: "Development",
         tags: ['Professional', 'PLC', 'Codesys', 'Beijer', 'iX Developer', 'C#', 'Ladder', 'ST', 'Python', 'J1939'],
         images: ["/pf/EVLoader/1.webp", "/pf/EVLoader/3.jpeg", "/pf/EVLoader/5.png", "/pf/EVLoader/7.png", "/pf/EVLoader/8.png"],
         description:`<p>A client requested a new controller for their industrial mining EV. I selected the optimal controller, designed the architecture, and implemented the following from scratch:</p>
@@ -146,6 +167,7 @@ export const data = [
 
     {
         title: "Firmware for industrial EV battery",
+        category: "Development",
         tags: ['Professional', 'PLC', 'Codesys', 'J1939'],
         images: ["/pf/EVLoader/battery.png"],
         description:`<p>I wrote the firmware to control a swappable battery for an industrial EV. This battery is the size of a fridge and can provide or absorb very high currents.</p>
@@ -154,6 +176,7 @@ export const data = [
 
     {
         title: 'Digital Twin for the S2G',
+        category: "Mechatronics",
         tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++', 'Solidworks'],
         images: ['/pf/S2G/Twin.png', '/pf/S2G/S2GCAD.png'],
         description:`<p>The S2G machine (described in another project) contains many moving parts, and it is perfectly capable of destroying itself if not programmed properly.
@@ -165,6 +188,7 @@ export const data = [
 
     {
         title: "FEA results visualizer",
+        category: "Development",
         tags: ['Professional', 'Python', 'Matplotlib'],
         images: ["/pf/FEA visualizer/0.png", "/pf/FEA visualizer/1.png"],
         description:`<p>Python program to visualize Finite Element Analysis results presented as a mesh in HDF5 format. It has the following functionalities:</p>
@@ -177,6 +201,7 @@ export const data = [
 
     {
         title: "Cura plugin for FEA Stress analysis",
+        category: "Development",
         tags: ['Professional', 'Python', '3D printing', 'Qt'],
         images: ["/pf/Cura plugin/0.jpg", "/pf/Cura plugin/1.jpg"],
         description:`<p>Research project with the goal of creating a plugin to preview if a 3D printed part would be able to withstand a set of loads, and to print it in the best orientation possible.</p>
@@ -190,6 +215,7 @@ export const data = [
 
     {
         title: "Pseudo-slicer algorithm",
+        category: "Development",
         tags: ['Professional', 'Python', '3D printing', 'Matplotlib'],
         images: ["/pf/Slicer/0.jpg", "/pf/Slicer/1.jpg", "/pf/Slicer/2.jpg"],
         description:`<p>As a subproject of a Cura plugin I did, I had to write a Python program which would take a boundary condition (anchor or load) and convert it to gcode.</p>
@@ -198,6 +224,7 @@ export const data = [
 
     {
         title: "Geolocation-based fertilizer",
+        category: "Mechatronics",
         tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++', 'ISOBUS', 'Electronics'],
         images: ["/pf/Fertilizer/0.jpg", "/pf/Fertilizer/1.jpg"],
         description:`<p>Research project in which we developed a tractor implement capable of fertilizing a field according to a variable feedrate map.</p>
@@ -206,6 +233,7 @@ export const data = [
 
     {
         title: "Exploratory data analysis of imprecise plastronics process",
+        category: "Data Science",
         tags: ['Professional', 'Python', 'Pandas', 'Matplotlib'],
         images: ["/pf/PlastronicsEDA/1.jpg", "/pf/PlastronicsEDA/2.png", "/pf/PlastronicsEDA/3.png"],
         description:`<p>A departament in my company was experiencing poor precision with a machine that applied small drops of solderpaste on a plastronics circuit (an electronic circuit printed on a flexible sheet of plastic).</p>
@@ -216,6 +244,7 @@ export const data = [
 
     {
         title: "Python simulator for trading strategies",
+        category: "Development",
         tags: ['Personal', 'Python', 'Pandas', 'Matplotlib'],
         images: ["/pf/Backtrader/0.jpg", "/pf/Backtrader/1.png"],
         description:`<p>Backtrader program written in Python, used to test trading strategies on a large set of historical stock prices.</p>
@@ -225,6 +254,7 @@ export const data = [
 
     {
         title: "gCode separator to walls, infill and helpers",
+        category: "Development",
         tags: ['Professional', 'Python', '3D printing'],
         images: ["/pf/GcodeSeparator/1.png"],
         description:`<p>Script that separates a gCode file into 3 gCode files for walls, infill and helpers. It was a request from a client who needed it for a research project.</p>`
@@ -232,6 +262,7 @@ export const data = [
 
     {
         title: "React Dashboard",
+        category: "WebDev",
         tags: ['Personal', 'WebDev', 'React.js', 'HTML', 'CSS', 'JavaScript'],
         images: ["/pf/ReactDashboard/1.png", "/pf/ReactDashboard/2.png", "/pf/ReactDashboard/3.png", "/pf/ReactDashboard/4.png", "/pf/ReactDashboard/5.png", "/pf/ReactDashboard/6.png"],
         description:`<p>A simple static dashboard with day/night mode, pages with many different menus and graphics, and a main page with a summary of the pages.</p>
@@ -241,6 +272,7 @@ export const data = [
 
     {
         title: "React repository for hikes and climbing routes",
+        category: "WebDev",
         tags: ['Personal', 'WebDev', 'React.js', 'JavaScript', 'Tailwind', 'Next.js'],
         images: ["/pf/Tironades/1.png"],
         description:`<p>Small webapp I made for my father. He's been a prolific hiker and climber for decades and needed a repository to share many hikes and climbing routes.</p>`,
@@ -250,6 +282,7 @@ export const data = [
 
     {
         title: "React Tinder clone",
+        category: "WebDev",
         tags: ['Personal', 'WebDev', 'React.js', 'HTML', 'CSS', 'JavaScript'],
         images: ["/pf/TinderClone/1.png", "/pf/TinderClone/2.png", "/pf/TinderClone/3.png", "/pf/TinderClone/4.png"],
         description:`<p>A simple Tinder clone where users can register, create a profile, and match and chat with each other. Data is stored on a MongoDB database through an API.</p>
@@ -259,6 +292,7 @@ export const data = [
 
     {
         title: "Node graph editor",
+        category: "Development",
         tags: ['Personal', 'Python', 'Qt'],
         images: ["/pf/NodeGraph/0.png"],
         description:`<p>Node graph editor with Python & Qt (PySide6).</p>
@@ -269,6 +303,7 @@ export const data = [
 
     {
         title: "Comic resizer with size anomaly detection",
+        category: "Development",
         tags: ['Personal', 'Python', 'Qt'],
         images: ["/pf/ComicResizer/0.png"],
         description:`<p>Utility to batch resize all pages of a comic, with automatic detection of double pages and other size related anomalies.</p>
@@ -278,6 +313,7 @@ export const data = [
 
     {
         title: "Comic chapter separator",
+        category: "Development",
         tags: ['Personal', 'Python', 'Qt'],
         images: ["/pf/ComicProcessor/1.png", "/pf/ComicProcessor/2.png"],
         description:`<p>Utility to automatically separate a comic magazine or volume into individual files for each chapter. If possible, it will automatically scrap the table of contents from the internet to know the starting page of each chapter.</p>`
@@ -285,6 +321,7 @@ export const data = [
 
     {
         title: "Automatic file organizer with Machine Learning",
+        category: "Development",
         tags: ['Personal', 'Python', 'Pandas', 'scikit-learn', 'Qt'],
         images: ["/pf/FileOrganizer/1.png"],
         description:`<p>Utility to automatically organize files on a hierarchical folder structure.</p>
@@ -294,6 +331,7 @@ export const data = [
 
     {
         title: "Firefox extension: URL tagger",
+        category: "WebDev",
         tags: ['Personal', 'WebDev', 'JavaScript'],
         images: ["/None.png"],
         description:`<p>Firefox add-on, based on WebExtensions. It lets the user manually tag a website as 'Seen', 'Want', 'Reached', 'ToDo'... Links to that website will then be accompanied by the correpsonding icon.</p>
@@ -303,6 +341,7 @@ export const data = [
 
     {
         title: "Firefox extension: Zoom single item",
+        category: "WebDev",
         tags: ['Personal', 'WebDev', 'JavaScript'],
         images: ["/pf/ZoomSingleItem/2.png", "/pf/ZoomSingleItem/3.jpg", "/pf/ZoomSingleItem/4.png"],
         description:`<p>Firefox add-on, based on WebExtensions. It lets the user permanently resize a single element in a website (including all pages in the same domain).</p>        
@@ -312,6 +351,7 @@ export const data = [
 
     {
         title: "Task tracker made in React",
+        category: "WebDev",
         tags: ['Personal', 'WebDev', 'React.js', 'JavaScript'],
         images: ["/pf/ReactTaskTracker/1.jpg", "/pf/ReactTaskTracker/2.jpg"],
         description:`<p>Small webapp to schedule tasks. Made to learn about React, various React hooks, and React Router. Based on a tutorial by Traversy Media.</p>`,
@@ -321,6 +361,7 @@ export const data = [
 
     {
         title: "Budget tracker made in React",
+        category: "WebDev",
         tags: ['Personal', 'WebDev', 'React.js', 'JavaScript'],
         images: ["/pf/BudgetTracker/1.jpg"],
         description:`<p>Small webapp to create budgets and expenses. Made to learn about React, various React hooks, and React Router. Based on a tutorial by Traversy Media.</p>`,
@@ -330,6 +371,7 @@ export const data = [
 
     {
         title: "React OpenAI Keyword Extractor",
+        category: "WebDev",
         tags: ['Personal', 'WebDev', 'React.js', 'JavaScript'],
         images: ["/pf/KeywordExtractor/1.jpg", "/pf/KeywordExtractor/2.jpg"],
         description:`<p>Small webapp to extract the main keywords from a text. Made to learn about React and the OpenAI API. Based on a tutorial by Traversy Media.</p>`,
@@ -339,6 +381,7 @@ export const data = [
 
     {
         title: "Injection machine data postprocessor",
+        category: "Development",
         tags: ['Professional', 'C#'],
         images: ["/pf/CSV postprocessor/0.jpg"],
         description:`<p>A client contacted us about a bug: an old machine from our company was exporting large amounts of process data in the wrong format. I developed this small application to postprocess the data into a format they could work with.</p>`
@@ -346,6 +389,7 @@ export const data = [
 
     {
         title: "Random file opener/shuffler",
+        category: "Development",
         tags: ['Personal', 'C#'],
         images: ["/pf/RandomFileOpener/1.png", "/pf/RandomFileOpener/2.png"],
         description:`<p>Application that opens a random file within a folder/category. Useful when I'm in the mood for shuffling comics, music, etc. It also has many tools such as keyword search, deleting, file history, internet search, opening archives, sending to a "TO DO" folder, etc.</p>`
@@ -353,6 +397,7 @@ export const data = [
 
     {
         title: "Self-hosted server",
+        category: "DevOps",
         tags: ['Personal', 'Linux', 'Docker', 'WebDev', 'Wordpress'],
         images: ["/pf/Server/0.png"],
         description:` <p>Self-hosted server which I use or have used for the following services:</p>
@@ -369,6 +414,7 @@ export const data = [
 
     {
         title: "Capacitance meter",
+        category: "Electronics",
         tags: ['Personal', 'Arduino', 'Electronics', 'C++'],
         images: ["/pf/Capacitance meter/Capacitance meter.jpg"],
         description:`<p>Simple tool to calculate the capacity of unmarked capacitors. I needed it because I salvage many capacitors from old appliances.</p>`
@@ -376,6 +422,7 @@ export const data = [
 
     {
         title: "CNC machine design",
+        category: "Mechatronics",
         tags: ['Personal', 'SolidWorks'],
         images: ["/pf/CNC/CNC.jpg", "/pf/CNC/x-axis.jpg", "/pf/CNC/HotWire.jpg", "/pf/CNC/Box.jpg"],
         description:`<p>Design of a multi-function CNC machine that I did with four other people for an MSc in Mechatronics. Among other objectives, this machine had to be able to be converted to perform these functions:</p>
@@ -391,6 +438,7 @@ export const data = [
 
     {
         title: "Mechatronics Eye for the Hocus Pocus' Book of Spells",
+        category: "Electronics",
         tags: ['Personal', 'SolidWorks', '3D printing', 'C++', 'Electronics', 'Arduino'],
         images: ["/pf/MechatronicsEye/vid1.gif", "/pf/MechatronicsEye/1.jpg", "/pf/MechatronicsEye/2.jpg", "/pf/MechatronicsEye/3.jpg", "/pf/MechatronicsEye/4.jpg", "/pf/MechatronicsEye/5.jpg"],
         description:`<p>This is a "living" book with an eye, much like the Book of Spells that the Sanderson Sisters posses in the movie Hocus Pocus.</p>
@@ -405,6 +453,7 @@ export const data = [
 
     {
         title: "Blog for Airsoft DIY projects",
+        category: "WebDev",
         tags: ['Personal', 'WebDev', 'Wordpress'],
         images: ["/pf/AirsoftDIY/airsoftdiy_scrnsht.png"],
         description:`<p>Blog featuring many DIY projects for airsoft enthusiasts. While I no longer practice it, I still have many projects and knowledge to write a good amount of posts.</p>
@@ -414,6 +463,7 @@ export const data = [
 
     {
         title: "Airsoft Claymore - 3D printed Chassis",
+        category: "Mechatronics",
         tags: ['Personal', 'SolidWorks', '3D printing'],
         images: ["/pf/Airsoft Claymore/Front.jpg", "/pf/Airsoft Claymore/Front open.jpg", "/pf/Airsoft Claymore/Back.jpg",
                  "/pf/Airsoft Claymore/Back open.jpg", "/pf/Airsoft Claymore/3D exploded.png", "/pf/Airsoft Claymore/3D Front.png",
@@ -427,6 +477,7 @@ export const data = [
 
     {
         title: "Airsoft Claymore - Electronics board",
+        category: "Electronics",
         tags: ['Personal', 'C++', 'Electronics', 'Arduino', 'Altium'],
         images: ["/pf/Airsoft Claymore PCB/pcb-v3-2.png", "/pf/Airsoft Claymore PCB/MountedPCB.jpg", "/pf/Airsoft Claymore/Back open.jpg",
                  "/pf/Airsoft Claymore PCB/pcb-top.png", "/pf/Airsoft Claymore PCB/remote.jpg"],
@@ -446,6 +497,7 @@ export const data = [
 
     {
         title: "Semi-automated assembly line",
+        category: "Mechatronics",
         tags: ['Personal', 'SolidWorks', 'PLC', 'Ladder'],
         images: ["/pf/Claymore production line/production line.png"],
         description:`<p>This project was developed as the final project for an MSc in Mechatronics. It includes:</p>
@@ -458,6 +510,7 @@ export const data = [
 
     {
         title: "Modular security system",
+        category: "Electronics",
         tags: ['Personal', 'Arduino', 'C++', '3D printing', 'Electronics'],
         images: ["/pf/Security system/20150531_223234.jpg", "/pf/Security system/20150530_023521.jpg", "/pf/Security system/20150517_153558.jpg",
                  "/pf/Security system/20150529_115214.jpg", "/pf/Security system/20150526_001551.jpg"],
@@ -469,6 +522,7 @@ export const data = [
 
     {
         title: "Buck converter for laptop batteries",
+        category: "Electronics",
         tags: ['Personal', 'Electronics'],
         images: ["/pf/Buck converter/0.jpg"],
         description:`<p>Driver based on a DC-DC Buck converter. It reduces the unreliable 12 V of a typical laptop battery to a stable 5 V. It works at a wide range of currents (1 to 10 A).</p>
@@ -477,6 +531,7 @@ export const data = [
 
     {
         title: "ISP breakout board",
+        category: "Electronics",
         tags: ['Personal', 'Electronics', 'KiCAD'],
         images: ["/pf/ISP breakout board/20151020_192511.jpg", "/pf/ISP breakout board/20151020_192435.jpg", "/pf/ISP breakout board/gerber.png"],
         description:`<p>PCB that makes it easy to program standalone ATtiny44, 45, 84 and 85 chips with an ISP programmer.</p>
@@ -485,6 +540,7 @@ export const data = [
 
     {
         title: "Motion detection alarm",
+        category: "Electronics",
         tags: ['Personal', 'Electronics', 'C++', 'Arduino', 'KiCAD'],
         images: ["/pf/Motion detection alarm/1.jpg", "/pf/Motion detection alarm/2.jpg", "/pf/Motion detection alarm/pcb.png"],
         description:`<p>Small battery powered PIR sensor for my front door. It can run for more than one year on three AA batteries. Upon detection, it triggers a loud buzzer and can send an RF signal to other modules.<p>
@@ -498,6 +554,7 @@ export const data = [
 
     {
         title: "Keychain mass production machine",
+        category: "Mechatronics",
         tags: ['Personal'],
         images: ["/pf/Keychain machine/0.jpg", "/pf/Keychain machine/1.jpg", "/pf/Keychain machine/2.jpg", "/pf/Keychain machine/3.jpg",
                  "/pf/Keychain machine/4.jpg", "/pf/Keychain machine/5.jpg"],
@@ -508,6 +565,7 @@ export const data = [
 
     {
         title: "PID line follower",
+        category: "Electronics",
         tags: ['Personal', 'C++', 'Arduino', 'Electronics'],
         images: ["/pf/PID line follower/1.jpg", "/pf/PID line follower/2.jpg", "/pf/PID line follower/3.jpg", "/pf/PID line follower/4.gif"],
         description:`<p>Small car prepared to follow a line on the floor. It uses a closed loop system to improve its performance. The PID parameters can be set during runtime thanks to a remote control and an onboard LCD screen.<p>
@@ -516,6 +574,7 @@ export const data = [
 
     {
         title: "RC car with differential steering",
+        category: "Electronics",
         tags: ['Personal', 'C++', 'Arduino', 'Electronics'],
         images: ["/pf/RC car/1.jpg"],
         description:`<p>Differential steering, also known as skid steering, is accomplished by independently controlling the speed of the right and left wheels. This gives the vehicle a better maneuverability as it can turn around in place.</p>
@@ -525,6 +584,7 @@ export const data = [
 
     {
         title: "Remote controlled ball launcher",
+        category: "Mechatronics",
         tags: ['Personal', 'SolidWorks'],
         images: ["/pf/Ball launcher/balllauncher.png", "/pf/Ball launcher/launchermechanism.png"],
         description:`<p>This is a design for a semiautomatic ball launcher that can be attached to a remotely controlled car I had previously developed.</p>
@@ -533,6 +593,7 @@ export const data = [
 
     {
         title: "Seamless highway incorporation protocol for self-driving cars",
+        category: "Electronics",
         tags: ['Personal', 'C++', 'Arduino'],
         images: ["/pf/Incorporation protocol/track.jpg"],
         description:`<p>A protocol which would allow an autonomous car to enter a highway without the need of a direct line of sight of incoming traffic.</p>
@@ -543,6 +604,7 @@ export const data = [
 
     {
         title: "Remotely operated surgical robot",
+        category: "Electronics",
         tags: ['Personal', 'Electronics'],
         images: ["/pf/Surgical robot/0.jpg"],
         description:`<p>Robot capable of moving a tool according to instructions sent over the internet.</p>
@@ -551,6 +613,7 @@ export const data = [
 
     {
         title: "7-segment multiplexed clock",
+        category: "Electronics",
         tags: ['Personal', 'C++', 'Arduino', 'Electronics'],
         images: ["/pf/7 segment clock/0.jpg", "/pf/7 segment clock/1.jpg", "/pf/7 segment clock/2.jpg"],
         description:`<p>A clock that makes use of multiplexing with shift registers, and stores the time in an RTC.<p>
@@ -559,6 +622,7 @@ export const data = [
 
     {
         title: "Recycled laptop monitor",
+        category: "Electronics",
         tags: ['Personal', '3D printing', 'SolidWorks'],
         images: ["/pf/Recycled monitor/0.jpg", "/pf/Recycled monitor/1.jpg", "/pf/Recycled monitor/2.jpg"],
         description:`<p>Secondary PC screen recycled from a broken laptop. It has two 3D printed bases at 0º and 15º orientations for better visibility. Additionally, the electronic boards are mounted on 3D printed enclosures that protect the user from the high voltage needed to drive the screen's fluorescent backlight.<p>
@@ -567,6 +631,7 @@ export const data = [
 
     {
         title: "Suitcase wheel replacement",
+        category: "Mechatronics",
         tags: ['Personal', '3D printing', 'SolidWorks'],
         images: ["/pf/SuitcaseWheel/0.jpg", "/pf/SuitcaseWheel/1.jpg"],
         description:`<p>A simple repair for a travel suitcase whose wheel had broken. It worked well for a few short trips but I never dared take it on a long travel. It was mostly for practicing 3D design.</p>`
@@ -574,6 +639,7 @@ export const data = [
 
     {
         title: "Access control system based on facial recognition",
+        category: "Development",
         tags: ['Personal', 'Arduino', 'Electronics', '3D printing'],
         images: ["/pf/Access facial recognition/0.jpg"],
         description:`<p>Prototype made with an Intel Joule board (to monitor the camera and recognize faces) and an Arduino 101 (to control sensors and actuators).</p>
@@ -582,6 +648,7 @@ export const data = [
 
     {
         title: "EMF meter",
+        category: "Electronics",
         tags: ['Personal', 'C++', 'Arduino', 'Electronics'],
         images: ["/pf/EMF meter/0.jpg", "/pf/EMF meter/1.jpg"],
         description:`<p>Electromagnetic fields detector. It reacts to screens, AC appliances and cables, etc.</p>
@@ -590,6 +657,7 @@ export const data = [
     
     {
         title: "Terraforming game",
+        category: "Development",
         tags: ['Personal', 'GameDev', 'C#'],
         images: ["/pf/TerraformGame/0.png", "/pf/TerraformGame/1.png", "/pf/TerraformGame/2.png", "/pf/TerraformGame/3.png"],
         description:`<p>Ongoing Unity project in which I studied, refactored, and encapsulated <a href="https://www.youtube.com/watch?v=vTMEdHcKgM4">Sebastian Lague's Terraforming project</a> to be able to use it as a gameplay mechanism on a game I've planned.</p>
@@ -599,6 +667,7 @@ export const data = [
 
     {
         title: "'Here Be Dragons' minigame",
+        category: "Development",
         tags: ['Personal', 'GameDev'],
         images: ["/pf/Here be dragons/0.png", "/pf/Here be dragons/1.jpg"],
         description:`<p>Tile-based action game using Flash.</p>
@@ -611,6 +680,7 @@ export const data = [
 
     {
         title: "Robot arm interface for injection molding machine",
+        category: "Mechatronics",
         tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++'],
         images: ["/pf/S1G/robotarm.jpg"],
         description:`<p>Following the Euromap 67 standard, I implemented an interface for a robot arm to unload the manufactured plastic parts of the S1G injection molding machine.
@@ -619,6 +689,7 @@ export const data = [
 
     {
         title: "Dummy sound grenade for airsoft",
+        category: "Electronics",
         tags: ['Personal', 'C++', 'Arduino', 'Electronics', 'SolidWorks', '3D printing'],
         images: ["/pf/Sound grenade/0.jpg", "/pf/Sound grenade/1.jpg", "/pf/Sound grenade/2.jpg"],
         description:`<p>A device for paintball and airsoft players. Commercial grenades have to be refilled with CO2 capsules every time they are used. This electric model aims to be more economical since it can be used hundreds of times on a single coin cell charge.</p>
@@ -627,6 +698,7 @@ export const data = [
 
     {
         title: "Portfolio",
+        category: "WebDev",
         tags: ['Personal', 'WebDev', 'HTML', 'CSS', 'JavaScript', 'Bootstrap', 'React.js', 'Tailwind'],
         images: ["/pf/Portfolio/0.jpg", "/pf/Portfolio/1.jpg"],
         description:`<p>A website where I showcase my projects. It allows filtering by tags, and shows a popup with more info whenever an entry is clicked.</p>
@@ -641,6 +713,7 @@ export const data = [
     
     {
         title: "Safety goggles defogger (handheld)",
+        category: "Electronics",
         tags: ['Personal', 'SolidWorks', '3D printing', 'Electronics'],
         images: ["/pf/Defogger/0.jpg"],
         description:`<p>Airsoft players must always wear safety goggles. This, combined with the constant sweating, means that fogged goggles is a constant problem.</p>
@@ -650,6 +723,7 @@ export const data = [
 
     {
         title: "Safety goggles defogger (mounted)",
+        category: "Electronics",
         tags: ['Personal', 'SolidWorks', '3D printing', 'Electronics'],
         images: ["/pf/Defogger v2/1.jpg", "/pf/Defogger v2/2.png"],
         description:`<p>Airsoft players must always wear safety goggles. This, combined with the constant sweating, means that fogged goggles is a constant problem.</p>
@@ -659,6 +733,7 @@ export const data = [
 
     {
         title: "Terminator sunglasses",
+        category: "Electronics",
         tags: ['Personal', 'Electronics'],
         images: ["/pf/TerminatorGlasses/0.jpg"],
         description:`<p>Sunglasses with an LED, a resistor, a coin cell, and a switch in a quickly soldered board. Probably (definitely) the simplest project in this portfolio.</p>`
