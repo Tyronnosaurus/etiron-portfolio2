@@ -415,6 +415,38 @@ export const data = [
     },
 
     {
+        title: "Terraforming game",
+        category: "Development",
+        tags: ['Personal', 'GameDev', 'C#'],
+        images: ["/pf/TerraformGame/0.png", "/pf/TerraformGame/1.png", "/pf/TerraformGame/2.png", "/pf/TerraformGame/3.png"],
+        description:`<p>Ongoing Unity project in which I studied, refactored, and encapsulated <a href="https://www.youtube.com/watch?v=vTMEdHcKgM4">Sebastian Lague's Terraforming project</a> to be able to use it as a gameplay mechanism on a game I've planned.</p>
+        <p>It uses the Marching Cubes algorithm to create a scenario with a deformable mesh. The player can dig tunnels and create mountains by modifying the underlying grid of numbers that make up the world with their Terraforming tool.</p>
+        <p>It uses compute shaders, which means that the most CPU intensive parts of the world generation are delegated to the GPU and written in HLSL.</p>`,
+    },
+
+    {
+        title: "'Here Be Dragons' flash game",
+        category: "Development",
+        tags: ['Personal', 'GameDev'],
+        images: ["/pf/Here be dragons/0.png", "/pf/Here be dragons/1.jpg"],
+        description:`<p>Tile-based action game using Flash.</p>
+        <p>It was developed in a programming class by me and another student, and earned a 9/10 qualification.</p>
+        <p>Check out the trailer (⚠️ Warning: it's pretty loud at the beginning! ⚠️):</p>
+        <br>
+        <iframe style="margin:auto;" width="560" height="315" src="https://www.youtube.com/embed/L3Q6C7F_F30?si=WQMCx3Tm240pXkep" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>`,
+    },
+
+    {
+        title: "Robot arm interface for injection molding machine",
+        category: "Mechatronics",
+        tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++'],
+        images: ["/pf/S1G/robotarm.jpg"],
+        description:`<p>Following the Euromap 67 standard, I implemented an interface for a robot arm to unload the manufactured plastic parts of the S1G injection molding machine.
+        This would allow our clients to integrate the machine into complex automated manufacturing processes and was a main selling point for our biggest potential buyers.</p>`
+    },
+
+    {
         title: "Capacitance meter",
         category: "Electronics",
         tags: ['Personal', 'Arduino', 'Electronics', 'C++'],
@@ -655,38 +687,6 @@ export const data = [
         images: ["/pf/EMF meter/0.jpg", "/pf/EMF meter/1.jpg"],
         description:`<p>Electromagnetic fields detector. It reacts to screens, AC appliances and cables, etc.</p>
         <p>It was made for fun by making a few modifications to <a href="http://www.instructables.com/id/Attiny-45-EMF-Sensor/">this tutorial</a>.</p>`
-    },
-    
-    {
-        title: "Terraforming game",
-        category: "Development",
-        tags: ['Personal', 'GameDev', 'C#'],
-        images: ["/pf/TerraformGame/0.png", "/pf/TerraformGame/1.png", "/pf/TerraformGame/2.png", "/pf/TerraformGame/3.png"],
-        description:`<p>Ongoing Unity project in which I studied, refactored, and encapsulated <a href="https://www.youtube.com/watch?v=vTMEdHcKgM4">Sebastian Lague's Terraforming project</a> to be able to use it as a gameplay mechanism on a game I've planned.</p>
-        <p>It uses the Marching Cubes algorithm to create a scenario with a deformable mesh. The player can dig tunnels and create mountains by modifying the underlying grid of numbers that make up the world with their Terraforming tool.</p>
-        <p>It uses compute shaders, which means that the most CPU intensive parts of the world generation are delegated to the GPU and written in HLSL.</p>`,
-    },
-
-    {
-        title: "'Here Be Dragons' minigame",
-        category: "Development",
-        tags: ['Personal', 'GameDev'],
-        images: ["/pf/Here be dragons/0.png", "/pf/Here be dragons/1.jpg"],
-        description:`<p>Tile-based action game using Flash.</p>
-        <p>It was developed in a programming class by me and another student, and earned a 9/10 qualification.</p>
-        <p>Check out the trailer (⚠️ Warning: it's pretty loud at the beginning! ⚠️):</p>
-        <br>
-        <iframe style="margin:auto;" width="560" height="315" src="https://www.youtube.com/embed/L3Q6C7F_F30?si=WQMCx3Tm240pXkep" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <br>`,
-    },
-
-    {
-        title: "Robot arm interface for injection molding machine",
-        category: "Mechatronics",
-        tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++'],
-        images: ["/pf/S1G/robotarm.jpg"],
-        description:`<p>Following the Euromap 67 standard, I implemented an interface for a robot arm to unload the manufactured plastic parts of the S1G injection molding machine.
-        This would allow our clients to integrate the machine into complex automated manufacturing processes and was a main selling point for our biggest potential buyers.</p>`
     },
 
     {
