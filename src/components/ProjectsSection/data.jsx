@@ -224,11 +224,11 @@ export const data = [
     },
 
     {
-        title: "Geolocation-based fertilizer",
+        title: "Geolocation-based fertilizer with satellite data",
         category: "Mechatronics",
         tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++', 'ISOBUS', 'Electronics'],
         images: ["/pf/Fertilizer/0.jpg", "/pf/Fertilizer/1.jpg"],
-        description:`<p>Research project in which we developed a tractor implement capable of fertilizing a field according to a variable feedrate map.</p>
+        description:`<p>Research project in which we developed a tractor implement capable of fertilizing a field according to a variable feedrate map, created from satellite images and downloaded over 4G directly in the field.</p>
         <p>I coded all the software and designed most of the electronics.</p>`
     },
 
@@ -669,6 +669,14 @@ export const data = [
         tags: ['Personal', '3D printing', 'SolidWorks'],
         images: ["/pf/SuitcaseWheel/0.jpg", "/pf/SuitcaseWheel/1.jpg"],
         description:`<p>A simple repair for a travel suitcase whose wheel had broken. It worked well for a few short trips but I never dared take it on a long travel. It was mostly for practicing 3D design.</p>`
+    },
+
+    {
+        title: "MP3 player clip repair",
+        category: "Mechatronics",
+        tags: ['Personal', '3D printing', 'SolidWorks'],
+        images: ["/pf/Mp3Repair.jpg"],
+        description:`<p>The clip in my Sansa Clip+ broke, so I made this because this little guy is the best MP3 player in the world and I want it to outlive me. The player snaps in without glue, and it has endured years of abuse without issue. The screw is just to ensure layer adhesion in case I drop it.</p>`
     },
 
     {
