@@ -24,7 +24,7 @@ export const data = [
         title: "Textile defect detection with CNN & autoencoders",
         category: "Development",
         tags: ['Professional', 'Python', 'Pandas', 'Matplotlib', 'Tensorflow'],
-        images: ["/pf/TextileDefectDetection/0.png", "/pf/TextileDefectDetection/1.png", "/pf/TextileDefectDetection/2.png", "/pf/TextileDefectDetection/3.png", "/pf/TextileDefectDetection/4.png", "/pf/TextileDefectDetection/5.png"],
+        images: ["/pf/TextileDefectDetection/0.png", "/pf/TextileDefectDetection/1.png", "/pf/TextileDefectDetection/2.png", "/pf/TextileDefectDetection/3.png", "/pf/TextileDefectDetection/4.png", "/pf/TextileDefectDetection/5.png", "/pf/TextileDefectDetection/6.png"],
         description:`<p>Python project to detect defects in a textile knitting machine with deep learning (convolutional neural networks applied to the training of autoencoders).</p>
         <p>I first trained a convolutional autoencoder with pictures without defects, and used it to reconstruct pictures with defects. This resulted in the defects being "healed", while maintaining the rest of the picture mostly undisturbed. From here, I could compare the differences between the original and the reconstructed picture to locate the defects.</p>`
     },
