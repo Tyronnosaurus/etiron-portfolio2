@@ -152,11 +152,11 @@ export const data = [
     },
 
     {
-        title: "Custom controller for heavily modified mining EV",
+        title: "Custom controller for heavily modified mining EVs",
         category: "Development",
         tags: ['Professional', 'PLC', 'Codesys', 'Beijer', 'iX Developer', 'C#', 'Ladder', 'ST', 'Python', 'J1939'],
-        images: ["/pf/EVLoader/1.webp", "/pf/EVLoader/3.jpeg", "/pf/EVLoader/5.png", "/pf/EVLoader/7.png", "/pf/EVLoader/8.png"],
-        description:`<p>A client requested a new controller for their industrial mining EV. I selected the optimal controller, designed the architecture, and implemented the following from scratch:</p>
+        images: ["/pf/EVLoader/1.webp", "/pf/EVLoader/2.jpeg", "/pf/EVLoader/3.jpeg", "/pf/EVLoader/5.png", "/pf/EVLoader/7.png", "/pf/EVLoader/8.png"],
+        description:`<p>A client requested a new controller for the electric conversion of two of their industrial mining vehicles. I selected the optimal controller, designed the architecture, and implemented the following from scratch:</p>
         <ul>
             <li>Control of many new and old components: electric motors, hydraulics, batteries, voltage converters, a compressor, pumps, fans, various sensors, I/O modules, etc.</li>
             <li>Interaction with closed source propietary components, and emulation of removed components. This required extensive analysis of the communication protocols with Python.</li>
@@ -171,8 +171,7 @@ export const data = [
         category: "Development",
         tags: ['Professional', 'PLC', 'Codesys', 'J1939'],
         images: ["/pf/EVLoader/battery.png"],
-        description:`<p>I wrote the firmware to control a swappable battery for an industrial EV. This battery is the size of a fridge and can provide or absorb very high currents.</p>
-        <p> It has heating and cooling systems and can be charged with standard EV charging stations.</p>`
+        description:`<p>I wrote the firmware that runs in a battery for an industrial mining EV. I developed algorithms to safely provide or absorb very high currents, internal heating/cooling systems, fast charging, configurable settings, many safety features...</p>`
     },
 
     {
