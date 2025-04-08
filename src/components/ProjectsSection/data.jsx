@@ -446,6 +446,14 @@ export const data = [
     },
 
     {
+        title: "Dynamic Heating & Cooling system for improved plastic injection",
+        category: "Mechatronics",
+        tags: ['Professional', 'PLC', 'B&R', 'ST', 'C++'],
+        images: ["/pf/S1G/heating_cooling.png"],
+        description:`<p>I implemented an interface and parametrized algorithm to dynamically heat and cool the mold of a plastic injection machine on every cycle, following the parameters set by the user (temperatures, times and speed of change).</p>`
+    },
+
+    {
         title: "Capacitance meter",
         category: "Electronics",
         tags: ['Personal', 'Arduino', 'Electronics', 'C++'],
