@@ -170,7 +170,7 @@ export const data = [
         title: "Firmware for industrial EV battery",
         category: "Development",
         tags: ['Professional', 'PLC', 'Codesys', 'J1939'],
-        images: ["/pf/EVLoader/battery.png"],
+        images: ["/pf/EVLoader/battery.jpg"],
         description:`<p>I wrote the firmware that runs in a battery for an industrial mining EV. I developed algorithms to safely provide or absorb very high currents, internal heating/cooling systems, fast charging, configurable settings, many safety features...</p>`
     },
 
