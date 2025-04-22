@@ -124,6 +124,21 @@ export const data = [
     },
 
     {
+        title: "Webapp for reinsurance client risk assessment",
+        category: "WebDev",
+        tags: ['Personal', 'WebDev', 'React.js', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Tailwind', 'Python'],
+        images: ["/pf/reinsurance.jpg"],
+        description:`<p>A webapp that parses a package of documentation related to one client looking to buy reinsurance services (insurance for insurance companies), and presents data to help an agent decide how risky they would be if approved.</p>
+                     <p>It can parse many kind of files (text files such as txt, markdown, csv, and also PDF and Excel files). It uses an LLM to prepare the analysis.</p>
+                     <p>It also includes a RAG system that searches through a database of thousands of financial files and recent news articles for context relating to the client, which then gets used in the analysis.</p>
+                     <br>
+                     <iframe style="margin:auto;" width="560" height="315" src="https://www.youtube.com/embed/5Y5its6f12I?si=peUYPMH-9EE6982c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                     <br>
+                     <br>
+                     <p>Created during the Swisshacks 2025 Hackathon.</p>`,
+        github_link: "https://github.com/olivierluethy/SwissHacks2025"
+    },
+
+    {
         title: 'API to extract data from text to custom JSON with AI',
         category: "Development",
         tags: ['Personal', 'WebDev', 'TypeScript', 'Next.js'],
