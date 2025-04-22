@@ -51,7 +51,8 @@ const ProjectModal = ({modalData, show, handleClose}) => {
             <h2 className="text-3xl pb-4 px-6">{modalData.title}</h2>
             
             <ControlledCarousel images={modalData.images} />
-                
+            
+            {/* The text is provided as HTML to allow for more flexibility in formatting. Since I'm writing it myself (not a 3rd party), I can assume that it is safe to use. */}
             <div className="description text-left" dangerouslySetInnerHTML={{__html: modalData.description}} />
 
             <div className="flex flex-row gap-10 justify-center py-2">

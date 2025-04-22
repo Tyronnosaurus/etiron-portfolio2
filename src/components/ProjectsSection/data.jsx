@@ -113,6 +113,17 @@ export const data = [
     },
 
     {
+        title: "AI contract analyzer webapp",
+        category: "WebDev",
+        tags: ['Personal', 'WebDev', 'React.js', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Tailwind', 'Next.js'],
+        images: ["/pf/contract-analyzer/0.png", "/pf/contract-analyzer/1.png", "/pf/contract-analyzer/2.png", "/pf/contract-analyzer/3.png", "/pf/contract-analyzer/4.png", "/pf/contract-analyzer/5.png", "/pf/contract-analyzer/6.png", "/pf/contract-analyzer/7.png"],
+        description:`<p>A complete webapp where you can upload a PDF of a contract and get a full analysis with many useful sections: summary, risks, opportunities, negotation points...</p>
+                     <p>Includes everything a small SaaS would need: responsiveness, user registration, database, different plans, payment processor, etc.</p>
+                     <p>Created following <a href="https://www.youtube.com/watch?v=4qdQ7kE80SY">this tutorial</a>.</p>`,
+        github_link: "https://github.com/Tyronnosaurus/contract-analyzer"
+    },
+
+    {
         title: 'API to extract data from text to custom JSON with AI',
         category: "Development",
         tags: ['Personal', 'WebDev', 'TypeScript', 'Next.js'],
@@ -129,7 +140,7 @@ export const data = [
         images: ["/pf/PdfChat/1.png", "/pf/PdfChat/2.png"],
         description:`<p>A complete webapp where you can upload a PDF and ask questions about it in plain English. Includes everything a SaaS would need: responsiveness, user registration, database, different plans, payment processor, chat with infinite scrolling, etc.</p>
                      <p>Whenever a PDF is uploaded, it is analysed and each page has its text converted to vector embeddings. When a user asks a question, the question is also converted to a vector embedding. A comparison is done to find out which pages are semantically closer to the question. Finally, a prompt is sent to an AI service with both the question and the relevant text from the PDF. The answer is streamed into a chat message, and the user can then ask further questions.
-                     <p>Based on <a href="https://www.youtube.com/watch?v=ucX2zXAZ1I0">this tutorial</a>.</p>`,
+                     <p>Created following <a href="https://www.youtube.com/watch?v=ucX2zXAZ1I0">this tutorial</a>.</p>`,
         github_link: "https://github.com/Tyronnosaurus/quill"
     },
 
