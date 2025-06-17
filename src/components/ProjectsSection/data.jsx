@@ -68,21 +68,11 @@ export const data = [
     },
 
     {
-        title: 'Closed loop force control injection system',
-        category: "Mechatronics",
-        tags: ['Professional', 'PLC', 'B&R', 'ST'],
-        images: ["/pf/Force Control/forceloop.png", "/pf/Force Control/forcesensor.png"],
-        description:`<p>During the development of an injection molding method with very low residence time, I encountered the following problem: a piston was supposed to push plastic at a precise force as it melted, but the servo that moved the piston could only control its own torque, not the actual force after considering losses in the transmission.</p>
-        <p>After installing a pressure sensor at the piston, I developed the PI controller shown.</p>
-        <p>The implementation was particularly tricky as the plastic being pushed was continuously melting and flowing into the mold cavities. This led to the piston having to stop and start multiple times per second, meaning that static and dynamic frictions had to be considered, as well as backlash and other problems.</p>`
-    },
-
-    {
         title: 'Telemetrics pipeline with Dashboard for fleet of vehicles',
         category: "DevOps",
         tags: ['Professional', 'AWS', 'Python', 'Grafana', 'J1939'],
         images: ["/pf/Vehicle-telemetrics/1.png", "/pf/Vehicle-telemetrics/2.jpg"],
-        description:`<p>For a client in the mining industry, I prepared a dashboard with relevant metrics from their vehicles. The data is uploaded daily to S3 buckets, decoded, and then made accessible to Grafana through AWS Athena.</p>`
+        description:`<p>For a client in the mining industry, I prepared an AWS stack with a data pipeline & dashboards with relevant metrics from their vehicles. The data is uploaded daily to S3 buckets, decoded, postprocessed and accessible through Glue+Athena. The pipeline has many other resources for optimizing costs and security, and since it is defined in IaC, it can be redeployed repeatedly in minutes.</p>`
     },
 
     {
@@ -210,7 +200,7 @@ export const data = [
                         This way, I could modify code related to motion and visually inspect the movements without danger or downtime.</p>
                         
                         <p>Moreover, I used the digital twin to prepare educational videos for our clients.</p>`
-     },
+    },
 
     {
         title: "FEA results visualizer",
@@ -460,6 +450,16 @@ export const data = [
         <br>
         <iframe style="margin:auto;" width="560" height="315" src="https://www.youtube.com/embed/L3Q6C7F_F30?si=WQMCx3Tm240pXkep" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <br>`,
+    },
+
+    {
+        title: 'Closed loop force control injection system',
+        category: "Mechatronics",
+        tags: ['Professional', 'PLC', 'B&R', 'ST'],
+        images: ["/pf/Force Control/forceloop.png", "/pf/Force Control/forcesensor.png"],
+        description:`<p>During the development of an injection molding method with very low residence time, I encountered the following problem: a piston was supposed to push plastic at a precise force as it melted, but the servo that moved the piston could only control its own torque, not the actual force after considering losses in the transmission.</p>
+        <p>After installing a pressure sensor at the piston, I developed the PI controller shown.</p>
+        <p>The implementation was particularly tricky as the plastic being pushed was continuously melting and flowing into the mold cavities. This led to the piston having to stop and start multiple times per second, meaning that static and dynamic frictions had to be considered, as well as backlash and other problems.</p>`
     },
 
     {
