@@ -72,7 +72,7 @@ export const data = [
         category: "DevOps",
         tags: ['Professional', 'AWS', 'Python', 'Grafana', 'J1939'],
         images: ["/pf/Vehicle-telemetrics/1.png", "/pf/Vehicle-telemetrics/2.jpg"],
-        description:`<p>For a client in the mining industry, I prepared an AWS stack with a data pipeline & dashboards with relevant metrics from their vehicles. The data is uploaded daily to S3 buckets, decoded, postprocessed and accessible through Glue+Athena. The pipeline has many other resources for optimizing costs and security, and since it is defined in IaC, it can be redeployed repeatedly in minutes.</p>`
+        description:`<p>For a client in the mining industry, I designed and deployed a Cloud telemetry system and dashboarding solution with relevant metrics from their vehicles. The pipeline can process millions of daily messages and is optimized for low storage cost, scalability and security. Since it is fully defined in IaC, it can be redeployed repeatedly in minutes.</p>`
     },
 
     {
