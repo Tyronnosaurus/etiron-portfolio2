@@ -72,7 +72,16 @@ export const data = [
         category: "DevOps",
         tags: ['Professional', 'AWS', 'Python', 'Grafana', 'J1939'],
         images: ["/pf/Vehicle-telemetrics/1.png", "/pf/Vehicle-telemetrics/2.jpg"],
-        description:`<p>For a client in the mining industry, I designed and deployed a Cloud telemetry system and dashboarding solution with relevant metrics from their vehicles. The pipeline can process millions of daily messages and is optimized for low storage cost, scalability and security. Since it is fully defined in IaC, it can be redeployed repeatedly in minutes.</p>`
+        description:`<p>For a client in the mining industry, I designed and deployed a Cloud telemetry system and dashboarding solution with relevant metrics from their vehicles. The pipeline can process millions of daily messages and is optimized for low storage cost, scalability and security. Since it is fully defined in IaC, it can be redeployed repeatedly in minutes.</p>`,
+        live_link: "https://www.himesa.es/en/pegasus-mine-en",
+    },
+
+    {
+        title: 'Kubernetes deployment of customer support suite for banking client',
+        category: "DevOps",
+        tags: ['Professional', 'AWS', 'Helm', 'Kubernetes', 'Python', 'Docker'],
+        images: ["/pf/image_not_available.png"],
+        description:`<p>I provided assistance in the migration of various applications, spanning around 30 microservices, to Kubernetes. This involved preparing Helm Charts, troubleshooting deployments, preparing complementary applications such as Istio, Elasticsearch, fluentd, cert-manager...</p>`,
     },
 
     {
@@ -350,7 +359,7 @@ export const data = [
         title: "Firefox extension: URL tagger",
         category: "WebDev",
         tags: ['Personal', 'WebDev', 'JavaScript'],
-        images: ["/None.png"],
+        images: ["/pf/image_not_available.png"],
         description:`<p>Firefox add-on, based on WebExtensions. It lets the user manually tag a website as 'Seen', 'Want', 'Reached', 'ToDo'... Links to that website will then be accompanied by the correpsonding icon.</p>
         <p>I made this mostly for self use, since I often find myself reading things I had already read years ago. The browsing history is useful but it eventually cleans old items (or else it would be gigantic). This extension serves me as a more permanent alternative.`,
         github_link: "https://github.com/Tyronnosaurus/site-tags"
